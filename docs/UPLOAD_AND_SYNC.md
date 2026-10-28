@@ -4,14 +4,15 @@
 
 | 位置 | commit | 说明 |
 |---|---|---|
-| GitHub `main` | `1bd863a` | **权威版本**，已包含本次全部修订与新文件 |
-| 本地 `repo_策略报告` | `dd91bba` | 文件内容与远端一致，但行尾归一化不同，未 push 成功 |
+| GitHub `main` | 以 GitHub 页面为准 | **权威版本**，已包含本次全部修订、新文件与本文档 |
+| 本地 `repo_策略报告` | `511881e` | 在 `dd91bba` 上多了本文档；未 push 成功 |
 
 本地 `git push` 失败的原因不是权限，而是本机代理把 `github.com` 的 TLS 握手掐断了
 （`api.github.com` 正常，`github.com` 报 `unexpected eof`）。
 本次是用 GitHub API（blobs → tree → commit → ref）直接更新远端的，所以 **GitHub 上是对的**。
 
-> 写本文档前的远端 commit 是 `1bd863a`；本文档上传后会再多一个 commit。
+> 本文档不锁定远端 commit 号：上传过程中已经产生过多次 API commit，之后如再更新，
+> 以 GitHub 页面显示的 `main` 为准。
 
 ## 2. 本次改了什么
 
