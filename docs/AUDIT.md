@@ -6,7 +6,6 @@
 |---|---:|---|
 | `REPORT.md` / `REPORT.pdf` | 30KB / 963KB | 报告正文与打印版，评审直接看 |
 | `README.md` | 8KB | 入口：成绩、图表、复现线索 |
-| `docs/figures/*.png` | 4 张 | 报告配图 |
 | `docs/OPPONENTS_FULL_RE.md` | 62KB | 38 队逆向与实验全记录（可核对性） |
 | `docs/RULES_AND_SCORING.md` | 3KB | 赛制与评分口径 |
 | `docs/POOL_REPLICATION.md` | 4KB | 本地池保真度研究 |

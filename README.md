@@ -2,6 +2,7 @@
 
 > **B 榜第 1**（截至 R94：5409 分 / 1286-277-3 / 82.2%）　·　**A 榜第 2**（3008 分）
 >
+> 评审速读：**[REVIEW_5P.md](./REVIEW_5P.md)**（5 页，每页一个结论）
 > 报告正文：**[REPORT.md](./REPORT.md)**（约 1.1 万字，含方法、数据与全部否定实验）
 > 最终提交：**[submission/](./submission/)**（v3 agent + 60 张牌组）
 > 赛制与评分：**[docs/RULES_AND_SCORING.md](./docs/RULES_AND_SCORING.md)**
@@ -18,19 +19,6 @@
 | **为什么死角无解** | 对方 Phantom Dive 200 一击秒 140HP；我们打它 320HP 要两拳 → 奖赏效率 0.5 vs 1.0，且每次击杀送对方 3 张 |
 | **凭什么叫"到顶"** | 20 次改动实验、13 项收敛全部否定、3 次假阳性被抓回；18000 局版本对比 v3 比基线 +1.69pp（z≈3.5） |
 
-## 图表
-
-| 图 | 内容 |
-|---|---|
-| ![fig1](docs/figures/fig1_rounds.png) | 58 轮逐轮得分 |
-| ![fig2](docs/figures/fig2_field.png) | 六体系场况 vs 胜率 |
-| ![fig3](docs/figures/fig3_versions.png) | 三版本 18000 局对比 |
-| ![fig4](docs/figures/fig4_leaderboard.png) | B 榜 R94 前 10 |
-| ![fig5](docs/figures/fig5_leaderboard_real.png) | 平台 B 榜原始截图（第 1） |
-
-PDF 版：**[REPORT.pdf](./REPORT.pdf)**（A4，图内嵌）
-
-对手逆向档案：**[docs/RECON_38_TEAMS.md](./docs/RECON_38_TEAMS.md)**（38 队牌组还原 + 换阵判定）
 
 ## 一句话结论
 
