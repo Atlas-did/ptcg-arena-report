@@ -26,8 +26,11 @@
 | ![fig2](docs/figures/fig2_field.png) | 六体系场况 vs 胜率 |
 | ![fig3](docs/figures/fig3_versions.png) | 三版本 18000 局对比 |
 | ![fig4](docs/figures/fig4_leaderboard.png) | B 榜 R94 前 10 |
+| ![fig5](docs/figures/fig5_leaderboard_real.png) | 平台 B 榜原始截图（第 1） |
 
-PDF 版：**[REPORT.pdf](./REPORT.pdf)**（A4，19 页，图内嵌）
+PDF 版：**[REPORT.pdf](./REPORT.pdf)**（A4，图内嵌）
+
+对手逆向档案：**[docs/RECON_38_TEAMS.md](./docs/RECON_38_TEAMS.md)**（38 队牌组还原 + 换阵判定）
 
 ## 一句话结论
 

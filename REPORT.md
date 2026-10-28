@@ -42,6 +42,12 @@ A 榜 34 轮 3008 分（第 2）。
 > **图 4**｜B 榜 R94 最终排名前 10：本队 5409 分居首，领先第 2 名（咪咪汪汪队 5215）194 分。
 > 数据：`data/leaderboard_b_r94.csv`。
 
+![图 5 · B 榜 R94 平台截图](docs/figures/fig5_leaderboard_real.png)
+
+> **图 5**｜平台「排行榜 / B 榜」页面原始截图（2026-10-28 抓取）：第 1 名 对对对队 5409 分 / 58 轮，
+> 第 2 名 咪咪汪汪队 5215 分。页面注记「第 37 轮起（正式排名）」。
+> 抓取方式：Edge headless 打开 `http://115.159.47.81/leaderboard`（公开接口渲染，无需登录）。
+
 三个与直觉相反的核心结论：
 
 1. **名次不是强度排序，而是规则闭环**：B 榜前五里，Alakazam（第 2）、草系（第 3）、Crustle（第 4）三支我们对位 73–89%；唯一克制我们的 Dragapult 队伍（第 5）对我们 44%。
@@ -267,6 +273,8 @@ MegaLucario 4.00/15.3、Crustle 3.50/8.0。
 | 大狗队 | 加 Battle Cage + Enriching | 同上 |
 
 **Dragapult 家族从 2 支扩到 4 支**，是我们后段掉分的主要外部原因。
+
+> 口径说明：本表的「6 支」是**人工逐队核对**卡表得到的换阵（含 Battle Cage / Xerosic / Budew 这类道具级针对）；若改用「前后两段卡名集合 Jaccard < 0.70」的机器口径，则识别出 3 支结构性换阵 + 4 支同体系大幅卡位调整，合计 7 支。两种口径的差异与原始数据见 [`docs/RECON_38_TEAMS.md`](./docs/RECON_38_TEAMS.md) 与 `data/opponents_decks.csv`。
 
 ---
 

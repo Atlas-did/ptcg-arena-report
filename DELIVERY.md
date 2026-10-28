@@ -12,12 +12,13 @@
 | 6 | 提交包 | `submission/submission_v3.tar.gz` | 与平台 submission 622 一致 |
 | 7 | 数据（逐轮/榜单/体系/对手牌组/台账） | `data/` | 9 个文件，含 `matchup_matrix.csv` |
 | 8 | 研究记录 | `docs/OPPONENTS_FULL_RE.md` | 38 队逆向 + 20 次实验全记录（62KB） |
+| 8b | 对手逆向档案 | `docs/RECON_38_TEAMS.md` + `data/opponents_decks.csv` | 38 队 × 早期/后期核心卡表 + 换阵判定 |
 | 9 | 规则与评分口径 | `docs/RULES_AND_SCORING.md` | 每轮局数、积分规则、报告权重 |
 | 10 | 本地池复刻研究 | `docs/POOL_REPLICATION.md` | 六体系保真度与偏差 |
 | 11 | 上传审计 | `docs/AUDIT.md` | 含什么/不含什么/风险提示 |
 | 12 | 修订记录 | `docs/CHANGELOG.md` | v3.0 → v3.3 |
 | 13 | 复现脚本 | `scripts/` | 监控、逆向、校验、上传、图表、数字核对 |
-| 14 | 配图 | `docs/figures/` | fig1–fig4（逐轮得分/六体系/版本对比/榜单前 10） |
+| 14 | 配图 | `docs/figures/` | fig1–fig5（逐轮得分/六体系/版本对比/榜单前 10/平台原始截图） |
 
 ## 2. 关键数字（可在仓库内自证）
 

@@ -1,0 +1,39 @@
+﻿team,rank,points,arch_early,arch_late,jaccard,structural_switch,early_core,late_core
+对对对队,1,5409,Hop's一击,Hop's一击,0.74,否,4×Hop’s Choice Band / 4×Hop’s Cramorant / 4×Poké Pad / 4×Hop’s Snorlax / 4×Postwick,4×Hop's Phantump / 4×Hop’s Bag / 4×Poké Pad / 4×Hop’s Choice Band / 4×Lillie's Determination
+SSS,10,4096,Dragapult,Dragapult,0.89,否,5×Basic {P} Energy / 4×Crushing Hammer / 4×Crispin / 4×Lillie's Determination / 4×Ultra Ball,6×Basic {R} Energy / 4×Buddy-Buddy Poffin / 4×Crispin / 4×Dreepy / 4×Lillie's Determination
+狗熊岭群区闪耀之时,11,3914,MegaLucario,其它,0.30,是,7×Basic {F} Energy / 6×Basic {G} Energy / 4×Mega Lucario ex / 4×Riolu / 3×Poké Pad,6×Basic {G} Energy / 4×Switch / 4×Hilda / 4×Mega Lopunny ex / 4×Hop’s Choice Band
+牛马面包,12,3713,MegaLucario,MegaLucario,0.83,否,9×Basic {F} Energy / 4×Rock Fighting Energy / 4×Fighting Gong / 4×Poké Pad / 4×Carmine,10×Basic {F} Energy / 4×Carmine / 4×Lillie's Determination / 4×Poké Pad / 4×Rock Fighting Energy
+老实写代码，很枯燥吧,13,3637,其它,Dragapult,0.12,是,13×Basic {D} Energy / 4×Okidogi ex / 4×Binding Mochi / 4×Energy Switch / 4×Energy Retrieval,4×Drakloak / 4×Poké Pad / 4×Crispin / 4×Rare Candy / 4×Dragapult ex
+睡着觉把题都做对,14,3434,MegaLucario,MegaLucario,0.79,否,14×Basic {F} Energy / 4×Buddy-Buddy Poffin / 4×Ultra Ball / 4×Riolu / 4×Lillie's Determination,15×Basic {F} Energy / 4×Mega Lucario ex / 4×Lillie's Determination / 4×Cheren / 4×Judge
+Spirit,15,3428,Alakazam,Alakazam,0.82,否,7×Basic {P} Energy / 4×Telepath Psychic Energy / 4×Dudunsparce / 4×Buddy-Buddy Poffin / 4×Poké Pad,8×Basic {P} Energy / 4×Abra / 4×Xerosic’s Machinations / 4×Dawn / 4×Dudunsparce
+大狗队,16,2708,Alakazam,Alakazam,1.00,否,6×Basic {P} Energy / 4×Abra / 4×Boss’s Orders / 4×Buddy-Buddy Poffin / 4×Hilda,6×Basic {P} Energy / 4×Xerosic’s Machinations / 4×Dawn / 4×Hilda / 4×Kadabra
+奶蛙打牌智能体,17,2696,Dragapult,Dragapult,0.72,否,9×Basic {P} Energy / 5×Basic {R} Energy / 4×Dragapult ex / 4×Rare Candy / 4×Drayton,7×Basic {P} Energy / 4×Rare Candy / 4×Duskull / 4×Crispin / 4×Dreepy
+谁是大明星队,18,2564,MegaLucario,Alakazam,0.00,是,17×Basic {F} Energy / 4×Pokégear 3.0 / 4×Ultra Ball / 4×Brock’s Scouting / 4×Riolu,6×Basic {P} Energy / 4×Poké Pad / 4×Hilda / 4×Dawn / 4×Telepath Psychic Energy
+全对不秃头,19,2324,Alakazam,Alakazam,0.63,否,9×Basic {P} Energy / 4×Shaymin / 4×Rare Candy / 3×Switch / 3×Abra,9×Basic {P} Energy / 4×Boss’s Orders / 4×Rare Candy / 4×Abra / 3×Hilda
+咪咪汪汪队,2,5215,Alakazam,Alakazam,1.00,否,4×Abra / 4×Telepath Psychic Energy / 4×Alakazam / 4×Dawn / 4×Battle Cage,4×Buddy-Buddy Poffin / 4×Kadabra / 4×Dawn / 4×Enhanced Hammer / 4×Xerosic’s Machinations
+我说的都队,20,2238,MegaLucario,MegaLucario,0.93,否,16×Basic {F} Energy / 4×Urbain / 4×Billy & O'Nare / 4×Fighting Gong / 4×Riolu,11×Basic {F} Energy / 4×Riolu / 4×Cheren / 4×Hitmontop / 4×Fighting Gong
+我有仁义礼智信,21,2206,草系,草系,0.71,否,17×Basic {G} Energy / 4×Ultra Ball / 4×Bug Catching Set / 4×Energy Switch / 4×Energy Retrieval,19×Basic {G} Energy / 4×Night Stretcher / 4×Cheren / 4×Lillie's Determination / 4×Teal Mask Ogerpon ex
+起床困难队,22,2042,草系,草系,0.75,否,14×Basic {G} Energy / 4×Ultra Ball / 4×Night Stretcher / 4×Lillie's Determination / 3×Basic {F} Energy,11×Basic {G} Energy / 6×Basic {L} Energy / 4×Crispin / 4×Teal Mask Ogerpon ex / 4×Raging Bolt ex
+我和梁圣站一队,23,1433,MegaLucario,MegaLucario,0.60,否,19×Basic {F} Energy / 4×Lillie's Determination / 4×Boss’s Orders / 4×Riolu / 4×Ultra Ball,21×Basic {F} Energy / 4×Urbain / 4×Pokégear 3.0 / 4×Mega Kangaskhan ex / 4×Riolu
+阿帕茨,24,1356,MegaLucario,MegaLucario,0.88,否,10×Basic {F} Energy / 4×Cyrano / 4×Cheren / 4×Lillie's Determination / 4×Riolu,8×Basic {F} Energy / 4×Urbain / 4×Ultra Ball / 4×Billy & O'Nare / 4×Riolu
+站中间混两边,25,1216,草系,草系,0.87,否,15×Basic {F} Energy / 4×Cornerstone Mask Ogerpon / 4×Pokégear 3.0 / 4×Cyrano / 4×Ultra Ball,18×Basic {F} Energy / 4×Koraidon ex / 4×Cyrano / 4×Ultra Ball / 3×Billy & O'Nare
+11111,25,790,MegaLucario,—,—,样本不足,15×Basic {F} Energy / 4×Judge / 4×Lillie's Determination / 4×Hariyama / 4×Premium Power Pro,—
+bug hunter,26,1045,其它,其它,1.00,否,19×Basic {R} Energy / 4×Ultra Ball / 4×Switch / 4×Gouging Fire ex / 4×Firebreather,17×Basic {R} Energy / 4×Gouging Fire ex / 4×Reshiram ex / 4×Judge / 4×Boss’s Orders
+1111,26,756,Alakazam,—,—,样本不足,4×Boss’s Orders / 4×Poké Pad / 4×Buddy-Buddy Poffin / 4×Alakazam / 4×Xerosic’s Machinations,—
+奶卷打牌智能体,27,900,其它,其它,0.88,否,9×Basic {F} Energy / 4×Rock Fighting Energy / 4×Pokégear 3.0 / 4×Boss’s Orders / 4×Ultra Ball,8×Basic {F} Energy / 4×Boss’s Orders / 4×Fan Rotom / 4×Zangoose ex / 4×Ultra Ball
+1111111,27,754,MegaLucario,—,—,样本不足,9×Basic {F} Energy / 4×Riolu / 4×Lillie's Determination / 4×Judge / 4×Ultra Ball,—
+都挺好,28,852,其它,其它,1.00,否,27×Basic {P} Energy / 4×Ciphermaniac’s Codebreaking / 4×Mega Gardevoir ex / 4×Pokégear 3.0 / 4×Switch,28×Basic {P} Energy / 4×Switch / 4×Team Rocket's Mewtwo ex / 4×Pokégear 3.0 / 4×Mega Gardevoir ex
+111,29,664,MegaLucario,—,—,样本不足,11×Basic {F} Energy / 4×Premium Power Pro / 4×Poké Pad / 4×Fighting Gong / 4×Mega Lucario ex,—
+重生之我要起个响亮的队名,3,5182,草系,草系,0.50,否,15×Basic {G} Energy / 4×Tapu Bulu / 4×Bug Catching Set / 4×Forest of Vitality / 4×Ultra Ball,17×Basic {G} Energy / 4×Ultra Ball / 4×Bug Catching Set / 4×Teal Mask Ogerpon ex / 4×Applin
+111111,30,631,Alakazam,—,—,样本不足,4×Kadabra / 4×Dunsparce / 4×Dawn / 4×Telepath Psychic Energy / 4×Poké Pad,—
+奶娃,32,588,Alakazam,—,—,样本不足,4×Alakazam / 4×Buddy-Buddy Poffin / 4×Poké Pad / 4×Boss’s Orders / 4×Dunsparce,—
+牛来,33,568,Alakazam,—,—,样本不足,4×Kadabra / 4×Alakazam / 4×Xerosic’s Machinations / 4×Hilda / 4×Buddy-Buddy Poffin,—
+hetui,34,557,Alakazam,—,—,样本不足,4×Abra / 4×Boss’s Orders / 4×Alakazam / 4×Buddy-Buddy Poffin / 4×Poké Pad,—
+null,35,530,Alakazam,—,—,样本不足,4×Abra / 4×Hilda / 4×Kadabra / 4×Poké Pad / 4×Basic {P} Energy,—
+妈妈告诉我只要名字起的够长总会有人念完对不队,38,200,其它,—,—,样本不足,56×Basic {G} Energy / 4×Bloodmoon Ursaluna ex,—
+山里灵活的狗,4,4987,Crustle墙,Crustle墙,0.76,否,7×Basic {G} Energy / 4×Waitress / 4×Buddy-Buddy Poffin / 4×Crustle / 4×Grow Grass Energy,12×Basic {G} Energy / 4×Buddy-Buddy Poffin / 4×Waitress / 4×Grow Grass Energy / 4×Dwebble
+坐巴士要排队,5,4840,Dragapult,Dragapult,0.74,否,4×Drakloak / 4×Buddy-Buddy Poffin / 4×Lillie's Determination / 4×Crispin / 4×Dreepy,4×Drakloak / 4×Ultra Ball / 4×Dreepy / 4×Crushing Hammer / 4×Lillie's Determination
+往里区队,6,4689,MegaLucario,MegaLucario,0.92,否,12×Basic {F} Energy / 4×Riolu / 4×Poké Pad / 4×Lillie's Determination / 4×Premium Power Pro,15×Basic {F} Energy / 4×Premium Power Pro / 4×Carmine / 4×Solrock / 4×Fighting Gong
+格鲁,7,4587,Alakazam,Alakazam,0.89,否,4×Buddy-Buddy Poffin / 4×Boss’s Orders / 4×Poké Pad / 4×Abra / 4×Dawn,4×Abra / 4×Xerosic’s Machinations / 4×Poké Pad / 4×Kadabra / 4×Rare Candy
+不说对不队,8,4460,Alakazam,Alakazam,0.68,否,4×Dunsparce / 4×Poké Pad / 4×Kadabra / 4×Hilda / 4×Abra,4×Poké Pad / 4×Telepath Psychic Energy / 4×Rare Candy / 4×Buddy-Buddy Poffin / 4×Enhanced Hammer
+食堂不要插队,9,4149,Crustle墙,Crustle墙,0.71,否,14×Basic {G} Energy / 4×Poké Pad / 4×Crustle / 4×Lillie's Determination / 4×Buddy-Buddy Poffin,15×Basic {G} Energy / 4×Budew / 4×Mega Lopunny ex / 4×Lillie's Determination / 4×Buneary
