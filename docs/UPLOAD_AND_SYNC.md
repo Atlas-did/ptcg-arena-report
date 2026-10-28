@@ -118,7 +118,7 @@ scripts/                 （监控/逆向/校验/打包）
 
 1. `data/opponents_decks.json` 含**公开榜单上的队伍名**（来自公开日志逆向）。
    如果不想公开队名，可以改成匿名 ID；但会削弱“38 队逆向”的可核验性。
-2. GitHub commit 历史里的作者邮箱是 `heng0627@qq.com`。
+2. GitHub commit 历史里的作者邮箱（已脱敏；如需公开请改用 noreply 邮箱）。
    如果不想公开，需要 `git filter-repo` 重写历史 + 强推；本仓库没有做这一步。
 
 ## 5. 复核命令
