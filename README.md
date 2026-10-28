@@ -77,6 +77,7 @@ data/
   README.md               数据口径与来源
 docs/
   RULES_AND_SCORING.md    赛制/积分/组牌/评分
+  UPLOAD_AND_SYNC.md      上传/同步/不上传清单
   OPPONENTS_FULL_RE.md    38 队逆向 + 换阵台账 + 实验全过程
   POOL_REPLICATION.md     本地池复刻保真度研究
 scripts/
@@ -113,6 +114,8 @@ cd submission && tar -czf ../submission.tar.gz main.py deck.csv && cd ..
 - 对手牌组是从**公开日志的开局抽牌**反推的，用于战术分析；队伍名本身来自公开榜单。
 - 仓库不包含第三方卡图、PPT 素材、模型权重或本地大文件。
 - 最终 agent 只读公开观测，不使用文件系统、网络或第三方包。
+
+完整的上传/同步/不上传清单见 **[docs/UPLOAD_AND_SYNC.md](./docs/UPLOAD_AND_SYNC.md)**。
 
 ### 不提交什么
 
