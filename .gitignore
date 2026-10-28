@@ -1,4 +1,4 @@
-# secrets / local config
+﻿# secrets / local config
 .env
 .env.*
 *.local
@@ -26,6 +26,7 @@ handover2/
 !submission/submission_v3.tar.gz
 *.zip
 *.pdf
+!REPORT.pdf
 *.pptx
 *.mp4
 *.obj
