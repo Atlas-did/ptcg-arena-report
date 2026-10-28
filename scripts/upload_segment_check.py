@@ -9,18 +9,19 @@ import json
 import os
 import sys
 
-sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 from bot_farm import login, call  # noqa: E402
 
-OURS = 39
+OURS = int(os.environ.get("PTCG_TEAM_ID", "39"))
 MARK = [
     ("Dragapult", ["Dragapult", "Drakloak", "Dreepy"]),
-    ("Crustle墙", ["Crustle", "Dwebble"]),
+    ("CrustleWall", ["Crustle", "Dwebble"]),
     ("Alakazam", ["Alakazam", "Kadabra", "Abra"]),
     ("MegaLucario", ["Mega Lucario", "Riolu", "Solrock"]),
-    ("草系", ["Ogerpon", "Meganium", "Baylin", "Applin", "Dipplin"]),
+    ("Grass", ["Ogerpon", "Meganium", "Bayleef", "Applin", "Dipplin"]),
 ]
 
 
@@ -30,7 +31,8 @@ def main():
     ap.add_argument("--window", type=int, default=8, help="rounds on each side")
     args = ap.parse_args()
 
-    recon = json.load(open(os.path.join(ROOT, "eval", "recon", "opponents_decks.json"), encoding="utf-8"))
+    with open(os.path.join(ROOT, "data", "opponents_decks.json"), encoding="utf-8") as fh:
+        recon = json.load(fh)
 
     def arche(tid):
         e = recon.get(str(tid)) or {}

@@ -1,0 +1,1268 @@
+﻿cardId,name,cardType,cardTypeName,pokemonType,energyType,evolutionType,hp,retreatCost,weakness,resistance,basic,stage1,stage2,ex,megaEx,tera,aceSpec,evolvesFrom,attacks,skills
+1,Basic {G} Energy,5,BASIC_ENERGY,0,GRASS,0,0,0,,,0,0,0,0,0,0,0,,,
+2,Basic {R} Energy,5,BASIC_ENERGY,0,FIRE,0,0,0,,,0,0,0,0,0,0,0,,,
+3,Basic {W} Energy,5,BASIC_ENERGY,0,WATER,0,0,0,,,0,0,0,0,0,0,0,,,
+4,Basic {L} Energy,5,BASIC_ENERGY,0,LIGHTNING,0,0,0,,,0,0,0,0,0,0,0,,,
+5,Basic {P} Energy,5,BASIC_ENERGY,0,PSYCHIC,0,0,0,,,0,0,0,0,0,0,0,,,
+6,Basic {F} Energy,5,BASIC_ENERGY,0,FIGHTING,0,0,0,,,0,0,0,0,0,0,0,,,
+7,Basic {D} Energy,5,BASIC_ENERGY,0,DARKNESS,0,0,0,,,0,0,0,0,0,0,0,,,
+8,Basic {M} Energy,5,BASIC_ENERGY,0,METAL,0,0,0,,,0,0,0,0,0,0,0,,,
+9,Boomerang Energy,6,SPECIAL_ENERGY,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Boomerang Energy：As long as this card is attached to a Pokémon, it provides {C} Energy. If this card is discarded by an effect of an attack used by the Pokémon this card is attached to, attach this card from your discard pile to that Pokémon after attacking."
+10,Neo Upper Energy,6,SPECIAL_ENERGY,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Neo Upper Energy：As long as this card is attached to a Pokémon, it provides {C} Energy. If this card is attached to a Stage 2 Pokémon, this card provides every type of Energy but provides only 2 Energy at a time."
+11,Mist Energy,6,SPECIAL_ENERGY,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Mist Energy：As long as this card is attached to a Pokémon, it provides {C} Energy. Prevent all effects of attacks used by your opponent’s Pokémon done to the Pokémon this card is attached to. (Existing effects are not removed. Damage is not an effect.)"
+12,Legacy Energy,6,SPECIAL_ENERGY,0,RAINBOW,0,0,0,,,0,0,0,0,0,0,1,,,"Legacy Energy：As long as this card is attached to a Pokémon, it provides every type of Energy but provides only 1 Energy at a time. If the Pokémon this card is attached to is Knocked Out by damage from an attack from your opponent’s Pokémon, that player takes 1 fewer Prize card. This effect of your Legacy Energy only works once per game."
+13,Enriching Energy,6,SPECIAL_ENERGY,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Enriching Energy：As long as this card is attached to a Pokémon, it provides {C} Energy. When you attach this card from your hand to a Pokémon, draw 4 cards."
+14,Spiky Energy,6,SPECIAL_ENERGY,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Spiky Energy：As long as this card is attached to a Pokémon, it provides {C} Energy. If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon."
+15,Team Rocket's Energy,6,SPECIAL_ENERGY,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Team Rocket's Energy：This card can only be attached to a Team Rocket’s Pokémon. If this card is attached to anything other than a Team Rocket’s Pokémon, discard this card. As long as this card is attached to a Pokémon, it provides 2 in any combination of {P} Energy and {D} Energy."
+16,Prism Energy,6,SPECIAL_ENERGY,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Prism Energy：As long as this card is attached to a Pokémon, it provides {C} Energy. If this card is attached to a Basic Pokémon, this card provides every type of Energy but provides only 1 Energy at a time."
+17,Ignition Energy,6,SPECIAL_ENERGY,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Ignition Energy：If this card is attached to 1 of your Pokémon, discard it at the end of your turn. As long as this card is attached to a Pokémon, it provides {C} Energy. If this card is attached to an Evolution Pokémon, it provides {C}{C}{C} Energy instead."
+18,Grow Grass Energy,6,SPECIAL_ENERGY,0,GRASS,0,0,0,,,0,0,0,0,0,0,0,,,"Grow Grass Energy：As long as this card is attached to a Pokémon, it provides {G} Energy. The {G} Pokémon this card is attached to gets +20 HP."
+19,Telepath Psychic Energy,6,SPECIAL_ENERGY,0,PSYCHIC,0,0,0,,,0,0,0,0,0,0,0,,,"Telepath Psychic Energy：As long as this card is attached to a Pokémon, it provides {P} Energy. When you attach this card from your hand to a {P} Pokémon, search your deck for up to 2 Basic {P} Pokémon and put them onto your Bench. Then, shuffle your deck."
+20,Rock Fighting Energy,6,SPECIAL_ENERGY,0,FIGHTING,0,0,0,,,0,0,0,0,0,0,0,,,"Rock Fighting Energy：As long as this card is attached to a Pokémon, it provides {F} Energy. Prevent all effects of attacks used by your opponent’s Pokémon done to the {F} Pokémon this card is attached to. (Existing effects are not removed. Damage is not an effect.)"
+21,Scrafty,0,POKEMON,1,DARKNESS,2,120,1,1,,0,1,0,0,0,0,0,Scraggy,"1:Nab ’n’ Dash(0)[0] / 2:High Jump Kick(100)[7,0,0]",
+22,Hippopotas,0,POKEMON,1,FIGHTING,1,90,3,1,,1,0,0,0,0,0,0,,3:Push Down(10)[6],
+23,Hippowdon,0,POKEMON,1,FIGHTING,2,160,4,1,,0,1,0,0,0,0,0,Hippopotas,"4:Ram(60)[6,6] / 5:Super Sandstorm(150)[6,6,0]",
+24,Team Rocket's Kangaskhan ex,0,POKEMON,3,COLORLESS,1,230,2,6,,1,0,0,1,0,0,0,,"6:Comet Punch(0)[0,0] / 7:Wicked Impact(120)[0,0,0]",
+25,Pinsir,0,POKEMON,1,GRASS,1,110,2,2,,1,0,0,0,0,0,0,,"8:Slow Crunch(0)[1,0] / 9:Superpowered Horns(100)[1,0,0]",
+26,Leafeon,0,POKEMON,1,GRASS,2,120,1,2,,0,1,0,0,0,0,0,Eevee,"10:Leaflet Blessings(0)[0] / 11:Solar Beam(70)[1,0]",
+27,Iron Leaves,0,POKEMON,1,GRASS,1,120,1,2,,1,0,0,0,0,0,0,,"12:Recovery Net(0)[1] / 13:Avenging Edge(100)[1,0,0]",
+28,Poltchageist,0,POKEMON,1,GRASS,1,30,1,2,,1,0,0,0,0,0,0,,14:Hook(10)[1],"Storehouse Hideaway：As long as this Pokémon is on your Bench, prevent all damage from and effects of attacks from your opponent’s Pokémon done to this Pokémon."
+29,Sinistcha ex,0,POKEMON,3,GRASS,2,240,1,2,,0,1,0,1,0,0,0,Poltchageist,"15:Re-Brew(0)[0] / 16:Matcha Splash(120)[1,0]",
+30,Magcargo ex,0,POKEMON,3,FIRE,2,270,3,3,,0,1,0,1,0,1,0,Slugma,"17:Hot Magma(70)[2,0] / 18:Ground Burn(140)[2,2,0]",
+31,Chi-Yu,0,POKEMON,1,FIRE,1,110,1,3,,1,0,0,0,0,0,0,,"19:Allure(0)[0] / 20:Ground Melter(60)[2,0]",
+32,Glaceon,0,POKEMON,1,WATER,2,120,1,8,,0,1,0,0,0,0,0,Eevee,"21:Permeating Chill(30)[3] / 22:Icicle Missile(70)[3,0]",
+33,Froakie,0,POKEMON,1,WATER,1,60,1,4,,1,0,0,0,0,0,0,,23:Flock(0)[3] / 24:Flop(10)[3],
+34,Frogadier,0,POKEMON,1,WATER,2,90,1,4,,0,1,0,0,0,0,0,Froakie,25:Numbing Water(20)[3],
+35,Walking Wake,0,POKEMON,1,WATER,1,130,1,4,,1,0,0,0,0,0,0,,"26:Aurora Gain(20)[3] / 27:Undulating Slice(0)[3,3,0]",
+36,Morpeko,0,POKEMON,1,LIGHTNING,1,70,1,6,,1,0,0,0,0,0,0,,28:Pick and Stick(0)[4],"Snack Seek：Once during your turn, you may look at the top card of your deck. You may discard that card."
+37,Iron Thorns ex,0,POKEMON,3,LIGHTNING,1,230,4,6,,1,0,0,1,0,0,0,,"29:Volt Cyclone(140)[4,0,0]","Initialization：As long as this Pokémon is in the Active Spot, Pokémon with a Rule Box in play (both yours and your opponent’s) have no Abilities, except for Future Pokémon. (Pokémon {ex}, Pokémon {V}, etc. have Rule Boxes.)"
+38,Girafarig,0,POKEMON,1,PSYCHIC,1,100,1,7,6,1,0,0,0,0,0,0,,30:Dual Headbutt(30)[0],
+39,Enamorus,0,POKEMON,1,PSYCHIC,1,120,1,8,,1,0,0,0,0,0,0,,"31:Heart Sign(30)[0] / 32:Love Resonance(80)[5,0,0]",
+40,Greninja ex,0,POKEMON,3,FIGHTING,3,310,1,5,,0,0,1,1,0,1,0,Frogadier,"33:Shinobi Blade(170)[3] / 34:Mirage Barrage(0)[3,0,0]",
+41,Ting-Lu,0,POKEMON,1,FIGHTING,1,140,3,1,,1,0,0,0,0,0,0,,"35:Ground Crasher(30)[6] / 36:Hammer In(110)[6,6,0]",
+42,Applin,0,POKEMON,1,DRAGON,1,40,1,,,1,0,0,0,0,0,0,,"37:Find a Friend(0)[0] / 38:Rolling Tackle(30)[1,2]",
+43,Eevee,0,POKEMON,1,COLORLESS,1,50,1,6,,1,0,0,0,0,0,0,,"39:Ascension(0)[0] / 40:Quick Attack(20)[0,0,0]",
+44,Bloodmoon Ursaluna ex,0,POKEMON,3,COLORLESS,1,260,3,6,,1,0,0,1,0,0,0,,"41:Blood Moon(240)[0,0,0,0,0]",Seasoned Skill：Blood Moon used by this Pokémon costs {C} less for each Prize card your opponent has taken.
+45,Shaymin,0,POKEMON,1,GRASS,1,70,0,2,,1,0,0,0,0,0,0,,"42:Pinpoint Dive(0)[1] / 43:Rear Kick(50)[0,0]",
+46,Gouging Fire ex,0,POKEMON,3,FIRE,1,230,2,3,,1,0,0,1,0,0,0,,"44:Heat Blast(60)[2,0] / 45:Blaze Blitz(260)[2,2,0]",
+47,Totodile,0,POKEMON,1,WATER,1,70,1,4,,1,0,0,0,0,0,0,,46:Big Bite(10)[3],
+48,Croconaw,0,POKEMON,1,WATER,2,90,2,4,,0,1,0,0,0,0,0,Totodile,47:Reverse Thrust(30)[3],
+49,Feraligatr,0,POKEMON,1,WATER,3,180,3,4,,0,0,1,0,0,0,0,Croconaw,"48:Giant Wave(160)[3,3]","Torrential Heart：Once during your turn, you may put 5 damage counters on this Pokémon. If you do, during this turn, attacks used by this Pokémon do 120 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
+50,Wiglett,0,POKEMON,1,WATER,1,60,1,4,,1,0,0,0,0,0,0,,"49:Lucky Find(0)[3] / 50:Aqua Bomb(40)[3,3]",
+51,Palafin,0,POKEMON,1,WATER,2,150,2,4,,0,1,0,0,0,0,0,Finizen,"51:Vanguard Punch(130)[3] / 52:Double Hit(0)[3,0,0]",
+52,Wugtrio ex,0,POKEMON,3,LIGHTNING,2,250,1,6,,0,1,0,1,0,1,0,Wiglett,"53:Tricolor Pump(0)[3] / 54:Numbing Hold(120)[3,3]",
+53,Marill,0,POKEMON,1,PSYCHIC,1,70,2,8,,1,0,0,0,0,0,0,,"55:Ball Roll(0)[0] / 56:Magical Shot(40)[5,0,0]",
+54,Bronzor,0,POKEMON,1,PSYCHIC,1,80,3,7,6,1,0,0,0,0,0,0,,57:Mirror Attack(10)[5],
+55,Bronzong,0,POKEMON,1,PSYCHIC,2,110,3,7,6,0,1,0,0,0,0,0,Bronzor,"58:Evolution Jammer(30)[5] / 59:Super Psy Bolt(100)[5,0,0]",
+56,Flutter Mane,0,POKEMON,1,PSYCHIC,1,90,1,8,,1,0,0,0,0,0,0,,"60:Hex Hurl(90)[0,0,0]","Midnight Fluttering：As long as this Pokémon is in the Active Spot, your opponent’s Active Pokémon has no Abilities, except for Midnight Fluttering."
+57,Relicanth,0,POKEMON,1,FIGHTING,1,100,1,1,,1,0,0,0,0,0,0,,"61:Razor Fin(30)[6,0]",Memory Dive：Each of your evolved Pokémon can use any attack from its previous Evolutions. (You still need the necessary Energy to use each attack.)
+58,Great Tusk,0,POKEMON,1,FIGHTING,1,140,3,5,,1,0,0,0,0,0,0,,"62:Land Collapse(0)[0,0] / 63:Giant Tusk(160)[6,6,0,0]",
+59,Gastly,0,POKEMON,1,DARKNESS,1,60,1,6,,1,0,0,0,0,0,0,,"64:Mysterious Beam(0)[7] / 65:Suffocating Gas(30)[7,7]",
+60,Haunter,0,POKEMON,1,DARKNESS,2,90,1,6,,0,1,0,0,0,0,0,Gastly,"66:Super Poison Breath(30)[7,7]",
+61,Roaring Moon,0,POKEMON,1,DARKNESS,1,140,2,1,,1,0,0,0,0,0,0,,"67:Vengeance Fletching(70)[7,7] / 68:Speed Wing(120)[7,0,0,0]",
+62,Koraidon,0,POKEMON,1,DRAGON,1,140,2,,,1,0,0,0,0,0,0,,"69:Primordial Beatdown(0)[6,0] / 70:Shred(130)[2,6,0]",
+63,Raging Bolt ex,0,POKEMON,3,DRAGON,1,240,3,,,1,0,0,1,0,0,0,,"71:Burst Roar(0)[0] / 72:Bellowing Thunder(0)[4,6]",
+64,Hoothoot,0,POKEMON,1,COLORLESS,1,70,1,4,6,1,0,0,0,0,0,0,,"73:Silent Wing(20)[0,0]",
+65,Dunsparce,0,POKEMON,1,COLORLESS,1,60,0,6,,1,0,0,0,0,0,0,,"74:Gnaw(10)[0] / 75:Dig(30)[0,0]",
+66,Dudunsparce,0,POKEMON,1,COLORLESS,2,140,3,6,,0,1,0,0,0,0,0,Dunsparce,"76:Land Crush(90)[0,0,0]","Run Away Draw：Once during your turn, you may draw 3 cards. If you drew any cards in this way, shuffle this Pokémon and all attached cards into your deck."
+67,Pineco,0,POKEMON,1,GRASS,1,70,2,2,,1,0,0,0,0,0,0,,"77:Ram(50)[0,0,0]",
+68,Seedot,0,POKEMON,1,GRASS,1,60,1,2,,1,0,0,0,0,0,0,,"78:Rigidify(0)[1] / 79:Hang Down(20)[0,0]",
+69,Nuzleaf,0,POKEMON,1,GRASS,2,90,1,2,,0,1,0,0,0,0,0,Seedot,"80:Corkscrew Punch(20)[1] / 81:Comet Slap(0)[0,0]",
+70,Shiftry,0,POKEMON,1,GRASS,3,150,2,2,,0,0,1,0,0,0,0,Nuzleaf,"82:Expelling Tornado(0)[1] / 83:Energy Loop(140)[0,0]",
+71,Deerling,0,POKEMON,1,GRASS,1,70,1,2,,1,0,0,0,0,0,0,,"84:Flop(10)[0] / 85:Leaf Litter Tackle(40)[1,0,0]",
+72,Sawsbuck,0,POKEMON,1,GRASS,2,130,2,2,,0,1,0,0,0,0,0,Deerling,"86:Superpowered Horns(110)[1,0,0]","Changing Seasons：Once during your turn, you may search your deck for a Stadium card, reveal it, and put it into your hand. Then, shuffle your deck."
+73,Rellor,0,POKEMON,1,GRASS,1,50,1,2,,1,0,0,0,0,0,0,,87:Slight Intrusion(30)[0],
+74,Rabsca,0,POKEMON,1,GRASS,2,70,1,2,,0,1,0,0,0,0,0,Rellor,88:Psychic(10)[1],Spherical Shield：Prevent all damage from and effects of attacks from your opponent’s Pokémon done to your Benched Pokémon.
+75,Iron Leaves ex,0,POKEMON,3,GRASS,1,220,1,2,,1,0,0,1,0,0,0,,"89:Prism Edge(180)[1,1,0]","Rapid Vernier：When you play this Pokémon from your hand onto your Bench during your turn, you may switch it with your Active Pokémon. If you do, you may move any amount of Energy from your other Pokémon to this Pokémon."
+76,Slugma,0,POKEMON,1,FIRE,1,80,2,3,,1,0,0,0,0,0,0,,90:Roasting Heat(10)[2],
+77,Litten,0,POKEMON,1,FIRE,1,70,2,3,,1,0,0,0,0,0,0,,91:Fake Out(10)[2],
+78,Torracat,0,POKEMON,1,FIRE,2,100,2,3,,0,1,0,0,0,0,0,Litten,"92:Bite(30)[2] / 93:Flare Strike(80)[2,0,0]",
+79,Incineroar ex,0,POKEMON,3,FIRE,3,320,2,3,,0,0,1,1,0,0,0,Torracat,"94:Blaze Blast(240)[2,0,0,0,0]",Hustle Play：Attacks used by this Pokémon cost {C} less for each of your opponent’s Benched Pokémon.
+80,Iron Crown ex,0,POKEMON,3,PSYCHIC,1,220,2,7,6,1,0,0,1,0,0,0,,"95:Twin Shotels(0)[5,0,0]","Cobalt Command：Attacks used by your Future Pokémon, except any Iron Crown {ex}, do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
+81,Drilbur,0,POKEMON,1,FIGHTING,1,70,1,1,,1,0,0,0,0,0,0,,"96:Sand Spray(20)[6,0]","Dig Dig Dig：When you play this Pokémon from your hand onto your Bench during your turn, you may search your deck for up to 3 Basic {F} Energy cards and discard them. Then, shuffle your deck."
+82,Excadrill,0,POKEMON,1,FIGHTING,2,130,2,1,,0,1,0,0,0,0,0,Drilbur,"97:Mud Shot(20)[0] / 98:Wild Tackle(180)[6,6,0]",
+83,Farigiraf ex,0,POKEMON,3,DARKNESS,2,260,2,1,,0,1,0,1,0,1,0,Girafarig,"99:Dirty Beam(160)[5,0,0]",Armor Tail：Prevent all damage done to this Pokémon by attacks from your opponent’s Basic Pokémon {ex}.
+84,Scizor ex,0,POKEMON,3,METAL,2,270,2,2,1,0,1,0,1,0,0,0,Scyther,"100:Steel Wing(70)[0,0] / 101:Cross Breaker(0)[8,8]",
+85,Beldum,0,POKEMON,1,METAL,1,70,1,2,1,1,0,0,0,0,0,0,,"102:Dig Claws(10)[8] / 103:Iron Tackle(50)[8,0,0]",
+86,Metang,0,POKEMON,1,METAL,2,100,2,2,1,0,1,0,0,0,0,0,Beldum,"104:Beam(60)[8,0,0]","Metal Maker：Once during your turn, you may look at the top 4 cards of your deck and attach any number of Basic {M} Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards and put them on the bottom of your deck."
+87,Miraidon,0,POKEMON,1,DRAGON,1,110,2,,,1,0,0,0,0,0,0,,"105:Peak Acceleration(40)[0] / 106:Sparking Strike(160)[4,4,5]",
+88,Volbeat,0,POKEMON,1,GRASS,1,70,1,2,,1,0,0,0,0,0,0,,"107:Quick Sign(0)[0] / 108:Coordinated Strike(20)[0,0]",
+89,Grookey,0,POKEMON,1,GRASS,1,70,1,2,,1,0,0,0,0,0,0,,"109:Smash Kick(10)[1] / 110:Branch Poke(30)[1,1]",
+90,Thwackey,0,POKEMON,1,GRASS,2,100,2,2,,0,1,0,0,0,0,0,Grookey,"111:Beat(50)[1,1]","Boom Boom Groove：Once during your turn, if your Active Pokémon has the Festival Lead Ability, you may search your deck for a card and put it into your hand. Then, shuffle your deck."
+91,Rillaboom,0,POKEMON,1,GRASS,3,180,4,2,,0,0,1,0,0,0,0,Thwackey,"112:Drum Beating(60)[1] / 113:Wood Hammer(180)[1,1]",
+92,Applin,0,POKEMON,1,GRASS,1,40,1,2,,1,0,0,0,0,0,0,,114:Tumbling Attack(10)[1],
+93,Dipplin,0,POKEMON,1,GRASS,2,80,2,2,,0,1,0,0,0,0,0,Applin,115:Do the Wave(0)[1],"Festival Lead：If Festival Grounds is in play, this Pokémon may use an attack it has twice. If the first attack Knocks Out your opponent’s Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon."
+94,Sinistcha,0,POKEMON,1,GRASS,2,70,1,2,,0,1,0,0,0,0,0,Poltchageist,116:Cursed Drop(0)[1] / 117:Spill the Tea(0)[1],
+95,Teal Mask Ogerpon,0,POKEMON,1,GRASS,1,110,1,2,,1,0,0,0,0,0,0,,"118:Mountain Stroll(0)[0] / 119:Ogre Comeback(20)[1,0]",
+96,Teal Mask Ogerpon ex,0,POKEMON,3,GRASS,1,210,1,2,,1,0,0,1,0,1,0,,"120:Myriad Leaf Shower(30)[1,1,1]","Teal Dance：Once during your turn, you may attach a Basic {G} Energy card from your hand to this Pokémon. If you attached Energy to a Pokémon in this way, draw a card."
+97,Litwick,0,POKEMON,1,FIRE,1,60,1,3,,1,0,0,0,0,0,0,,"121:Call for Family(0)[2] / 122:Live Coal(20)[2,0]",
+98,Chandelure,0,POKEMON,1,FIRE,3,130,2,3,,0,0,1,0,0,0,0,Lampent,123:Mind Ruler(0)[2],"Alluring Light：Once during your turn, you may have each player draw a card."
+99,Hearthflame Mask Ogerpon ex,0,POKEMON,3,FIRE,1,210,1,3,,1,0,0,1,0,1,0,,"124:Wrathful Hearth(0)[2,0,0] / 125:Dynamic Blaze(140)[2,2,2]",
+100,Goldeen,0,POKEMON,1,WATER,1,50,1,4,,1,0,0,0,0,0,0,,"126:Whirlpool(10)[0,0]","Festival Lead：If Festival Grounds is in play, this Pokémon may use an attack it has twice. If the first attack Knocks Out your opponent’s Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon."
+101,Jynx,0,POKEMON,1,WATER,1,90,1,8,,1,0,0,0,0,0,0,,127:Inviting Kiss(0)[0] / 128:Icy Snow(30)[3],
+102,Milotic,0,POKEMON,1,WATER,2,120,1,4,,0,1,0,0,0,0,0,Feebas,"129:Hydro Splash(100)[3,0,0]",Mentally Calm：Your opponent’s Pokémon in play and all attached cards can’t be put into your opponent’s hand.
+103,Snorunt,0,POKEMON,1,WATER,1,60,1,8,,1,0,0,0,0,0,0,,"130:Astonish(20)[3,0]",
+104,Froslass,0,POKEMON,1,WATER,2,90,1,8,,0,1,0,0,0,0,0,Snorunt,"131:Frost Smash(60)[3,0]","Freezing Shroud：During Pokémon Checkup, put 1 damage counter on each Pokémon that has an Ability (both yours and your opponent’s), except any Froslass."
+105,Finizen,0,POKEMON,1,WATER,1,70,1,4,,1,0,0,0,0,0,0,,132:Aqua Slash(30)[3],
+106,Palafin,0,POKEMON,1,WATER,2,100,1,4,,0,1,0,0,0,0,0,Finizen,"133:Wave Splash(30)[3,0]","Zero to Hero：Once during your turn, when this Pokémon moves from the Active Spot to the Bench, you may search your deck for a Palafin {ex} and switch it with this Pokémon. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pokémon. If you switched a Pokémon in this way, put this card into your deck. Then, shuffle your deck."
+107,Palafin ex,0,POKEMON,3,WATER,2,340,2,4,,0,1,0,1,0,0,0,Finizen,134:Giga Impact(250)[3],Hero’s Spirit：Put this Pokémon into play only with the effect of Palafin’s Zero to Hero Ability.
+108,Wellspring Mask Ogerpon ex,0,POKEMON,3,WATER,1,210,1,4,,1,0,0,1,0,1,0,,"135:Sob(20)[0] / 136:Torrential Pump(100)[3,0,0]",
+109,Abra,0,POKEMON,1,PSYCHIC,1,40,1,7,6,1,0,0,0,0,0,0,,137:Beam(10)[5],"Teleporter：Once during your turn, if this Pokémon is in the Active Spot, you may shuffle it and all attached cards into your deck."
+110,Slurpuff,0,POKEMON,1,PSYCHIC,2,120,2,8,,0,1,0,0,0,0,0,Swirlix,"138:Slurp Slurp(0)[5,0]",
+111,Sandygast,0,POKEMON,1,PSYCHIC,1,90,3,7,6,1,0,0,0,0,0,0,,"139:Sand Attack(10)[5] / 140:Spooky Shot(30)[5,0,0]",
+112,Munkidori,0,POKEMON,1,PSYCHIC,1,110,1,7,6,1,0,0,0,0,0,0,,"141:Mind Bend(60)[5,0]","Adrena-Brain：Once during your turn, if this Pokémon has any {D} Energy attached, you may move up to 3 damage counters from 1 of your Pokémon to 1 of your opponent’s Pokémon."
+113,Timburr,0,POKEMON,1,FIGHTING,1,80,2,5,,1,0,0,0,0,0,0,,142:Best Punch(40)[6],
+114,Gurdurr,0,POKEMON,1,FIGHTING,2,100,2,5,,0,1,0,0,0,0,0,Timburr,"143:Knuckle Punch(20)[6] / 144:Superpower(50)[6,0,0]",
+115,Conkeldurr,0,POKEMON,1,FIGHTING,3,180,3,5,,0,0,1,0,0,0,0,Gurdurr,"145:Tantrum(80)[6] / 146:Gutsy Swing(250)[6,0,0,0]",
+116,Okidogi,0,POKEMON,1,FIGHTING,1,130,2,5,,1,0,0,0,0,0,0,,"147:Good Punch(70)[6,6]","Adrena-Power：If this Pokémon has any {D} Energy attached, it gets +100 HP, and the attacks it uses do 100 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
+117,Cornerstone Mask Ogerpon ex,0,POKEMON,3,FIGHTING,1,210,1,1,,1,0,0,1,0,1,0,,"148:Demolish(140)[6,0,0]",Cornerstone Stance：Prevent all damage from attacks done to this Pokémon by your opponent’s Pokémon that have an Ability.
+118,Heatran,0,POKEMON,1,METAL,1,140,4,2,1,1,0,0,0,0,0,0,,"149:Steel Burst(0)[8,0,0]","Incandescent Body：If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Burned."
+119,Dreepy,0,POKEMON,1,DRAGON,1,70,1,,,1,0,0,0,0,0,0,,"150:Petty Grudge(10)[5] / 151:Bite(40)[2,5]",
+120,Drakloak,0,POKEMON,1,DRAGON,2,90,1,,,0,1,0,0,0,0,0,Dreepy,"152:Dragon Headbutt(70)[2,5]","Recon Directive：Once during your turn, you may look at the top 2 cards of your deck and put 1 of them into your hand. Put the other card on the bottom of your deck."
+121,Dragapult ex,0,POKEMON,3,DRAGON,3,320,1,,,0,0,1,1,0,1,0,Drakloak,"153:Jet Headbutt(70)[0] / 154:Phantom Dive(200)[2,5]",
+122,Tatsugiri,0,POKEMON,1,DRAGON,1,70,1,,,1,0,0,0,0,0,0,,"155:Surf(50)[2,3]","Attract Customers：Once during your turn, if this Pokémon is in the Active Spot, you may look at the top 6 cards of your deck, reveal a Supporter card you find there, and put it into your hand. Shuffle the other cards back into your deck."
+123,Farfetch'd,0,POKEMON,1,COLORLESS,1,70,1,4,6,1,0,0,0,0,0,0,,156:Mach Cut(30)[0],"Impromptu Carrier：When you play this Pokémon from your hand onto your Bench during your turn, you may search your deck for a Pokémon Tool card and attach it to this Pokémon. Then, shuffle your deck."
+124,Chansey,0,POKEMON,1,COLORLESS,1,120,2,6,,1,0,0,0,0,0,0,,"157:Lucky Attachment(0)[0] / 158:Boundless Power(80)[0,0,0]",
+125,Blissey ex,0,POKEMON,3,COLORLESS,2,300,4,6,,0,1,0,1,0,0,0,Chansey,"159:Return(180)[0,0,0]","Happy Switch：Once during your turn, you may move a Basic Energy from 1 of your Pokémon to another of your Pokémon."
+126,Galvantula,0,POKEMON,1,GRASS,2,100,1,2,,0,1,0,0,0,0,0,Joltik,"160:Shocking Web(50)[1,0]",Compound Eyes：Attacks used by this Pokémon do 50 more damage to your opponent’s Active Pokémon that has an Ability (before applying Weakness and Resistance).
+127,Rowlet,0,POKEMON,1,GRASS,1,70,1,2,,1,0,0,0,0,0,0,,161:Add On(0)[0] / 162:Leafage(10)[1],
+128,Dartrix,0,POKEMON,1,GRASS,2,90,1,2,,0,1,0,0,0,0,0,Rowlet,163:United Wings(0)[0] / 164:Cutting Wind(30)[1],
+129,Decidueye,0,POKEMON,1,GRASS,3,150,2,2,,0,0,1,0,0,0,0,Dartrix,165:Stock Up on Feathers(0)[0] / 166:Power Shot(170)[1],
+130,Revavroom ex,0,POKEMON,3,LIGHTNING,2,280,1,6,,0,1,0,1,0,1,0,Varoom,"167:Accelerator Flash(20)[8] / 168:Shattering Speed(250)[8,8,8]",
+131,Duskull,0,POKEMON,1,PSYCHIC,1,60,1,7,6,1,0,0,0,0,0,0,,"169:Come and Get You(0)[5] / 170:Mumble(30)[5,5]",
+132,Dusclops,0,POKEMON,1,PSYCHIC,2,90,2,7,6,0,1,0,0,0,0,0,Duskull,"171:Will-O-Wisp(50)[5,5]","Cursed Blast：Once during your turn, you may put 5 damage counters on 1 of your opponent’s Pokémon. If you use this Ability, this Pokémon is Knocked Out."
+133,Dusknoir,0,POKEMON,1,PSYCHIC,3,160,3,7,6,0,0,1,0,0,0,0,Dusclops,"172:Shadow Bind(150)[5,5,0]","Cursed Blast：Once during your turn, you may put 13 damage counters on 1 of your opponent’s Pokémon. If you use this Ability, this Pokémon is Knocked Out."
+134,Sylveon,0,POKEMON,1,PSYCHIC,2,120,1,8,,0,1,0,0,0,0,0,Eevee,"173:Mystical Return(0)[5] / 174:Disarming Voice(90)[5,0,0]",
+135,Bloodmoon Ursaluna,0,POKEMON,1,FIGHTING,1,150,4,1,,1,0,0,0,0,0,0,,"175:Mad Bite(100)[6,6,0]","Battle-Hardened：When you play this Pokémon from your hand onto your Bench during your turn, you may attach up to 2 Basic {F} Energy cards from your hand to this Pokémon."
+136,Zorua,0,POKEMON,1,DARKNESS,1,70,1,1,,1,0,0,0,0,0,0,,"176:Stampede(10)[0] / 177:Double Scratch(0)[7,0]",
+137,Zoroark,0,POKEMON,1,DARKNESS,2,120,1,1,,0,1,0,0,0,0,0,Zorua,"178:Illusory Hijacking(0)[0,0] / 179:Claw Slash(110)[7,0,0]",
+138,Okidogi ex,0,POKEMON,3,DARKNESS,1,250,3,6,,1,0,0,1,0,0,0,,"180:Poisonous Musculature(0)[0] / 181:Chain-Crazed(130)[7,7,0]",
+139,Munkidori ex,0,POKEMON,3,DARKNESS,1,210,1,6,,1,0,0,1,0,0,0,,"182:Dirty Headbutt(190)[7,7,0]","Oh No You Don’t：If this Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon, and if you have any Pecharunt {ex} in play, your opponent takes 1 fewer Prize card."
+140,Fezandipiti ex,0,POKEMON,3,DARKNESS,1,210,1,6,,1,0,0,1,0,0,0,,"183:Cruel Arrow(0)[0,0,0]","Flip the Script：Once during your turn, if any of your Pokémon were Knocked Out during your opponent’s last turn, you may draw 3 cards. You can’t use more than 1 Flip the Script Ability each turn."
+141,Pecharunt ex,0,POKEMON,3,DARKNESS,1,190,1,6,,1,0,0,1,0,0,0,,"184:Irritated Outburst(0)[7,7]","Subjugating Chains：Once during your turn, you may switch 1 of your Benched {D} Pokémon, except any Pecharunt {ex}, with your Active Pokémon. If you do, the new Active Pokémon is now Poisoned. You can’t use more than 1 Subjugating Chains Ability each turn."
+142,Genesect,0,POKEMON,1,METAL,1,110,1,2,1,1,0,0,0,0,0,0,,"185:Magnetic Blast(100)[8,0,0]","ACE Nullifier：If this Pokémon has a Pokémon Tool attached, your opponent can’t play any {ACE SPEC} cards from their hand."
+143,Varoom,0,POKEMON,1,METAL,1,70,1,2,1,1,0,0,0,0,0,0,,"186:Rigidify(0)[8] / 187:Headbutt Bounce(20)[8,8]",
+144,Kyurem,0,POKEMON,1,DRAGON,1,130,2,,,1,0,0,0,0,0,0,,"188:Trifrost(0)[3,3,8,8,0]","Plasma Bane：If your opponent has any cards in their discard pile that have ""Colress"" in the name, this Pokémon can use the Trifrost attack for {C}."
+145,Eevee,0,POKEMON,1,COLORLESS,1,70,1,6,,1,0,0,0,0,0,0,,"189:Colorful Catch(0)[0] / 190:Headbutt(20)[0,0]",
+146,Lileep,0,POKEMON,1,GRASS,2,100,2,2,,0,1,0,0,0,0,0,Antique Root Fossil,191:Bind Down(50)[1],
+147,Cradily,0,POKEMON,1,GRASS,3,150,3,2,,0,0,1,0,0,0,0,Lileep,192:Miasma Wind(0)[1],"Selective Slime：Once during your turn, you may flip a coin. If heads, choose Burned, Confused, or Poisoned. Your opponent’s Active Pokémon is now affected by that Special Condition."
+148,Mow Rotom,0,POKEMON,1,GRASS,1,90,1,2,,1,0,0,0,0,0,0,,193:Reaping Dash(30)[0],
+149,Applin,0,POKEMON,1,GRASS,1,40,1,2,,1,0,0,0,0,0,0,,194:Spray Fluid(20)[1],
+150,Hydrapple ex,0,POKEMON,3,GRASS,3,330,3,2,,0,0,1,1,0,0,0,Dipplin,"195:Syrup Storm(30)[0,0]","Ripening Charge：Once during your turn, you may attach a Basic {G} Energy card from your hand to 1 of your Pokémon. If you attached Energy to a Pokémon in this way, heal 30 damage from that Pokémon."
+151,Scorbunny,0,POKEMON,1,FIRE,1,70,1,3,,1,0,0,0,0,0,0,,196:Quick Attack(10)[0],
+152,Raboot,0,POKEMON,1,FIRE,2,90,1,3,,0,1,0,0,0,0,0,Scorbunny,"197:Low Sweep(30)[2] / 198:Combustion(60)[2,0,0]",
+153,Cinderace ex,0,POKEMON,3,FIRE,3,320,0,3,,0,0,1,1,0,1,0,Raboot,"199:Flare Strike(280)[2,0,0] / 200:Garnet Volley(0)[2,6,7]",
+154,Lapras ex,0,POKEMON,3,WATER,1,220,2,8,,1,0,0,1,0,1,0,,"201:Power Splash(0)[3] / 202:Larimar Rain(0)[3,5,8]",
+155,Carracosta,0,POKEMON,1,WATER,3,160,3,4,,0,0,1,0,0,0,0,Tirtouga,"203:Tidal Wave(150)[3,3]",Primal Knowledge：Attacks used by your Pokémon do 30 more damage to your opponent’s Active Evolution Pokémon (before applying Weakness and Resistance).
+156,Crabominable,0,POKEMON,1,WATER,2,160,3,8,,0,1,0,0,0,0,0,Crabrawler,"204:Haymaker(250)[3,0,0,0,0]",Food Prep：Attacks used by this Pokémon cost {C} less for each Kofu card in your discard pile.
+157,Chewtle,0,POKEMON,1,WATER,1,80,2,4,,1,0,0,0,0,0,0,,"205:Headbutt(60)[0,0,0]",
+158,Drednaw,0,POKEMON,1,WATER,2,140,3,4,,0,1,0,0,0,0,0,Chewtle,"206:Hard Crunch(80)[0,0,0]",Impervious Shell：Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon if that damage is 200 or more.
+159,Veluza,0,POKEMON,1,WATER,1,130,2,4,,1,0,0,0,0,0,0,,"207:Sonic Edge(110)[0,0,0,0]",Food Prep：Attacks used by this Pokémon cost {C} less for each Kofu card in your discard pile.
+160,Joltik,0,POKEMON,1,LIGHTNING,1,30,1,6,,1,0,0,0,0,0,0,,208:Jolting Charge(0)[0],
+161,Galvantula ex,0,POKEMON,3,LIGHTNING,2,260,1,6,,0,1,0,1,0,1,0,Joltik,"209:Charged Web(110)[4,0] / 210:Fulgurite(180)[1,4,6]",
+162,Slowpoke,0,POKEMON,1,PSYCHIC,1,80,2,7,6,1,0,0,0,0,0,0,,"211:Dangle Tail(0)[0] / 212:Tackle(30)[5,0]",
+163,Slowking,0,POKEMON,1,PSYCHIC,2,120,3,7,6,0,1,0,0,0,0,0,Slowpoke,"213:Seek Inspiration(0)[5,0] / 214:Super Psy Bolt(120)[5,5,0]",
+164,Comfey,0,POKEMON,1,PSYCHIC,1,70,1,8,,1,0,0,0,0,0,0,,215:Flower Shower(0)[5] / 216:Play Rough(20)[5],
+165,Klink,0,POKEMON,1,METAL,1,60,2,2,1,1,0,0,0,0,0,0,,"217:Allure(0)[0] / 218:Beam(20)[0,0]",
+166,Klang,0,POKEMON,1,METAL,2,90,3,2,1,0,1,0,0,0,0,0,Klink,"219:Iron Tackle(60)[0,0]",
+167,Klinklang,0,POKEMON,1,METAL,3,140,3,2,1,0,0,1,0,0,0,0,Klang,"220:Hyper Ray(130)[0,0]","Emergency Rotation：Once during your turn, if this Pokémon is in your hand and your opponent has any Stage 2 Pokémon in play, you may put this Pokémon onto your Bench."
+168,Meltan,0,POKEMON,1,METAL,1,70,1,2,1,1,0,0,0,0,0,0,,"221:Knickknack Carrying(0)[8] / 222:Ram(30)[8,0]",
+169,Duraludon,0,POKEMON,1,METAL,1,130,2,2,1,1,0,0,0,0,0,0,,"223:Hammer In(30)[8] / 224:Raging Hammer(80)[8,8,0]",
+170,Archaludon,0,POKEMON,1,METAL,2,180,2,2,1,0,1,0,0,0,0,0,Duraludon,"225:Iron Blaster(160)[8,8,0]",Metal Bridge：All of your Pokémon that have {M} Energy attached have no Retreat Cost.
+171,Raging Bolt,0,POKEMON,1,DRAGON,1,130,3,,,1,0,0,0,0,0,0,,"226:Thunderburst Storm(0)[4,6] / 227:Dragon Headbutt(130)[4,6,0]",
+172,Hoothoot,0,POKEMON,1,COLORLESS,1,70,1,4,6,1,0,0,0,0,0,0,,228:Triple Stab(0)[0],
+173,Noctowl,0,POKEMON,1,COLORLESS,2,100,1,4,6,0,1,0,0,0,0,0,Hoothoot,"229:Speed Wing(60)[0,0]","Jewel Seeker：Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, if you have any Tera Pokémon in play, you may search your deck for up to 2 Trainer cards, reveal them, and put them into your hand. Then, shuffle your deck."
+174,Fan Rotom,0,POKEMON,1,COLORLESS,1,70,1,4,6,1,0,0,0,0,0,0,,230:Assault Landing(70)[0],"Fan Call：Once during your first turn, you may search your deck for up to 3 {C} Pokémon with 100 HP or less, reveal them, and put them into your hand. Then, shuffle your deck. You can’t use more than 1 Fan Call Ability during your turn."
+175,Bouffalant,0,POKEMON,1,COLORLESS,1,100,2,6,,1,0,0,0,0,0,0,,"231:Boundless Power(130)[0,0,0]","Curly Wall：As long as you have at least 1 other Bouffalant in play, all of your Basic {C} Pokémon take 60 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance). The effect of Curly Wall doesn’t stack."
+176,Terapagos ex,0,POKEMON,3,COLORLESS,1,230,2,6,,1,0,0,1,0,1,0,,"232:Unified Beatdown(0)[0,0] / 233:Crown Opal(180)[1,3,4]",
+177,Exeggcute,0,POKEMON,1,GRASS,1,30,1,2,,1,0,0,0,0,0,0,,234:Precocious Evolution(0)[0],
+178,Zarude,0,POKEMON,1,GRASS,1,120,1,2,,1,0,0,0,0,0,0,,"235:Leaf Drain(20)[1] / 236:Jungle Whip(80)[1,1,0]",
+179,Black Kyurem ex,0,POKEMON,3,WATER,1,230,3,8,,1,0,0,1,0,0,0,,"237:Ice Age(90)[0,0,0] / 238:Black Frost(250)[3,3,0,0]",
+180,Bruxish,0,POKEMON,1,WATER,1,110,1,4,,1,0,0,0,0,0,0,,"239:Big Bite(50)[3,0]","Counterattack：If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon."
+181,Quaxwell,0,POKEMON,1,WATER,2,100,1,4,,0,1,0,0,0,0,0,Quaxly,240:Aqua Edge(40)[3],
+182,Quaquaval,0,POKEMON,1,WATER,3,170,2,4,,0,0,1,0,0,0,0,Quaxwell,"241:Hydro Splash(120)[3,0]","Up-Tempo：You must put a card from your hand on the bottom of your deck in order to use this Ability. Once during your turn, you may draw cards until you have 5 cards in your hand."
+183,Smoochum,0,POKEMON,1,PSYCHIC,1,30,0,7,6,1,0,0,0,0,0,0,,242:Delightful Kiss(0)[],
+184,Latias ex,0,POKEMON,3,PSYCHIC,1,210,2,7,6,1,0,0,1,0,0,0,,"243:Eon Blade(200)[5,5,0]",Skyliner：Your Basic Pokémon in play have no Retreat Cost.
+185,Flittle,0,POKEMON,1,PSYCHIC,1,40,1,7,6,1,0,0,0,0,0,0,,244:Splashing Dodge(10)[0],
+186,Gimmighoul,0,POKEMON,1,PSYCHIC,1,70,2,7,6,1,0,0,0,0,0,0,,"245:Minor Errand-Running(0)[0] / 246:Tackle(50)[0,0,0]",
+187,Trapinch,0,POKEMON,1,FIGHTING,1,60,1,1,,1,0,0,0,0,0,0,,"247:Call for Family(0)[0] / 248:Bite(20)[6,0]",
+188,Vibrava,0,POKEMON,1,FIGHTING,2,90,1,1,,0,1,0,0,0,0,0,Trapinch,"249:Screech(0)[0] / 250:Cutting Wind(50)[6,0]",
+189,Flygon ex,0,POKEMON,3,FIGHTING,3,310,1,1,,0,0,1,1,0,1,0,Vibrava,"251:Reversing Storm(130)[6] / 252:Sonic Peridot(0)[3,6,8]",
+190,Archaludon ex,0,POKEMON,3,METAL,2,300,2,2,1,0,1,0,1,0,0,0,Duraludon,"253:Metal Defender(220)[8,8,8]","Assemble Alloy：When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may attach up to 2 Basic {M} Energy cards from your discard pile to your {M} Pokémon in any way you like."
+191,Gholdengo,0,POKEMON,1,METAL,2,130,2,2,1,0,1,0,0,0,0,0,Gimmighoul,"254:Strike It Rich(30)[8] / 255:Surf Back(100)[0,0,0]",
+192,Iron Crown,0,POKEMON,1,METAL,1,130,2,2,1,1,0,0,0,0,0,0,,"256:Deleting Slash(40)[8,0] / 257:Slicing Blade(100)[8,0,0]",
+193,Alolan Exeggutor ex,0,POKEMON,3,DRAGON,2,300,3,,,0,1,0,1,0,1,0,Exeggcute,"258:Tropical Frenzy(150)[1,3] / 259:Swinging Sphene(0)[1,3,6]",
+194,Altaria,0,POKEMON,1,DRAGON,2,120,1,,,0,1,0,0,0,0,0,Swablu,"260:Humming Charge(0)[3] / 261:Cotton Wings(100)[3,8]",
+195,Dialga,0,POKEMON,1,DRAGON,1,130,2,,,1,0,0,0,0,0,0,,"262:Time Manipulation(0)[0] / 263:Buster Tail(160)[5,8,0]",
+196,Turtonator,0,POKEMON,1,DRAGON,1,120,3,,,1,0,0,0,0,0,0,,"264:Fully Singe(0)[2] / 265:Steaming Stomp(100)[6,0,0]",
+197,Swablu,0,POKEMON,1,COLORLESS,1,50,1,4,6,1,0,0,0,0,0,0,,266:Disarming Voice(10)[0],
+198,Durant ex,0,POKEMON,3,GRASS,1,190,2,2,,1,0,0,1,0,0,0,,"267:Vengeful Crush(120)[1,0,0]","Sudden Shearing：When you play this Pokémon from your hand onto your Bench during your turn, you may discard the top card of your opponent’s deck."
+199,Scatterbug,0,POKEMON,1,GRASS,1,40,1,2,,1,0,0,0,0,0,0,,268:Call for Family(0)[0],
+200,Spewpa,0,POKEMON,1,GRASS,2,80,3,2,,0,1,0,0,0,0,0,Scatterbug,269:Wander About(0)[0] / 270:Tackle(30)[1],
+201,Wo-Chien,0,POKEMON,1,GRASS,1,130,3,2,,1,0,0,0,0,0,0,,"271:Hazardous Greed(20)[1,0] / 272:Entangling Whip(130)[1,1,0]",
+202,Victini,0,POKEMON,1,FIRE,1,70,1,3,,1,0,0,0,0,0,0,,"273:Flare(30)[2,0]",Victory Cheer：Attacks used by your Evolution {R} Pokémon do 10 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+203,Skeledirge,0,POKEMON,1,FIRE,3,180,3,3,,0,0,1,0,0,0,0,Crocalor,"274:Torcherto(60)[2,0]",Unaware：Prevent all effects of attacks used by your opponent’s Pokémon done to this Pokémon. (Damage is not an effect.)
+204,Charcadet,0,POKEMON,1,FIRE,1,80,2,3,,1,0,0,0,0,0,0,,"275:Light Punch(10)[2] / 276:Flamethrower(70)[2,2,0]",
+205,Scovillain ex,0,POKEMON,3,FIRE,2,260,2,3,,0,1,0,1,0,0,0,Capsakid,"277:Spicy Rage(10)[2,2]","Double Type：As long as this Pokémon is in play, it is {G} and {R} type."
+206,Feebas,0,POKEMON,1,WATER,1,30,1,4,,1,0,0,0,0,0,0,,278:Leap Out(0)[0],
+207,Milotic ex,0,POKEMON,3,WATER,2,270,2,4,,0,1,0,1,0,0,0,Feebas,"279:Hypno Splash(160)[3,0,0]",Sparkling Scales：Prevent all damage from and effects of attacks from your opponent’s Tera Pokémon done to this Pokémon.
+208,Shellos,0,POKEMON,1,WATER,1,70,2,4,,1,0,0,0,0,0,0,,"280:Sprinkle Water(30)[0,0]",
+209,Chien-Pao,0,POKEMON,1,WATER,1,120,1,8,,1,0,0,0,0,0,0,,"281:Icicle Loop(120)[3,3,0]","Snow Sink：When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Stadium in play."
+210,Pikachu ex,0,POKEMON,3,LIGHTNING,1,200,1,6,,1,0,0,1,0,1,0,,"282:Topaz Bolt(300)[1,4,8]","Resolute Heart：If this Pokémon has full HP and would be Knocked Out by damage from an attack, it is not Knocked Out, and its remaining HP becomes 10."
+211,Magneton,0,POKEMON,1,LIGHTNING,2,100,1,6,,0,1,0,0,0,0,0,Magnemite,"283:Electric Ball(40)[4,0]","Overvolt Discharge：Once during your turn, you may attach up to 3 Basic Energy cards from your discard pile to your {L} Pokémon in any way you like. If you use this Ability, this Pokémon is Knocked Out."
+212,Rotom,0,POKEMON,1,LIGHTNING,1,80,1,6,,1,0,0,0,0,0,0,,284:Crushing Pulse(0)[4] / 285:Energy Short(0)[4],
+213,Tapu Koko,0,POKEMON,1,LIGHTNING,1,120,1,6,,1,0,0,0,0,0,0,,"286:Summon Lightning(0)[0] / 287:Prize Count(90)[4,4,0]",
+214,Togekiss,0,POKEMON,1,PSYCHIC,3,140,1,8,,0,0,1,0,0,0,0,Togetic,"288:Speed Wing(140)[0,0,0]","Wonder Kiss：When your opponent’s Active Pokémon is Knocked Out, flip a coin. If heads, take 1 more Prize card. The effect of Wonder Kiss doesn’t stack."
+215,Uxie,0,POKEMON,1,PSYCHIC,1,70,1,7,6,1,0,0,0,0,0,0,,289:Painful Memories(0)[5],
+216,Mesprit,0,POKEMON,1,PSYCHIC,1,70,1,7,6,1,0,0,0,0,0,0,,"290:Full Heart(0)[0] / 291:Guardian Burst(160)[5,5]",
+217,Azelf,0,POKEMON,1,PSYCHIC,1,70,1,7,6,1,0,0,0,0,0,0,,"292:Neurokinesis(10)[5,0]",
+218,Yamask,0,POKEMON,1,PSYCHIC,1,70,2,7,6,1,0,0,0,0,0,0,,"293:Mumble(10)[5] / 294:Petty Grudge(20)[5,0]",
+219,Cofagrigus,0,POKEMON,1,PSYCHIC,2,120,2,7,6,0,1,0,0,0,0,0,Yamask,"295:Law of the Underworld(0)[5] / 296:Spooky Shot(100)[5,0,0]",
+220,Espurr,0,POKEMON,1,PSYCHIC,1,60,1,7,6,1,0,0,0,0,0,0,,"297:See Through(0)[0] / 298:Psyshot(20)[5,0]",
+221,Meowstic,0,POKEMON,1,PSYCHIC,2,90,1,7,6,0,1,0,0,0,0,0,Espurr,"299:Psyshot(80)[5,0,0]","Beckoning Tail：You must discard a Chill Teaser Toy card from your hand in order to use this Ability. Once during your turn, you may switch in 1 of your opponent’s Benched Pokémon to the Active Spot."
+222,Dedenne,0,POKEMON,1,PSYCHIC,1,70,1,8,,1,0,0,0,0,0,0,,300:Electromagnetic Sonar(0)[0] / 301:Gnaw(30)[5],
+223,PalossandEX,0,POKEMON,3,PSYCHIC,2,280,4,7,6,0,1,0,1,0,1,0,Sandygast,"302:Sand Tomb(160)[0,0,0] / 303:Barite Jail(0)[3,5,6]",
+224,Annihilape,0,POKEMON,1,FIGHTING,3,140,2,5,,0,0,1,0,0,0,0,Primeape,"304:Tantrum(130)[6] / 305:Destined Fight(0)[6,0]",
+225,Gastrodon,0,POKEMON,1,FIGHTING,2,130,3,1,,0,1,0,0,0,0,0,Shellos,"306:Mud Shot(80)[6,0,0]","Sticky Bind：As long as this Pokémon is on your Bench, Benched Stage 2 Pokémon (both yours and your opponent’s) have no Abilities."
+226,Koraidon,0,POKEMON,1,FIGHTING,1,130,2,5,,1,0,0,0,0,0,0,,"307:Unrelenting Onslaught(30)[0,0] / 308:Hammer In(110)[6,6,0]",
+227,Deino,0,POKEMON,1,DARKNESS,1,70,1,1,,1,0,0,0,0,0,0,,"309:Stomp Off(0)[7] / 310:Bite(20)[7,0]",
+228,Zweilous,0,POKEMON,1,DARKNESS,2,100,2,1,,0,1,0,0,0,0,0,Deino,"311:Stomp Off(0)[7] / 312:Darkness Fang(60)[7,0,0]",
+229,Hydreigon ex,0,POKEMON,3,DARKNESS,3,330,3,1,,0,0,1,1,0,1,0,Zweilous,"313:Crashing Headbutt(200)[7,0] / 314:Obsidian(130)[5,7,8,0]",
+230,Pecharunt,0,POKEMON,1,DARKNESS,1,80,1,6,,1,0,0,0,0,0,0,,"315:Poison Chain(10)[7,0]","Toxic Subjugation：As long as this Pokémon is in the Active Spot, put 5 more damage counters on your opponent’s Poisoned Pokémon during Pokémon Checkup."
+231,Tatsugiri ex,0,POKEMON,3,DRAGON,1,160,1,,,1,0,0,1,0,1,0,,"316:Surprise Pump(100)[2,3] / 317:Cinnabar Lure(0)[2,3,7]",
+232,Slaking ex,0,POKEMON,3,COLORLESS,3,340,4,6,,0,0,1,1,0,0,0,Vigoroth,"318:Great Swing(280)[0,0]","Born to Slack：If your opponent has no Pokémon {ex} or Pokémon {V} in play, this Pokémon can’t attack."
+233,Bouffalant,0,POKEMON,1,COLORLESS,1,130,2,6,,1,0,0,0,0,0,0,,"319:Ready to Ram(40)[0,0] / 320:Smashing Headbutt(150)[0,0,0,0]",
+234,Terapagos,0,POKEMON,1,COLORLESS,1,120,2,6,,1,0,0,0,0,0,0,,"321:Prism Charge(0)[0] / 322:Hard Tackle(100)[0,0,0]",
+235,Budew,0,POKEMON,1,GRASS,1,30,0,2,,1,0,0,0,0,0,0,,323:Itchy Pollen(10)[],
+236,Leafeon ex,0,POKEMON,3,GRASS,2,270,2,2,,0,1,0,1,0,1,0,Eevee,"324:Verdant Storm(0)[1,0] / 325:Moss Agate(230)[1,2,3]",
+237,Cottonee,0,POKEMON,1,GRASS,1,60,1,2,,1,0,0,0,0,0,0,,326:Triple Spin(0)[1],
+238,Whimsicott,0,POKEMON,1,GRASS,2,100,1,2,,0,1,0,0,0,0,0,Cottonee,327:Seed Bomb(40)[1],"Wafting Heal：When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may heal all damage from your Active {G} Pokémon. If you healed any damage in this way, discard all Energy from that Pokémon."
+239,Flareon ex,0,POKEMON,3,FIRE,2,270,2,3,,0,1,0,1,0,1,0,Eevee,"328:Burning Charge(130)[2,0] / 329:Carnelian(280)[2,3,4]",
+240,Seaking,0,POKEMON,1,WATER,2,110,1,4,,0,1,0,0,0,0,0,Goldeen,330:Rapid Draw(60)[0],"Festival Lead：If Festival Grounds is in play, this Pokémon may use an attack it has twice. If the first attack Knocks Out your opponent’s Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon."
+241,Vaporeon ex,0,POKEMON,3,WATER,2,280,2,4,,0,1,0,1,0,1,0,Eevee,"331:Severe Squall(0)[3,0] / 332:Aquamarine(280)[2,3,4]",
+242,Feebas,0,POKEMON,1,WATER,1,30,1,4,,1,0,0,0,0,0,0,,333:Flail(0)[3],
+243,Glaceon ex,0,POKEMON,3,WATER,2,270,1,8,,0,1,0,1,0,1,0,Eevee,"334:Frost Bullet(110)[3,0] / 335:Euclase(0)[1,3,7]",
+244,Jolteon ex,0,POKEMON,3,LIGHTNING,2,260,0,6,,0,1,0,1,0,1,0,Eevee,"336:Flashing Spear(60)[4,0] / 337:Dravite(280)[2,3,4]",
+245,Alakazam,0,POKEMON,1,PSYCHIC,3,140,1,7,6,0,0,1,0,0,0,0,Kadabra,338:Strange Hacking(0)[5] / 339:Psychic(10)[5],
+246,Espeon ex,0,POKEMON,3,PSYCHIC,2,270,1,7,6,0,1,0,1,0,1,0,Eevee,"340:Psych Out(160)[5,0,0] / 341:Amazez(0)[1,5,7]",
+247,Swirlix,0,POKEMON,1,PSYCHIC,1,50,1,8,,1,0,0,0,0,0,0,,342:Sneaky Placement(0)[5],"Festival Lead：If Festival Grounds is in play, this Pokémon may use an attack it has twice in succession. If the first attack Knocks Out your opponent’s Active Pokémon, you may use an attack again after your opponent chooses a new Active Pokémon."
+248,Umbreon ex,0,POKEMON,3,DARKNESS,2,280,2,1,,0,1,0,1,0,1,0,Eevee,"343:Moon Mirage(160)[7,0,0] / 344:Onyx(0)[4,5,7]",
+249,Eevee ex,0,POKEMON,3,COLORLESS,1,200,1,6,,1,0,0,1,0,1,0,,"345:Coruscating Quartz(200)[2,3,4]",Rainbow DNA：This Pokémon can evolve into any Pokémon {ex} that evolves from Eevee if you play it from your hand onto this Pokémon. (This Pokémon can’t evolve during your first turn or the turn you play it.)
+250,Hoothoot,0,POKEMON,1,COLORLESS,1,80,2,4,6,1,0,0,0,0,0,0,,"346:Tackle(20)[0,0]",Insomnia：This Pokémon can’t be Asleep.
+251,Regigigas,0,POKEMON,1,COLORLESS,1,160,4,6,,1,0,0,0,0,0,0,,"347:Jewel Breaker(100)[0,0,0,0]",
+252,Caterpie,0,POKEMON,1,GRASS,1,50,1,2,,1,0,0,0,0,0,0,,348:Bug Bite(20)[1],
+253,Metapod,0,POKEMON,1,GRASS,2,90,3,2,,0,1,0,0,0,0,0,Caterpie,349:Harden(0)[1],
+254,Butterfree,0,POKEMON,1,GRASS,3,120,1,2,,0,0,1,0,0,0,0,Metapod,350:Scale Hurricane(0)[1],
+255,Maractus,0,POKEMON,1,GRASS,1,110,2,2,,1,0,0,0,0,0,0,,351:Corner(20)[0],"Exploding Needles：If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent’s Pokémon, put 6 damage counters on the Attacking Pokémon."
+256,Magmortar,0,POKEMON,1,FIRE,2,130,2,3,,0,1,0,0,0,0,0,Magmar,"352:Searing Flame(90)[2,2,0]","Magma Surge：During Pokémon Checkup, put 3 more damage counters on your opponent’s Burned Pokémon."
+257,N’s Darumaka,0,POKEMON,1,FIRE,1,80,2,3,,1,0,0,0,0,0,0,,"353:Rolling Tackle(20)[0,0] / 354:Flare(50)[2,2,0]",
+258,N’s Darmanitan,0,POKEMON,1,FIRE,2,140,3,3,,0,1,0,0,0,0,0,N’s Darumaka,"355:Back Draft(0)[0,0] / 356:Flamebody Cannon(90)[2,2,0]",
+259,Volcanion ex,0,POKEMON,3,FIRE,1,220,3,3,,1,0,0,1,0,0,0,,"357:Scorching Cyclone(160)[2,2,0]","Scalding Steam：Once during your turn, if this Pokémon is in the Active Spot, you may make your opponent’s Active Pokémon Burned."
+260,Lotad,0,POKEMON,1,WATER,1,60,1,4,,1,0,0,0,0,0,0,,358:Water Gun(20)[3],
+261,Lombre,0,POKEMON,1,WATER,2,90,1,4,,0,1,0,0,0,0,0,Lotad,"359:Aqua Slash(70)[3,3]",
+262,Ludicolo,0,POKEMON,1,WATER,3,140,2,4,,0,0,1,0,0,0,0,Lombre,"360:Hydro Splash(130)[3,3,0]",Vibrant Dance：All of your Pokémon in play get +40 HP. The effect of Vibrant Dance doesn’t stack.
+263,Wailmer,0,POKEMON,1,WATER,1,130,3,4,,1,0,0,0,0,0,0,,"361:Surf(60)[0,0,0]",
+264,Wailord,0,POKEMON,1,WATER,2,240,4,4,,0,1,0,0,0,0,0,Wailmer,"362:Hydro Pump(10)[0,0,0,0]",
+265,Iono’s Voltorb,0,POKEMON,1,LIGHTNING,1,70,1,6,,1,0,0,0,0,0,0,,"363:Voltaic Chain(20)[0,0]",
+266,Iono’s Electrode,0,POKEMON,1,LIGHTNING,2,100,0,6,,0,1,0,0,0,0,0,Iono’s Voltorb,"364:Thump-Thump Boom(0)[4,4] / 365:Electric Ball(100)[4,4,0]",
+267,N’s Joltik,0,POKEMON,1,LIGHTNING,1,40,1,6,,1,0,0,0,0,0,0,,"366:Zapping Short(30)[0,0]",
+268,Iono’s Tadbulb,0,POKEMON,1,LIGHTNING,1,60,2,6,,1,0,0,0,0,0,0,,"367:Tiny Charge(30)[4,0]",
+269,Iono’s Bellibolt ex,0,POKEMON,3,LIGHTNING,2,280,2,6,,0,1,0,1,0,0,0,Iono’s Tadbulb,"368:Thunderous Bolt(230)[4,4,4,0]","Electric Streamer：As often as you like during your turn, you may attach a Basic {L} Energy card from your hand to 1 of your Iono’s Pokémon."
+270,Iono’s Wattrel,0,POKEMON,1,LIGHTNING,1,60,1,4,6,1,0,0,0,0,0,0,,369:Quick Attack(10)[4],
+271,Iono’s Kilowattrel,0,POKEMON,1,LIGHTNING,2,120,1,4,6,0,1,0,0,0,0,0,Iono’s Wattrel,"370:Mach Bolt(70)[4,0,0]","Flashing Draw：You must discard a Basic {L} Energy from this Pokémon in order to use this Ability. Once during your turn, you may draw cards until you have 6 cards in your hand."
+272,Lillie’s Clefairy ex,0,POKEMON,3,PSYCHIC,1,190,1,8,,1,0,0,1,0,0,0,,"371:Full Moon Rondo(20)[5,0]",Fairy Zone：The Weakness of each of your opponent’s {N} Pokémon in play is now {P}. (Apply Weakness as ×2.)
+273,Banette,0,POKEMON,1,PSYCHIC,2,90,1,7,6,0,1,0,0,0,0,0,Shuppet,"372:Cursed Words(0)[5] / 373:Spooky Shot(70)[5,0]",
+274,Beldum,0,POKEMON,1,PSYCHIC,1,60,1,7,6,1,0,0,0,0,0,0,,"374:Spinning Attack(10)[5] / 375:Beam(30)[5,5]",
+275,Metang,0,POKEMON,1,PSYCHIC,2,100,2,7,6,0,1,0,0,0,0,0,Beldum,"376:Psypunch(30)[5] / 377:Zen Headbutt(50)[5,5]",
+276,Metagross,0,POKEMON,1,PSYCHIC,3,170,3,7,6,0,0,1,0,0,0,0,Metang,"378:Wrack Down(60)[5] / 379:Conjoined Beams(130)[5,5]",
+277,N’s Sigilyph,0,POKEMON,1,PSYCHIC,1,110,1,4,6,1,0,0,0,0,0,0,,"380:Psychic Sphere(20)[5] / 381:Victory Symbol(0)[5,0,0]",
+278,Lillie’s Cutiefly,0,POKEMON,1,PSYCHIC,1,30,0,8,,1,0,0,0,0,0,0,,382:Hold Still(0)[5],
+279,Lillie’s Ribombee,0,POKEMON,1,PSYCHIC,2,70,0,8,,0,1,0,0,0,0,0,Lillie’s Cutiefly,383:Magical Shot(50)[5],"Inviting Wink：When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may have your opponent reveal their hand and you put any number of Basic Pokémon you find there onto their Bench."
+280,Lillie’s Comfey,0,POKEMON,1,PSYCHIC,1,70,1,8,,1,0,0,0,0,0,0,,384:Inviting Flowers(0)[0] / 385:Fade Out(30)[5],
+281,Swinub,0,POKEMON,1,FIGHTING,1,70,2,1,,1,0,0,0,0,0,0,,386:Call for Family(0)[0] / 387:Lunge Out(10)[6],
+282,Piloswine,0,POKEMON,1,FIGHTING,2,100,3,1,,0,1,0,0,0,0,0,Swinub,"388:Strength(20)[0] / 389:Impaling Tusk(50)[6,6]",
+283,Mamoswine ex,0,POKEMON,3,FIGHTING,3,340,4,1,,0,0,1,1,0,0,0,Piloswine,"390:Rumbling March(180)[6,6]","Mammoth Hauler：Once during your turn, you may search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+284,Larvitar,0,POKEMON,1,FIGHTING,1,70,1,1,,1,0,0,0,0,0,0,,"391:Crunch(20)[0,0]",
+285,Pupitar,0,POKEMON,1,FIGHTING,2,90,1,1,,0,1,0,0,0,0,0,Larvitar,"392:Take Down(60)[0,0]",
+286,Rockruff,0,POKEMON,1,FIGHTING,1,70,1,1,,1,0,0,0,0,0,0,,"393:Dig It Up(0)[0] / 394:Stampede(20)[0,0]",
+287,Lycanroc,0,POKEMON,1,FIGHTING,2,120,2,1,,0,1,0,0,0,0,0,Rockruff,"395:Clamping Fangs(40)[0,0,0]","Spike-Clad：When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may attach up to 2 Spiky Energy cards from your discard pile to this Pokémon."
+288,Hop’s Silicobra,0,POKEMON,1,FIGHTING,1,80,2,1,,1,0,0,0,0,0,0,,"396:Turf Maker(0)[0] / 397:Gnaw(20)[6,0]",
+289,Hop’s Sandaconda,0,POKEMON,1,FIGHTING,2,140,3,1,,0,1,0,0,0,0,0,Hop’s Silicobra,"398:Rumble(30)[6,0] / 399:Break Ground(140)[6,0,0]",
+290,Tyranitar,0,POKEMON,1,DARKNESS,3,190,3,1,,0,0,1,0,0,0,0,Pupitar,"400:Cracking Stomp(150)[7,0]","Daunting Gaze：As long as this Pokémon is in the Active Spot, your opponent can’t play any Item cards from their hand."
+291,N’s Purrloin,0,POKEMON,1,DARKNESS,1,70,1,1,,1,0,0,0,0,0,0,,"401:Thieving Swipe(30)[7,0]",
+292,N’s Zorua,0,POKEMON,1,DARKNESS,1,70,1,1,,1,0,0,0,0,0,0,,402:Scratch(20)[7],
+293,N’s Zoroark ex,0,POKEMON,3,DARKNESS,2,280,2,1,,0,1,0,1,0,0,0,N’s Zorua,"403:Night Joker(0)[7,7]","Trade：You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards."
+294,N’s Klink,0,POKEMON,1,METAL,1,60,1,2,1,1,0,0,0,0,0,0,,404:Double Spin(0)[0],
+295,N’s Klang,0,POKEMON,1,METAL,2,90,3,2,1,0,1,0,0,0,0,0,N’s Klink,"405:Spinning Gears(20)[0] / 406:Confront(40)[8,0]",
+296,N’s Klinklang,0,POKEMON,1,METAL,3,160,3,2,1,0,0,1,0,0,0,0,N’s Klang,"407:Magnetic Blast(50)[0] / 408:Triple Smash(0)[8,8,0]",
+297,Magearna,0,POKEMON,1,METAL,1,90,1,2,1,1,0,0,0,0,0,0,,409:Spike Draw(20)[0],"Auto Heal：As long as this Pokémon is in the Active Spot, whenever you attach an Energy card from your hand to 1 of your Pokémon, heal 90 damage from that Pokémon."
+298,Hop’s Corviknight,0,POKEMON,1,METAL,3,170,2,4,6,0,0,1,0,0,0,0,Hop’s Corvisquire,"410:Shoot Through(50)[0] / 411:Steel Wing(150)[8,8,0]",
+299,Hop’s Zacian ex,0,POKEMON,3,METAL,1,230,2,2,1,1,0,0,1,0,0,0,,"412:Insta-Strike(30)[0] / 413:Brave Slash(240)[8,8,8,0]",
+300,Bagon,0,POKEMON,1,DRAGON,1,70,2,,,1,0,0,0,0,0,0,,"414:Bite(10)[0] / 415:Reckless Charge(50)[2,3]",
+301,Shelgon,0,POKEMON,1,DRAGON,2,100,2,,,0,1,0,0,0,0,0,Bagon,"416:Guard Press(30)[0,0] / 417:Heavy Impact(80)[2,3,0]",
+302,Salamence ex,0,POKEMON,3,DRAGON,3,320,2,,,0,0,1,1,0,0,0,Shelgon,"418:Wide Blast(0)[2,0,0] / 419:Dragon Impact(300)[2,3,0,0]",
+303,N’s Reshiram,0,POKEMON,1,DRAGON,1,130,2,,,1,0,0,0,0,0,0,,"420:Powerful Rage(0)[2,4] / 421:Virtuous Flame(170)[2,2,4,0]",
+304,Hop’s Snorlax,0,POKEMON,1,COLORLESS,1,150,4,6,,1,0,0,0,0,0,0,,"422:Dynamic Press(140)[0,0,0]",Extra Helpings：Attacks used by your Hop’s Pokémon do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance). The effect of Extra Helpings doesn’t stack.
+305,Dunsparce,0,POKEMON,1,COLORLESS,1,70,1,6,,1,0,0,0,0,0,0,,"423:Trading Places(0)[0] / 424:Ram(20)[0,0]",
+306,Dudunsparce ex,0,POKEMON,3,COLORLESS,2,270,3,6,,0,1,0,1,0,0,0,Dunsparce,"425:Tenacious Tail(0)[0] / 426:Destructive Drill(150)[0,0,0]",
+307,Hop’s Rookidee,0,POKEMON,1,COLORLESS,1,60,1,4,6,1,0,0,0,0,0,0,,"427:Intimidating Stare(0)[0] / 428:Peck(20)[0,0]",
+308,Hop’s Corvisquire,0,POKEMON,1,COLORLESS,2,90,1,4,6,0,1,0,0,0,0,0,Hop’s Rookidee,"429:Speed Dive(30)[0] / 430:Razor Wing(80)[0,0,0]",
+309,Hop’s Wooloo,0,POKEMON,1,COLORLESS,1,70,1,6,,1,0,0,0,0,0,0,,"431:Smash Kick(50)[0,0,0]",
+310,Hop’s Dubwool,0,POKEMON,1,COLORLESS,2,120,2,6,,0,1,0,0,0,0,0,Hop’s Wooloo,"432:Headbutt(80)[0,0,0]","Defiant Horn：When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may switch in 1 of your opponent’s Benched Pokémon to the Active Spot."
+311,Hop’s Cramorant,0,POKEMON,1,COLORLESS,1,110,1,4,6,1,0,0,0,0,0,0,,433:Fickle Spitting(120)[0],
+312,Sandy Shocks,0,POKEMON,1,FIGHTING,1,120,2,1,,1,0,0,0,0,0,0,,"434:Magnetic Burst(20)[6] / 435:Power Gem(60)[6,0]",
+313,Miraidon ex,0,POKEMON,3,DRAGON,1,220,1,,,1,0,0,1,0,0,0,,"436:Repulsion Bolt(60)[4,5] / 437:Cyber Drive(220)[4,5,0]",
+314,Marill,0,POKEMON,1,WATER,1,70,1,4,,1,0,0,0,0,0,0,,438:Rollout(10)[0],
+315,Azumarill,0,POKEMON,1,PSYCHIC,2,120,2,8,,0,1,0,0,0,0,0,Marill,"439:Double-Edge(230)[5,5,5,5]","Glistening Bubbles：If you have any Tera Pokémon in play, this Pokémon can use the Double-Edge attack for {P}."
+316,Sylveon ex,0,POKEMON,3,PSYCHIC,2,270,2,8,,0,1,0,1,0,1,0,Eevee,"440:Magical Charm(160)[5,0,0] / 441:Angelite(0)[3,4,5]",
+317,Eevee,0,POKEMON,1,COLORLESS,1,50,1,6,,1,0,0,0,0,0,0,,"442:Reckless Charge(30)[0,0]","Boosted Evolution：As long as this Pokémon is in the Active Spot, it can evolve during your first turn or the turn you play it."
+318,Ho-Oh,0,POKEMON,1,FIRE,1,130,2,4,6,1,0,0,0,0,0,0,,"443:Flap(50)[2,0] / 444:Shining Blaze(100)[2,2,0]",
+319,Charcadet,0,POKEMON,1,FIRE,1,70,1,3,,1,0,0,0,0,0,0,,445:Will-O-Wisp(20)[2],
+320,Ceruledge ex,0,POKEMON,3,FIRE,2,270,2,3,,0,1,0,1,0,1,0,Charcadet,"446:Abyssal Flames(30)[2] / 447:Raging Amethyst(280)[2,5,8]",
+321,Petilil,0,POKEMON,1,GRASS,1,50,1,2,,1,0,0,0,0,0,0,,"448:Leaf Step(30)[1,0]",
+322,Lilligant,0,POKEMON,1,GRASS,2,110,2,2,,0,1,0,0,0,0,0,Petilil,"449:Spinning Attack(60)[1,0,0]",Sunny Day：Attacks used by your {G} Pokémon and {R} Pokémon do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+323,Nymble,0,POKEMON,1,GRASS,1,50,1,2,,1,0,0,0,0,0,0,,450:Rear Kick(20)[0],
+324,Torchic,0,POKEMON,1,FIRE,1,60,1,3,,1,0,0,0,0,0,0,,"451:Scratch(30)[2,0]",
+325,Combusken,0,POKEMON,1,FIRE,2,90,2,3,,0,1,0,0,0,0,0,Torchic,"452:Slash(50)[2,0]",
+326,Blaziken ex,0,POKEMON,3,FIRE,3,320,2,3,,0,0,1,1,0,0,0,Combusken,"453:Smolder-sault(200)[2,0]","Seething Spirit：Once during your turn, you may attach a Basic Energy card from your discard pile to 1 of your Pokémon."
+327,Slowpoke,0,POKEMON,1,WATER,1,70,2,4,,1,0,0,0,0,0,0,,"454:Water Gun(10)[3] / 455:Tail Whap(30)[3,0]",
+328,Pikachu ex,0,POKEMON,3,LIGHTNING,1,190,1,6,,1,0,0,1,0,0,0,,"456:Tail Whap(30)[0] / 457:Thunder(220)[4,4,0]",
+329,Tapu Koko ex,0,POKEMON,3,LIGHTNING,1,200,0,6,,1,0,0,1,0,0,0,,"458:Linked Lightning(60)[4,0]",
+330,Sylveon,0,POKEMON,1,PSYCHIC,2,120,1,8,,0,1,0,0,0,0,0,Eevee,"459:Magical Shot(100)[5,0,0]",Safeguard：Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon {ex}.
+331,XerneasEX,0,POKEMON,3,PSYCHIC,1,210,1,8,,1,0,0,1,0,0,0,,"460:Aurora Beam(50)[5,0] / 461:Rising Horns(120)[5,5,0]",
+332,Dhelmise,0,POKEMON,1,PSYCHIC,1,130,3,7,6,1,0,0,0,0,0,0,,"462:Bind Down(60)[5,0,0] / 463:Anchor Smash(130)[5,5,0,0]",
+333,Riolu,0,POKEMON,1,FIGHTING,1,70,1,5,,1,0,0,0,0,0,0,,464:Quick Attack(10)[6],
+334,Sneasel,0,POKEMON,1,DARKNESS,1,60,0,1,,1,0,0,0,0,0,0,,465:Claw Slash(20)[7],
+335,Bronzor,0,POKEMON,1,METAL,1,70,1,2,1,1,0,0,0,0,0,0,,"466:Hammer In(20)[8,0]",
+336,Zacian ex,0,POKEMON,3,METAL,1,220,2,2,1,1,0,0,1,0,0,0,,"467:Steel Armament(20)[0] / 468:Slashing Strike(210)[8,8,0]",
+337,LugiaEX,0,POKEMON,3,COLORLESS,1,220,2,4,6,1,0,0,1,0,0,0,,"469:Hyper Whirlpool(140)[0,0,0]",
+338,Ethan's Pinsir,0,POKEMON,1,GRASS,1,120,2,2,,1,0,0,0,0,0,0,,"470:Vise Grip(20)[1] / 471:Rallying Horn(70)[0,0,0]",
+339,Yanma,0,POKEMON,1,GRASS,1,70,1,4,6,1,0,0,0,0,0,0,,"472:Whirlwind(0)[0] / 473:Razor Wing(30)[1,0]",
+340,Yanmega ex,0,POKEMON,3,GRASS,2,280,1,4,6,0,1,0,1,0,0,0,Yanma,"474:Jet Cyclone(210)[1,1,1,0]","Buzzing Boost：Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may search your deck for up to 3 Basic {G} Energy cards and attach them to this Pokémon. Then, shuffle your deck."
+341,Cynthia's Roselia,0,POKEMON,1,GRASS,1,70,1,2,,1,0,0,0,0,0,0,,475:Spike Sting(20)[0],
+342,Cynthia's Roserade,0,POKEMON,1,GRASS,2,130,1,2,,0,1,0,0,0,0,0,Cynthia's Roselia,"476:Leaf Step(80)[1,0,0]",Cheer On to Glory：Attacks used by your Cynthia’s Pokémon do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+343,Shaymin,0,POKEMON,1,GRASS,1,80,1,2,,1,0,0,0,0,0,0,,"477:Smash Kick(30)[0,0]","Flower Curtain：Prevent all damage done to your Benched Pokémon that don’t have a Rule Box by attacks from your opponent’s Pokémon. (Pokémon {ex}, Pokémon {V}, etc. have Rule Boxes.)"
+344,Dwebble,0,POKEMON,1,GRASS,1,70,2,2,,1,0,0,0,0,0,0,,478:Ascension(0)[0],
+345,Crustle,0,POKEMON,1,GRASS,2,150,3,2,,0,1,0,0,0,0,0,Dwebble,"479:Superb Scissors(120)[1,0,0]",Mysterious Rock Inn：Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon {ex}.
+346,Applin,0,POKEMON,1,GRASS,1,40,1,2,,1,0,0,0,0,0,0,,480:Mini Drain(10)[1],
+347,Dipplin,0,POKEMON,1,GRASS,2,90,3,2,,0,1,0,0,0,0,0,Applin,481:Energy Loop(50)[1],
+348,Hydrapple,0,POKEMON,1,GRASS,3,170,3,2,,0,0,1,0,0,0,0,Dipplin,"482:Hydra Breath(0)[1] / 483:Whip Smash(140)[1,0,0]",
+349,Teal Mask Ogerpon,0,POKEMON,1,GRASS,1,110,1,2,,1,0,0,0,0,0,0,,"484:Grass Kagura(0)[0] / 485:Ogre’s Hammer(120)[1,1,0]",
+350,Ponyta,0,POKEMON,1,FIRE,1,70,1,3,,1,0,0,0,0,0,0,,486:Double Headbutt(0)[0],
+351,Rapidash,0,POKEMON,1,FIRE,2,110,1,3,,0,1,0,0,0,0,0,Ponyta,"487:Fire Mane(60)[2,0]","Hurried Gait：Once during your turn, you may draw a card."
+352,Ethan's Cyndaquil,0,POKEMON,1,FIRE,1,70,1,3,,1,0,0,0,0,0,0,,488:Ember(30)[2],
+353,Ethan's Quilava,0,POKEMON,1,FIRE,2,100,1,3,,0,1,0,0,0,0,0,Ethan's Cyndaquil,489:Combustion(40)[2],"Bonded by the Journey：Once during your turn, you may search your deck for an Ethan’s Adventure card, reveal it, and put it into your hand. Then, shuffle your deck."
+354,Ethan's Typhlosion,0,POKEMON,1,FIRE,3,170,2,3,,0,0,1,0,0,0,0,Ethan's Quilava,"490:Buddy Blast(40)[2] / 491:Steam Artillery(160)[2,2,0]",
+355,Ethan's Slugma,0,POKEMON,1,FIRE,1,80,2,3,,1,0,0,0,0,0,0,,492:Steady Firebreathing(20)[2],
+356,Ethan's Magcargo,0,POKEMON,1,FIRE,2,130,3,3,,0,1,0,0,0,0,0,Ethan's Slugma,"493:Lava Burst(0)[2,2,2]","Melt Away：If this Pokémon has no Energy attached, it has no Retreat Cost."
+357,Ethan's Ho-Oh ex,0,POKEMON,3,FIRE,1,230,2,3,,1,0,0,1,0,0,0,,"494:Shining Feathers(160)[2,2,2,2]","Golden Flame：Once during your turn, you may attach up to 2 Basic {R} Energy cards from your hand to 1 of your Benched Ethan’s Pokémon."
+358,Hearthflame Mask Ogerpon,0,POKEMON,1,FIRE,1,110,1,3,,1,0,0,0,0,0,0,,"495:Fire Kagura(0)[0] / 496:Searing Flame(80)[2,2,0]",
+359,Misty's Psyduck,0,POKEMON,1,WATER,1,70,1,4,,1,0,0,0,0,0,0,,497:Sprinkle Water(30)[3],"Flustered Leap：Once during your turn, if this Pokémon is on your Bench, you may discard the bottom card of your deck. If you do, discard all cards from this Pokémon and put this Pokémon on top of your deck."
+360,Misty's Staryu,0,POKEMON,1,WATER,1,70,1,4,,1,0,0,0,0,0,0,,498:Bubble Beam(20)[3],
+361,Misty's Starmie,0,POKEMON,1,WATER,2,100,1,4,,0,1,0,0,0,0,0,Misty's Staryu,499:Abrupt Flash(60)[3],
+362,Misty's Magikarp,0,POKEMON,1,WATER,1,30,1,4,,1,0,0,0,0,0,0,,500:Splash(10)[3],"So Submerged：As long as this Pokémon is on your Bench, prevent all damage from and effects of attacks from your opponent’s Pokémon done to this Pokémon."
+363,Misty's Gyarados,0,POKEMON,1,WATER,2,180,4,4,,0,1,0,0,0,0,0,Misty's Magikarp,"501:Splashing Panic(0)[3] / 502:Waterfall(120)[3,3,0]",
+364,Misty's Lapras,0,POKEMON,1,WATER,1,110,1,4,,1,0,0,0,0,0,0,,"503:Swim Together(0)[3] / 504:Surf(60)[3,0]",
+365,Cynthia's Feebas,0,POKEMON,1,WATER,1,30,1,4,,1,0,0,0,0,0,0,,505:Undulate(10)[0],
+366,Cynthia's Milotic,0,POKEMON,1,WATER,2,130,2,4,,0,1,0,0,0,0,0,Cynthia's Feebas,"506:Aqua Split(60)[3,0]",
+367,Buizel,0,POKEMON,1,WATER,1,70,1,4,,1,0,0,0,0,0,0,,"507:Tail Whap(10)[0] / 508:Wave Splash(30)[3,0,0]",
+368,Floatzel,0,POKEMON,1,WATER,2,120,1,4,,0,1,0,0,0,0,0,Buizel,"509:Whirlpool(30)[0,0] / 510:Aqua Slash(140)[3,0,0]",
+369,Dondozo ex,0,POKEMON,3,WATER,1,260,4,4,,1,0,0,1,0,0,0,,"511:Avenging Billow(30)[3,0] / 512:Dynamic Dive(120)[3,3,0,0]",
+370,Wellspring Mask Ogerpon,0,POKEMON,1,WATER,1,110,1,4,,1,0,0,0,0,0,0,,"513:Water Kagura(0)[0] / 514:Bubble Drain(100)[3,3,0]",
+371,Electabuzz,0,POKEMON,1,LIGHTNING,1,90,2,6,,1,0,0,0,0,0,0,,"515:Electroslug(50)[4,0]",
+372,Electivire ex,0,POKEMON,3,LIGHTNING,2,280,4,6,,0,1,0,1,0,0,0,Electabuzz,"516:Dual Bolt(0)[4,0] / 517:High-Voltage Press(180)[4,4,0]",
+373,Ethan's Pichu,0,POKEMON,1,LIGHTNING,1,30,0,6,,1,0,0,0,0,0,0,,518:Zapping Draw(30)[],
+374,Electrike,0,POKEMON,1,LIGHTNING,1,60,1,6,,1,0,0,0,0,0,0,,"519:Rear Kick(10)[0] / 520:Tiny Bolt(30)[4,0]",
+375,Manectric,0,POKEMON,1,LIGHTNING,2,120,1,6,,0,1,0,0,0,0,0,Electrike,"521:Zap Kick(30)[0] / 522:Flash Impact(120)[4,0]",
+376,Rotom,0,POKEMON,1,LIGHTNING,1,60,1,6,,1,0,0,0,0,0,0,,"523:Astonish(20)[4] / 524:Gadget Show(0)[0,0]",
+377,Zeraora,0,POKEMON,1,LIGHTNING,1,100,1,6,,1,0,0,0,0,0,0,,"525:Scratch(20)[0] / 526:Thunder Raid(0)[4,4,4]",
+378,Ethan's Sudowoodo,0,POKEMON,1,FIGHTING,1,110,1,1,,1,0,0,0,0,0,0,,"527:Impound(20)[6] / 528:Try to Imitate(0)[0,0]",
+379,Cynthia's Gible,0,POKEMON,1,FIGHTING,1,70,1,1,,1,0,0,0,0,0,0,,529:Rock Hurl(20)[6],
+380,Cynthia's Gabite,0,POKEMON,1,FIGHTING,2,100,1,1,,0,1,0,0,0,0,0,Cynthia's Gible,530:Dragonslice(40)[6],"Champion’s Call：Once during your turn, you may search your deck for a Cynthia’s Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+381,Cynthia's Garchomp ex,0,POKEMON,3,FIGHTING,3,330,0,1,,0,0,1,1,0,0,0,Cynthia's Gabite,"531:Corkscrew Dive(100)[6] / 532:Draconic Buster(260)[6,6]",
+382,Mudbray,0,POKEMON,1,FIGHTING,1,90,3,1,,1,0,0,0,0,0,0,,"533:Running Charge(0)[6,0]",
+383,Mudsdale,0,POKEMON,1,FIGHTING,2,150,3,1,,0,1,0,0,0,0,0,Mudbray,"534:Heavy Impact(130)[6,6,0]",Mud Coat：This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+384,Arven's Toedscool,0,POKEMON,1,FIGHTING,1,70,1,1,,1,0,0,0,0,0,0,,535:Slight Intrusion(30)[0],
+385,Arven's Toedscruel,0,POKEMON,1,FIGHTING,2,140,2,1,,0,1,0,0,0,0,0,Arven's Toedscool,"536:Pull(0)[0] / 537:Reckless Charge(120)[0,0,0]",
+386,Cornerstone Mask Ogerpon,0,POKEMON,1,FIGHTING,1,110,1,1,,1,0,0,0,0,0,0,,"538:Rock Kagura(0)[0] / 539:Mountain Ramming(100)[6,6,0]",
+387,Cynthia's Spiritomb,0,POKEMON,1,DARKNESS,1,70,1,1,,1,0,0,0,0,0,0,,540:Raging Curse(0)[0],
+388,Arven's Maschiff,0,POKEMON,1,DARKNESS,1,70,2,1,,1,0,0,0,0,0,0,,"541:Stampede(10)[0] / 542:Confront(50)[0,0,0]",
+389,Arven's Mabosstiff ex,0,POKEMON,3,DARKNESS,2,270,3,1,,0,1,0,1,0,0,0,Arven's Maschiff,"543:Vigorous Tackle(30)[0] / 544:Boss Headbutt(210)[0,0,0]",
+390,Tauros,0,POKEMON,1,COLORLESS,1,130,2,6,,1,0,0,0,0,0,0,,"545:Horn Attack(30)[0] / 546:Clean Hit(50)[0,0]",
+391,Arven's Skwovet,0,POKEMON,1,COLORLESS,1,60,1,6,,1,0,0,0,0,0,0,,547:Gnaw Through(10)[0],
+392,Arven's Greedent,0,POKEMON,1,COLORLESS,2,120,2,6,,0,1,0,0,0,0,0,Arven's Skwovet,"548:Rolling Tackle(50)[0,0]","Greedy Order：When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put up to 2 Arven’s Sandwich cards from your discard pile into your hand."
+393,Pineco,0,POKEMON,1,GRASS,1,70,2,2,,1,0,0,0,0,0,0,,549:Hang Down(10)[0],
+394,Shroomish,0,POKEMON,1,GRASS,1,60,1,2,,1,0,0,0,0,0,0,,"550:Rolling Tackle(30)[0,0]",
+395,Breloom,0,POKEMON,1,GRASS,2,120,2,2,,0,1,0,0,0,0,0,Shroomish,"551:Damage Rush(30)[0,0] / 552:Mega Drain(90)[1,0,0]",
+396,Mow Rotom,0,POKEMON,1,GRASS,1,70,1,2,,1,0,0,0,0,0,0,,"553:Trimming Mower(20)[1] / 554:Gadget Show(0)[0,0]",
+397,Fomantis,0,POKEMON,1,GRASS,1,60,1,2,,1,0,0,0,0,0,0,,555:Cut Up(20)[1],
+398,Lurantis,0,POKEMON,1,GRASS,2,120,1,2,,0,1,0,0,0,0,0,Fomantis,556:Razor Leaf(30)[0] / 557:Petal Blade Dance(130)[1],
+399,Team Rocket's Blipbug,0,POKEMON,1,GRASS,1,60,1,2,,1,0,0,0,0,0,0,,558:Searching Eyes(0)[0],
+400,Team Rocket's Tarountula,0,POKEMON,1,GRASS,1,50,1,2,,1,0,0,0,0,0,0,,559:Take Down(30)[1],
+401,Team Rocket's Spidops,0,POKEMON,1,GRASS,2,130,2,2,,0,1,0,0,0,0,0,Team Rocket's Tarountula,"560:Rocket Rush(0)[1,0]","Charging Up：Once during your turn, you may attach a Basic Energy card from your discard pile to this Pokémon."
+402,Smoliv,0,POKEMON,1,GRASS,1,60,1,2,,1,0,0,0,0,0,0,,561:Ram(10)[0],
+403,Dolliv,0,POKEMON,1,GRASS,2,90,1,2,,0,1,0,0,0,0,0,Smoliv,"562:Nutrients(0)[1] / 563:Tackle(40)[0,0]",
+404,Arboliva ex,0,POKEMON,3,GRASS,3,310,2,2,,0,0,1,1,0,0,0,Dolliv,"564:Oil Salvo(0)[1] / 565:Aroma Shot(160)[0,0,0]",
+405,Growlithe,0,POKEMON,1,FIRE,1,80,2,3,,1,0,0,0,0,0,0,,"566:Live Coal(10)[2] / 567:Dig Claws(20)[0,0]",
+406,Arcanine,0,POKEMON,1,FIRE,2,140,3,3,,0,1,0,0,0,0,0,Growlithe,"568:Flare(50)[0,0] / 569:Punishing Fang(100)[2,0,0]",
+407,Team Rocket's Moltres ex,0,POKEMON,3,FIRE,1,220,2,4,6,1,0,0,1,0,0,0,,"570:Flame Screen(110)[2,0,0] / 571:Evil Incineration(0)[2,0,0,0]",
+408,Team Rocket's Houndour,0,POKEMON,1,FIRE,1,70,1,3,,1,0,0,0,0,0,0,,572:Steady Firebreathing(20)[2],
+409,Team Rocket's Houndoom,0,POKEMON,1,FIRE,2,130,2,3,,0,1,0,0,0,0,0,Team Rocket's Houndour,"573:Cruel Coal(0)[2] / 574:Scorching Fire(120)[2,0]",
+410,Torchic,0,POKEMON,1,FIRE,1,70,1,3,,1,0,0,0,0,0,0,,575:Collect(0)[0] / 576:Combustion(10)[2],
+411,Combusken,0,POKEMON,1,FIRE,2,100,2,3,,0,1,0,0,0,0,0,Torchic,"577:Combustion(20)[0] / 578:Double Kick(0)[2,0]",
+412,Blaziken,0,POKEMON,1,FIRE,3,170,2,3,,0,0,1,0,0,0,0,Combusken,"579:Heat Blast(70)[0,0] / 580:Inferno Kick Flurry(120)[2,2,0]",
+413,Heat Rotom,0,POKEMON,1,FIRE,1,80,2,3,,1,0,0,0,0,0,0,,"581:Singe(0)[2] / 582:Gadget Show(0)[0,0]",
+414,Team Rocket's Articuno,0,POKEMON,1,WATER,1,120,1,4,6,1,0,0,0,0,0,0,,"583:Dark Frost(60)[3,0,0]",Repelling Veil：Prevent all effects of attacks used by your opponent’s Pokémon done to your Basic Team Rocket’s Pokémon. (Existing effects are not removed. Damage is not an effect.)
+415,Clamperl,0,POKEMON,1,WATER,1,60,2,4,,1,0,0,0,0,0,0,,584:Shell Press(10)[3],
+416,Huntail,0,POKEMON,1,WATER,2,110,1,4,,0,1,0,0,0,0,0,Clamperl,"585:Wave Splash(80)[3,0,0]","Diver’s Catch：When 1 of your {W} Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon, you may put all Basic {W} Energy attached to that Pokémon into your hand instead of the discard pile."
+417,Gorebyss,0,POKEMON,1,WATER,2,90,1,4,,0,1,0,0,0,0,0,Clamperl,586:Crescendo Wave(0)[3],
+418,Snover,0,POKEMON,1,WATER,1,90,3,8,,1,0,0,0,0,0,0,,"587:Light Punch(20)[0,0] / 588:Icicle(50)[3,0,0]",
+419,Abomasnow,0,POKEMON,1,WATER,2,150,4,8,,0,1,0,0,0,0,0,Snover,"589:Lunge Out(90)[0,0,0] / 590:Frozen Wood(120)[3,3,3,0]",
+420,Wash Rotom,0,POKEMON,1,WATER,1,80,2,4,,1,0,0,0,0,0,0,,"591:Manual Wash(20)[3] / 592:Gadget Show(0)[0,0]",
+421,Arrokuda,0,POKEMON,1,WATER,1,70,1,4,,1,0,0,0,0,0,0,,593:Reckless Charge(30)[3],
+422,Barraskewda,0,POKEMON,1,WATER,2,130,1,4,,0,1,0,0,0,0,0,Arrokuda,"594:Sharp Fin(40)[3] / 595:Dive(60)[3,3]",
+423,Cetoddle,0,POKEMON,1,WATER,1,100,3,8,,1,0,0,0,0,0,0,,"596:Gentle Slap(30)[3,0] / 597:Frost Smash(80)[3,3,3,0]",
+424,Cetitan ex,0,POKEMON,3,WATER,2,300,4,8,,0,1,0,1,0,0,0,Cetoddle,"598:Crushing Press(140)[3,3,3,0]","Snow Camouflage：Whenever your opponent plays an Item or Supporter card from their hand, prevent all effects of that card done to this Pokémon."
+425,Team Rocket's Zapdos,0,POKEMON,1,LIGHTNING,1,120,1,4,6,1,0,0,0,0,0,0,,"599:Jamming Wing(30)[0,0] / 600:Wicked Thunder(60)[4,0,0]",
+426,Team Rocket's Mareep,0,POKEMON,1,LIGHTNING,1,60,1,6,,1,0,0,0,0,0,0,,601:Procurement(0)[0] / 602:Tiny Bolt(10)[4],
+427,Team Rocket's Flaaffy,0,POKEMON,1,LIGHTNING,2,90,2,6,,0,1,0,0,0,0,0,Team Rocket's Mareep,"603:Thunder Shock(50)[4,0]",
+428,Team Rocket's Ampharos,0,POKEMON,1,LIGHTNING,3,140,2,6,,0,0,1,0,0,0,0,Team Rocket's Flaaffy,"604:Head Bolt(140)[4,0,0]","Darkest Impulse：Whenever your opponent plays a Pokémon from their hand to evolve 1 of their Pokémon, put 4 damage counters on that Pokémon. The effect of Darkest Impulse doesn’t stack."
+429,Team Rocket's Drowzee,0,POKEMON,1,PSYCHIC,1,80,2,7,6,1,0,0,0,0,0,0,,605:Hypnotic Ray(10)[5],
+430,Team Rocket's Hypno,0,POKEMON,1,PSYCHIC,2,130,2,7,6,0,1,0,0,0,0,0,Team Rocket's Drowzee,"606:Psyshot(40)[5] / 607:Bench Manipulation(0)[5,5,5]",
+431,Team Rocket's Mewtwo ex,0,POKEMON,3,PSYCHIC,1,280,3,7,6,1,0,0,1,0,0,0,,"608:Erasure Ball(160)[5,5,0]",Power Saver：This Pokémon can’t attack unless you have 4 or more Team Rocket’s Pokémon in play.
+432,Team Rocket's Wobbuffet,0,POKEMON,1,PSYCHIC,1,110,2,7,6,1,0,0,0,0,0,0,,"609:Rocket Mirror(0)[5,0] / 610:Headbutt Bounce(70)[5,0,0]",
+433,Team Rocket's Chingling,0,POKEMON,1,PSYCHIC,1,30,0,7,6,1,0,0,0,0,0,0,,611:Chiming Commotion(0)[],
+434,Team Rocket's Mimikyu,0,POKEMON,1,PSYCHIC,1,60,0,7,6,1,0,0,0,0,0,0,,"612:Gemstone Mimicry(0)[5,0]",
+435,Team Rocket's Dottler,0,POKEMON,1,PSYCHIC,2,80,2,7,6,0,1,0,0,0,0,0,Team Rocket's Blipbug,"613:Disruptive Radar(0)[0] / 614:Super Psy Bolt(30)[5,0]",
+436,Team Rocket's Orbeetle,0,POKEMON,1,PSYCHIC,3,130,2,7,6,0,0,1,0,0,0,0,Team Rocket's Dottler,"615:Psychic(40)[5,0,0]","Rocket Brain：As often as you like during your turn, you may move 1 damage counter from 1 of your Team Rocket’s Pokémon to another of your Pokémon."
+437,Mankey,0,POKEMON,1,FIGHTING,1,70,1,5,,1,0,0,0,0,0,0,,616:Wild Kick(30)[6],
+438,Primeape,0,POKEMON,1,FIGHTING,2,110,2,5,,0,1,0,0,0,0,0,Mankey,617:Drag Off(0)[6],
+439,Annihilape,0,POKEMON,1,FIGHTING,3,150,2,5,,0,0,1,0,0,0,0,Primeape,"618:Impact Blow(160)[6,6]","Lose Cool：If this Pokémon has 2 or more damage counters on it, attacks used by this Pokémon do 120 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
+440,Team Rocket's Larvitar,0,POKEMON,1,FIGHTING,1,70,1,1,,1,0,0,0,0,0,0,,619:Mountain Munch(10)[0],
+441,Team Rocket's Pupitar,0,POKEMON,1,FIGHTING,2,100,2,1,,0,1,0,0,0,0,0,Team Rocket's Larvitar,620:Explosive Ascension(30)[0],
+442,Team Rocket's Tyranitar,0,POKEMON,1,FIGHTING,3,180,3,1,,0,0,1,0,0,0,0,Team Rocket's Pupitar,"621:Demolition Tackle(180)[6,0,0,0]","Sand Stream：During Pokémon Checkup, if this Pokémon is in the Active Spot, put 2 damage counters on each of your opponent’s Basic Pokémon."
+443,Nosepass,0,POKEMON,1,FIGHTING,1,80,3,1,,1,0,0,0,0,0,0,,"622:Headbutt(20)[6] / 623:Rock Throw(40)[0,0,0]",
+444,Probopass,0,POKEMON,1,FIGHTING,2,140,3,1,,0,1,0,0,0,0,0,Nosepass,"624:Power Gem(40)[6] / 625:Mountain Drop(70)[0,0,0]",
+445,Meditite,0,POKEMON,1,FIGHTING,1,70,1,5,,1,0,0,0,0,0,0,,626:Steady Punch(10)[6],
+446,Medicham,0,POKEMON,1,FIGHTING,2,120,1,5,,0,1,0,0,0,0,0,Meditite,627:Harmonious Spirit Palm(50)[6],
+447,Regirock ex,0,POKEMON,3,FIGHTING,1,230,3,1,,1,0,0,1,0,0,0,,"628:Regi Charge(0)[0] / 629:Giant Rock(140)[6,0,0,0]",
+448,Team Rocket's Ekans,0,POKEMON,1,DARKNESS,1,70,1,6,,1,0,0,0,0,0,0,,630:Drag Down(0)[0] / 631:Gnaw(10)[7],
+449,Team Rocket's Arbok,0,POKEMON,1,DARKNESS,2,130,2,6,,0,1,0,0,0,0,0,Team Rocket's Ekans,"632:Spinning Tail(0)[7,7,7]","Potent Glare：As long as this Pokémon is in the Active Spot, your opponent can’t play any Pokémon that has an Ability from their hand, except for Team Rocket’s Pokémon."
+450,Team Rocket's Nidoran♀,0,POKEMON,1,DARKNESS,1,70,1,6,,1,0,0,0,0,0,0,,633:Surprise Attack(30)[7],
+451,Team Rocket's Nidorina,0,POKEMON,1,DARKNESS,2,90,2,6,,0,1,0,0,0,0,0,Team Rocket's Nidoran♀,"634:Dark Awakening(0)[7] / 635:Scratch(50)[7,7]",
+452,Team Rocket's Nidoqueen,0,POKEMON,1,DARKNESS,3,170,3,6,,0,0,1,0,0,0,0,Team Rocket's Nidorina,"636:Love Impact(60)[7] / 637:Mega Kick(130)[7,7]",
+453,Team Rocket's Nidoran♂,0,POKEMON,1,DARKNESS,1,70,1,6,,1,0,0,0,0,0,0,,"638:Pierce(10)[7] / 639:Hammer In(30)[7,0]",
+454,Team Rocket's Nidorino,0,POKEMON,1,DARKNESS,2,100,2,6,,0,1,0,0,0,0,0,Team Rocket's Nidoran♂,"640:Hammer In(30)[7,0] / 641:Horn Rend(60)[7,7,0]",
+455,Team Rocket's Nidoking ex,0,POKEMON,3,DARKNESS,3,330,3,6,,0,0,1,1,0,0,0,Team Rocket's Nidorino,"642:Tainted Horn(100)[7,7,0] / 643:Kingly Impact(240)[7,7,7,0]",
+456,Team Rocket's Zubat,0,POKEMON,1,DARKNESS,1,50,1,4,6,1,0,0,0,0,0,0,,644:Poison Spray(0)[7],
+457,Team Rocket's Golbat,0,POKEMON,1,DARKNESS,2,80,1,4,6,0,1,0,0,0,0,0,Team Rocket's Zubat,645:Confuse Ray(30)[7],"Sneaky Bite：When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put 2 damage counters on 1 of your opponent’s Pokémon."
+458,Team Rocket's Crobat ex,0,POKEMON,3,DARKNESS,3,310,1,4,6,0,0,1,1,0,0,0,Team Rocket's Golbat,"646:Assassin’s Return(120)[7,7]","Biting Spree：When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may choose 2 of your opponent’s Pokémon and put 2 damage counters on each of them."
+459,Team Rocket's Grimer,0,POKEMON,1,DARKNESS,1,80,3,6,,1,0,0,0,0,0,0,,"647:Corrosive Sludge(0)[7,0]",
+460,Team Rocket's Muk,0,POKEMON,1,DARKNESS,2,150,4,6,,0,1,0,0,0,0,0,Team Rocket's Grimer,"648:Gooped Up(40)[7,0] / 649:Hazardous Venom(0)[7,7,0]",
+461,Team Rocket's Koffing,0,POKEMON,1,DARKNESS,1,70,1,6,,1,0,0,0,0,0,0,,"650:Leaking Gas(30)[7,0]","Smog Signals：If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), search your deck for up to 2 Pokémon that have “Koffing” in their name and put them onto your Bench. Then, shuffle your deck."
+462,Team Rocket's Weezing,0,POKEMON,1,DARKNESS,2,130,2,6,,0,1,0,0,0,0,0,Team Rocket's Koffing,"651:Explode Together Now(0)[7,0]",
+463,Team Rocket's Murkrow,0,POKEMON,1,DARKNESS,1,80,1,4,6,1,0,0,0,0,0,0,,"652:Deceit(0)[0] / 653:Torment(30)[7,0]",
+464,Team Rocket's Sneasel,0,POKEMON,1,DARKNESS,1,80,1,1,,1,0,0,0,0,0,0,,"654:Scratch(20)[7] / 655:Strike the Sleeper(0)[7,7]",
+465,Forretress,0,POKEMON,1,METAL,2,130,2,2,1,0,1,0,0,0,0,0,Pineco,"656:Iron Shake-Up(20)[0] / 657:Hurricane of Needles(0)[8,0,0,0]",
+466,Skarmory,0,POKEMON,1,METAL,1,110,1,4,6,1,0,0,0,0,0,0,,"658:Roost(0)[0] / 659:Metal Claw(60)[8,0]",
+467,Zamazenta,0,POKEMON,1,METAL,1,130,2,2,1,1,0,0,0,0,0,0,,"660:Strong Bash(70)[8,8,0]",
+468,Team Rocket's Rattata,0,POKEMON,1,COLORLESS,1,50,1,6,,1,0,0,0,0,0,0,,661:Dangerous Incisors(10)[0],
+469,Team Rocket's Raticate,0,POKEMON,1,COLORLESS,2,90,1,6,,0,1,0,0,0,0,0,Team Rocket's Rattata,662:Reckless Abandon(90)[0],
+470,Team Rocket's Meowth,0,POKEMON,1,COLORLESS,1,70,1,6,,1,0,0,0,0,0,0,,"663:Paw-cket Pilfer(0)[0] / 664:Fury Swipes(0)[0,0]",
+471,Team Rocket's Persian ex,0,POKEMON,3,COLORLESS,2,260,2,6,,0,1,0,1,0,0,0,Team Rocket's Meowth,"665:Haughty Order(0)[0,0] / 666:Cruel Slash(140)[0,0,0]",
+472,Kangaskhan,0,POKEMON,1,COLORLESS,1,120,2,6,,1,0,0,0,0,0,0,,"667:Gentle Slap(50)[0,0] / 668:Dizzy Punch(0)[0,0,0]",
+473,Team Rocket's Porygon,0,POKEMON,1,COLORLESS,1,60,1,6,,1,0,0,0,0,0,0,,669:Hacking(0)[0],
+474,Team Rocket's Porygon2,0,POKEMON,1,COLORLESS,2,90,1,6,,0,1,0,0,0,0,0,Team Rocket's Porygon,"670:R Command(0)[0,0,0]",
+475,Team Rocket's Porygon-Z,0,POKEMON,1,COLORLESS,3,140,1,6,,0,0,1,0,0,0,0,Team Rocket's Porygon2,"671:R Command(0)[0,0]","Reconstitute：You must discard 2 cards from your hand in order to use this Ability. Once during your turn, you may draw a card."
+476,Taillow,0,POKEMON,1,COLORLESS,1,60,1,4,6,1,0,0,0,0,0,0,,672:Wing Attack(20)[0],
+477,Swellow,0,POKEMON,1,COLORLESS,2,100,0,4,6,0,1,0,0,0,0,0,Taillow,"673:Add On(0)[0] / 674:Speed Wing(70)[0,0]",
+478,Squawkabilly,0,POKEMON,1,COLORLESS,1,70,1,4,6,1,0,0,0,0,0,0,,675:Push Down(20)[0],
+479,Snivy,0,POKEMON,1,GRASS,1,70,1,2,,1,0,0,0,0,0,0,,"676:Tackle(10)[1] / 677:Vine Whip(30)[1,1]",
+480,Servine,0,POKEMON,1,GRASS,2,100,1,2,,0,1,0,0,0,0,0,Snivy,"678:Wrap(20)[1] / 679:Vine Whip(60)[1,0,0]",
+481,Serperior ex,0,POKEMON,3,GRASS,3,320,2,2,,0,0,1,1,0,0,0,Servine,"680:Command the Grass(150)[1,0,0,0]",Regal Cheer：Attacks used by your Pokémon do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+482,Pansage,0,POKEMON,1,GRASS,1,70,1,2,,1,0,0,0,0,0,0,,"681:Collect(0)[0] / 682:Scratch(30)[0,0]",
+483,Simisage,0,POKEMON,1,GRASS,2,100,1,2,,0,1,0,0,0,0,0,Pansage,"683:Gentle Slap(70)[0,0]",
+484,Petilil,0,POKEMON,1,GRASS,1,60,1,2,,1,0,0,0,0,0,0,,684:Hide(0)[0] / 685:Leafage(10)[1],
+485,Lilligant,0,POKEMON,1,GRASS,2,100,1,2,,0,1,0,0,0,0,0,Petilil,"686:Bemusing Aroma(30)[1] / 687:Cut(70)[1,0,0]",
+486,Maractus,0,POKEMON,1,GRASS,1,100,1,2,,1,0,0,0,0,0,0,,"688:Lively Needles(20)[1] / 689:Pierce(50)[1,0]",
+487,Karrablast,0,POKEMON,1,GRASS,1,60,1,2,,1,0,0,0,0,0,0,,690:Horn Attack(10)[0],"Stimulated Evolution：If you have Shelmet in play, this Pokémon can evolve during your first turn or the turn you play it."
+488,Foongus,0,POKEMON,1,GRASS,1,50,1,2,,1,0,0,0,0,0,0,,691:Toxic Spore(0)[0],
+489,Amoonguss,0,POKEMON,1,GRASS,2,120,2,2,,0,1,0,0,0,0,0,Foongus,"692:Dangerous Reaction(30)[0] / 693:Seed Bomb(60)[1,0]",
+490,Victini,0,POKEMON,1,FIRE,1,80,1,3,,1,0,0,0,0,0,0,,"694:V-Force(120)[2,2]",
+491,Darumaka,0,POKEMON,1,FIRE,1,80,2,3,,1,0,0,0,0,0,0,,"695:Will-O-Wisp(30)[2,0]",
+492,Darmanitan,0,POKEMON,1,FIRE,2,140,2,3,,0,1,0,0,0,0,0,Darumaka,"696:Searing Flame(50)[2,0] / 697:Smashing Headbutt(180)[2,0,0,0]",
+493,Litwick,0,POKEMON,1,FIRE,1,60,1,3,,1,0,0,0,0,0,0,,698:Brighten and Burn(0)[2],
+494,Lampent,0,POKEMON,1,FIRE,2,80,1,3,,0,1,0,0,0,0,0,Litwick,699:Fire Blast(50)[2],
+495,Chandelure,0,POKEMON,1,FIRE,3,150,2,3,,0,0,1,0,0,0,0,Lampent,"700:Incendiary Pillar(50)[2] / 701:Burn It All Up(180)[2,2]",
+496,Larvesta,0,POKEMON,1,FIRE,1,60,1,3,,1,0,0,0,0,0,0,,702:Peck Off(10)[0],
+497,Volcarona,0,POKEMON,1,FIRE,2,120,1,3,,0,1,0,0,0,0,0,Larvesta,"703:Fire Wing(70)[2,0,0]","Torrid Scales：You must discard a Basic {R} Energy card from your hand in order to use this Ability. Once during your turn, you may make your opponent’s Active Pokémon Burned."
+498,Panpour,0,POKEMON,1,WATER,1,70,1,4,,1,0,0,0,0,0,0,,"704:Collect(0)[0] / 705:Scratch(30)[0,0]",
+499,Simipour,0,POKEMON,1,WATER,2,100,1,4,,0,1,0,0,0,0,0,Panpour,"706:Gentle Slap(70)[0,0]",
+500,Tympole,0,POKEMON,1,WATER,1,60,1,4,,1,0,0,0,0,0,0,,"707:Round(0)[0,0]",
+501,Palpitoad,0,POKEMON,1,WATER,2,90,2,4,,0,1,0,0,0,0,0,Tympole,"708:Round(0)[0,0] / 709:Wave Splash(60)[3,0,0]",
+502,Seismitoad,0,POKEMON,1,WATER,3,170,3,4,,0,0,1,0,0,0,0,Palpitoad,"710:Round(0)[0,0,0] / 711:Hyper Voice(160)[3,0,0,0]",
+503,Tirtouga,0,POKEMON,1,WATER,2,100,3,4,,0,1,0,0,0,0,0,Antique Cover Fossil,"712:Ancient Seaweed(0)[3] / 713:Surf(80)[3,0,0]",
+504,Carracosta,0,POKEMON,1,WATER,3,180,3,4,,0,0,1,0,0,0,0,Tirtouga,"714:Big Bite(150)[3,0,0]",Mighty Shell：Prevent all damage from and effects of attacks done to this Pokémon by your opponent’s Pokémon that have any Special Energy attached.
+505,Alomomola,0,POKEMON,1,WATER,1,110,1,4,,1,0,0,0,0,0,0,,"715:Waterfall(70)[3,0,0]","Gentle Fin：Once during your turn, if this Pokémon is in the Active Spot, you may put a Basic Pokémon with 70 HP or less from your discard pile onto your Bench."
+506,Cubchoo,0,POKEMON,1,WATER,1,70,2,8,,1,0,0,0,0,0,0,,716:Snotted Up(10)[3],
+507,Beartic,0,POKEMON,1,WATER,2,150,3,8,,0,1,0,0,0,0,0,Cubchoo,"717:Continuous Headbutt(0)[0] / 718:Sheer Cold(150)[3,3,3,0]",
+508,Cryogonal,0,POKEMON,1,WATER,1,90,1,8,,1,0,0,0,0,0,0,,719:Drag Off(0)[3] / 720:Icicle(30)[3],
+509,Kyurem ex,0,POKEMON,3,WATER,1,230,2,8,,1,0,0,1,0,0,0,,"721:Slash(50)[0,0] / 722:Blizzard Burst(130)[3,3,0]",
+510,Emolga,0,POKEMON,1,LIGHTNING,1,70,0,6,,1,0,0,0,0,0,0,,723:Call for Family(0)[0] / 724:Static Shock(20)[4],
+511,Tynamo,0,POKEMON,1,LIGHTNING,1,40,0,6,,1,0,0,0,0,0,0,,725:Hold Still(0)[0],
+512,Eelektrik,0,POKEMON,1,LIGHTNING,2,90,2,6,,0,1,0,0,0,0,0,Tynamo,"726:Electric Ball(50)[4,4,0]","Dynamotor：Once during your turn, you may attach a Basic {L} Energy card from your discard pile to 1 of your Benched Pokémon."
+513,Eelektross,0,POKEMON,1,LIGHTNING,3,160,3,6,,0,0,1,0,0,0,0,Eelektrik,"727:Thunder Fang(60)[4] / 728:Buzz Flip(0)[4,4,4,0]",
+514,Thundurus,0,POKEMON,1,LIGHTNING,1,120,1,6,,1,0,0,0,0,0,0,,"729:Charge(0)[0] / 730:Disaster Volt(110)[4,0,0]",
+515,Zekrom ex,0,POKEMON,3,LIGHTNING,1,230,2,6,,1,0,0,1,0,0,0,,"731:Slash(50)[0,0] / 732:Voltage Burst(130)[4,4,0]",
+516,Munna,0,POKEMON,1,PSYCHIC,1,70,1,7,6,1,0,0,0,0,0,0,,733:Rest(0)[0] / 734:Mumble(10)[5],
+517,Musharna,0,POKEMON,1,PSYCHIC,2,120,2,7,6,0,1,0,0,0,0,0,Munna,735:Dream Calling(0)[0] / 736:Sleep Pulse(50)[5],
+518,Solosis,0,POKEMON,1,PSYCHIC,1,40,1,7,6,1,0,0,0,0,0,0,,737:Rollout(10)[0],
+519,Duosion,0,POKEMON,1,PSYCHIC,2,70,1,7,6,0,1,0,0,0,0,0,Solosis,738:Cellular Evolution(0)[0] / 739:Spray Fluid(30)[0],
+520,Reuniclus,0,POKEMON,1,PSYCHIC,3,140,1,7,6,0,0,1,0,0,0,0,Duosion,740:Cellular Ascension(0)[0] / 741:Evo-Lariat(40)[0],
+521,Elgyem,0,POKEMON,1,PSYCHIC,1,60,1,7,6,1,0,0,0,0,0,0,,"742:Slight Shift(0)[5] / 743:Beam(40)[0,0,0]",
+522,Beheeyem,0,POKEMON,1,PSYCHIC,2,90,1,7,6,0,1,0,0,0,0,0,Elgyem,"744:Calm Mind(0)[5] / 745:Psychic(80)[0,0,0]",
+523,Golett,0,POKEMON,1,PSYCHIC,1,90,3,7,6,1,0,0,0,0,0,0,,"746:Best Punch(60)[0,0]",
+524,Golurk,0,POKEMON,1,PSYCHIC,2,160,4,7,6,0,1,0,0,0,0,0,Golett,"747:Double Smash(0)[0,0,0] / 748:Golurk Hammer(200)[5,5,0,0,0]",
+525,Meloetta ex,0,POKEMON,3,PSYCHIC,1,200,1,7,6,1,0,0,1,0,0,0,,749:Echoed Voice(30)[5],"Debut Performance：If you go first, this Pokémon can use attacks during your first turn."
+526,Drilbur,0,POKEMON,1,FIGHTING,1,70,1,1,,1,0,0,0,0,0,0,,"750:Mud-Slap(10)[6] / 751:Corkscrew Punch(30)[6,6]",
+527,Excadrill ex,0,POKEMON,3,FIGHTING,2,270,3,1,,0,1,0,1,0,0,0,Drilbur,"752:Piercing Drill(60)[6,6] / 753:Rock Tumble(200)[6,6,6]",
+528,Timburr,0,POKEMON,1,FIGHTING,1,70,2,5,,1,0,0,0,0,0,0,,"754:Low Kick(10)[6] / 755:Strength(50)[6,0,0]",
+529,Gurdurr,0,POKEMON,1,FIGHTING,2,100,3,5,,0,1,0,0,0,0,0,Timburr,"756:Low Kick(30)[6] / 757:Hammer Arm(60)[6,0,0]",
+530,Conkeldurr,0,POKEMON,1,FIGHTING,3,140,3,5,,0,0,1,0,0,0,0,Gurdurr,"758:Swing Around(100)[6,0,0,0]",Craftsmanship：This Pokémon gets +40 HP for each {F} Energy attached to it.
+531,Throh,0,POKEMON,1,FIGHTING,1,130,2,5,,1,0,0,0,0,0,0,,"759:Shoulder Throw(120)[6,0]",
+532,Dwebble,0,POKEMON,1,FIGHTING,1,70,2,1,,1,0,0,0,0,0,0,,"760:Flail(0)[0] / 761:Dig Claws(20)[0,0]",
+533,Crustle,0,POKEMON,1,FIGHTING,2,150,3,1,,0,1,0,0,0,0,0,Dwebble,"762:Stone Edge(80)[6,0,0]","Sturdy：If this Pokémon has full HP and would be Knocked Out by damage from an attack, it is not Knocked Out, and its remaining HP becomes 10."
+534,Landorus,0,POKEMON,1,FIGHTING,1,130,2,1,,1,0,0,0,0,0,0,,"763:Abundant Harvest(0)[0] / 764:Earthquake(110)[6,0,0]",
+535,Venipede,0,POKEMON,1,DARKNESS,1,80,3,6,,1,0,0,0,0,0,0,,765:Poison Spray(0)[0],
+536,Whirlipede,0,POKEMON,1,DARKNESS,2,100,3,6,,0,1,0,0,0,0,0,Venipede,766:Venoshock(30)[0],
+537,Scolipede,0,POKEMON,1,DARKNESS,3,160,3,6,,0,0,1,0,0,0,0,Whirlipede,"767:Venoshock(90)[7,0]","Poison Point：If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Poisoned."
+538,Sandile,0,POKEMON,1,DARKNESS,1,70,2,1,,1,0,0,0,0,0,0,,768:Tighten Up(10)[7],
+539,Krokorok,0,POKEMON,1,DARKNESS,2,100,2,1,,0,1,0,0,0,0,0,Sandile,"769:Tighten Up(40)[7,0]",
+540,Krookodile,0,POKEMON,1,DARKNESS,3,170,3,1,,0,0,1,0,0,0,0,Krokorok,"770:Tighten Up(60)[7,0] / 771:Cursed Slug(120)[7,7,0]",
+541,Vullaby,0,POKEMON,1,DARKNESS,1,70,1,4,6,1,0,0,0,0,0,0,,772:Playful Kick(10)[0],
+542,Mandibuzz,0,POKEMON,1,DARKNESS,2,110,1,4,6,0,1,0,0,0,0,0,Vullaby,"773:Cutting Wind(90)[0,0,0]","Look for Prey：Once during your turn, you may use this Ability. Your opponent reveals their hand, and you put a Basic Pokémon with 70 HP or less that you find there onto your opponent’s Bench."
+543,Escavalier,0,POKEMON,1,METAL,2,130,3,2,1,0,1,0,0,0,0,0,Karrablast,774:Wild Lances(90)[8],
+544,Pawniard,0,POKEMON,1,METAL,1,60,1,2,1,1,0,0,0,0,0,0,,775:Corner(10)[8],
+545,Bisharp,0,POKEMON,1,METAL,2,120,2,2,1,0,1,0,0,0,0,0,Pawniard,"776:Cut Up(40)[8] / 777:Finishing Blow(60)[8,0]",
+546,Cobalion,0,POKEMON,1,METAL,1,120,2,2,1,1,0,0,0,0,0,0,,"778:Righteous Edge(20)[8] / 779:Metal Arms(80)[8,8,0]",
+547,Genesect ex,0,POKEMON,3,METAL,1,220,2,2,1,1,0,0,1,0,0,0,,"780:Protect Charge(150)[8,8,0]","Metallic Signal：Once during your turn, you may search your deck for up to 2 Evolution {M} Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+548,Axew,0,POKEMON,1,DRAGON,1,70,2,,,1,0,0,0,0,0,0,,781:Gather Strength(0)[0],
+549,Fraxure,0,POKEMON,1,DRAGON,2,100,2,,,0,1,0,0,0,0,0,Axew,"782:Bite(30)[0] / 783:Boundless Power(90)[6,8]",
+550,Haxorus,0,POKEMON,1,DRAGON,3,170,3,,,0,0,1,0,0,0,0,Fraxure,"784:Cross-Cut(80)[0,0] / 785:Axe Blast(0)[6,8,0]",
+551,Pidove,0,POKEMON,1,COLORLESS,1,60,1,4,6,1,0,0,0,0,0,0,,786:Scout(0)[0] / 787:Stampede(10)[0],
+552,Tranquill,0,POKEMON,1,COLORLESS,2,80,0,4,6,0,1,0,0,0,0,0,Pidove,788:Fly(40)[0],
+553,Unfezant,0,POKEMON,1,COLORLESS,3,150,0,4,6,0,0,1,0,0,0,0,Tranquill,"789:Add On(0)[0] / 790:Swift Flight(120)[0,0]",
+554,Audino,0,POKEMON,1,COLORLESS,1,100,1,6,,1,0,0,0,0,0,0,,791:Return(30)[0],
+555,Minccino,0,POKEMON,1,COLORLESS,1,60,1,6,,1,0,0,0,0,0,0,,792:Tail Slap(0)[0],
+556,Cinccino,0,POKEMON,1,COLORLESS,2,100,1,6,,0,1,0,0,0,0,0,Minccino,793:Do the Wave(20)[0],
+557,Sewaddle,0,POKEMON,1,GRASS,1,50,1,2,,1,0,0,0,0,0,0,,794:Bug Bite(20)[1],
+558,Swadloon,0,POKEMON,1,GRASS,2,80,2,2,,0,1,0,0,0,0,0,Sewaddle,"795:Bug Buzz(40)[1,0]","Healing Leaves：Once during your turn, you may heal 20 damage from your Active Pokémon."
+559,Leavanny,0,POKEMON,1,GRASS,3,130,1,2,,0,0,1,0,0,0,0,Swadloon,"796:Healing Wrapping(0)[0] / 797:X-Scissor(90)[1,0]",
+560,Cottonee,0,POKEMON,1,GRASS,1,60,1,2,,1,0,0,0,0,0,0,,798:Absorb(10)[1],
+561,Whimsicott ex,0,POKEMON,3,GRASS,2,230,0,2,,0,1,0,1,0,0,0,Cottonee,799:Energy Gift(0)[1] / 800:Wondrous Cotton(0)[1],
+562,Deerling,0,POKEMON,1,GRASS,1,70,1,2,,1,0,0,0,0,0,0,,"801:Rear Kick(30)[0,0]",
+563,Sawsbuck,0,POKEMON,1,GRASS,2,130,2,2,,0,1,0,0,0,0,0,Deerling,"802:Push Down(50)[0,0] / 803:Solar Beam(100)[1,0,0]",
+564,Shelmet,0,POKEMON,1,GRASS,1,60,3,2,,1,0,0,0,0,0,0,,804:Headbutt Bounce(10)[0],"Stimulated Evolution：If you have Karrablast in play, this Pokémon can evolve during your first turn or the turn you play it."
+565,Accelgor,0,POKEMON,1,GRASS,2,100,1,2,,0,1,0,0,0,0,0,Shelmet,805:Acid Spray(50)[1],
+566,Virizion,0,POKEMON,1,GRASS,1,120,1,2,,1,0,0,0,0,0,0,,"806:Giga Drain(30)[1] / 807:Emerald Blade(130)[1,1,0]",
+567,Tepig,0,POKEMON,1,FIRE,1,70,1,3,,1,0,0,0,0,0,0,,"808:Tackle(10)[2] / 809:Rollout(30)[2,2]",
+568,Pignite,0,POKEMON,1,FIRE,2,110,3,3,,0,1,0,0,0,0,0,Tepig,"810:Combustion(30)[2] / 811:Heat Crash(80)[2,2,0]",
+569,Emboar,0,POKEMON,1,FIRE,3,180,4,3,,0,0,1,0,0,0,0,Pignite,"812:Heat Crash(120)[2,2,2,0]","Inferno Fandango：As often as you like during your turn, you may attach a Basic {R} Energy card from your hand to 1 of your Pokémon."
+570,Pansear,0,POKEMON,1,FIRE,1,70,1,3,,1,0,0,0,0,0,0,,"813:Collect(0)[0] / 814:Scratch(30)[0,0]",
+571,Simisear,0,POKEMON,1,FIRE,2,100,1,3,,0,1,0,0,0,0,0,Pansear,"815:Gentle Slap(70)[0,0]",
+572,Heatmor,0,POKEMON,1,FIRE,1,120,2,3,,1,0,0,0,0,0,0,,"816:Licking Catch(0)[2] / 817:Fire Claws(60)[2,2]",
+573,Reshiram ex,0,POKEMON,3,FIRE,1,230,2,3,,1,0,0,1,0,0,0,,"818:Slash(50)[0,0] / 819:Blazing Burst(130)[2,2,0]",
+574,Oshawott,0,POKEMON,1,WATER,1,70,1,4,,1,0,0,0,0,0,0,,"820:Tackle(10)[3] / 821:Water Gun(30)[3,3]",
+575,Dewott,0,POKEMON,1,WATER,2,100,1,4,,0,1,0,0,0,0,0,Oshawott,822:Energized Shell(0)[3],
+576,Samurott,0,POKEMON,1,WATER,3,160,2,4,,0,0,1,0,0,0,0,Dewott,823:Energized Slash(30)[3],"Torrential Whirlpool：Once during your turn, you may switch your Active Pokémon with 1 of your Benched Pokémon. If you do, switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
+577,Basculin,0,POKEMON,1,WATER,1,90,1,4,,1,0,0,0,0,0,0,,824:Bite(10)[0] / 825:Bared Fangs(50)[3],
+578,Ducklett,0,POKEMON,1,WATER,1,70,1,4,6,1,0,0,0,0,0,0,,"826:Firefighting(0)[0] / 827:Wing Attack(20)[0,0]",
+579,Swanna,0,POKEMON,1,WATER,2,120,1,4,6,0,1,0,0,0,0,0,Ducklett,"828:Flap(30)[0] / 829:Air Slash(120)[0,0,0]",
+580,Vanillite,0,POKEMON,1,WATER,1,60,1,8,,1,0,0,0,0,0,0,,"830:Beat(10)[0] / 831:Ice Edge(20)[3,0]",
+581,Vanillish,0,POKEMON,1,WATER,2,90,2,8,,0,1,0,0,0,0,0,Vanillite,"832:Ram(30)[0,0] / 833:Ice Beam(50)[3,0,0]",
+582,Vanilluxe,0,POKEMON,1,WATER,3,150,2,8,,0,0,1,0,0,0,0,Vanillish,"834:Ram(60)[0,0] / 835:Double Freeze(0)[3,0,0]",
+583,Keldeo ex,0,POKEMON,3,WATER,1,210,2,4,,1,0,0,1,0,0,0,,"836:Gale Thrust(30)[3,0] / 837:Sonic Edge(120)[3,0,0]",
+584,Blitzle,0,POKEMON,1,LIGHTNING,1,60,1,6,,1,0,0,0,0,0,0,,"838:Smash Kick(10)[0] / 839:Zap Kick(30)[4,0]",
+585,Zebstrika,0,POKEMON,1,LIGHTNING,2,120,1,6,,0,1,0,0,0,0,0,Blitzle,"840:Smash Kick(30)[0] / 841:Electrobullet(100)[4,4,0]",
+586,Joltik,0,POKEMON,1,LIGHTNING,1,40,1,6,,1,0,0,0,0,0,0,,842:Surprise Attack(30)[4],
+587,Galvantula,0,POKEMON,1,LIGHTNING,2,90,1,6,,0,1,0,0,0,0,0,Joltik,843:Discharge(0)[4],
+588,Stunfisk,0,POKEMON,1,LIGHTNING,1,110,2,6,,1,0,0,0,0,0,0,,"844:Muddy Bolt(20)[0] / 845:Flop(50)[4,0]",
+589,Woobat,0,POKEMON,1,PSYCHIC,1,60,1,4,6,1,0,0,0,0,0,0,,846:Heart Stamp(10)[0],
+590,Swoobat,0,POKEMON,1,PSYCHIC,2,90,1,4,6,0,1,0,0,0,0,0,Woobat,"847:Happy Return(0)[0] / 848:Gust(50)[0,0]",
+591,Sigilyph,0,POKEMON,1,PSYCHIC,1,120,1,4,6,1,0,0,0,0,0,0,,"849:Reflect(0)[0] / 850:Telekinesis(0)[5,0,0]",
+592,Yamask,0,POKEMON,1,PSYCHIC,1,70,2,7,6,1,0,0,0,0,0,0,,"851:Focused Wish(20)[5,0]",
+593,Cofagrigus,0,POKEMON,1,PSYCHIC,2,120,2,7,6,0,1,0,0,0,0,0,Yamask,"852:Extended Damagriiigus(0)[5,0] / 853:Perplex(60)[5,0,0]",
+594,Gothita,0,POKEMON,1,PSYCHIC,1,70,1,7,6,1,0,0,0,0,0,0,,854:Super Psy Bolt(20)[5],
+595,Gothorita,0,POKEMON,1,PSYCHIC,2,90,1,7,6,0,1,0,0,0,0,0,Gothita,"855:Fortunate Eye(0)[5] / 856:Psyshot(40)[5,0]",
+596,Gothitelle,0,POKEMON,1,PSYCHIC,3,150,2,7,6,0,0,1,0,0,0,0,Gothorita,"857:Synchro Shot(90)[5,0]","Distorted Future：Once during your turn, if this Pokémon is in the Active Spot, you may have your opponent shuffle their hand into their deck and draw 3 cards."
+597,Frillish,0,POKEMON,1,PSYCHIC,1,80,3,7,6,1,0,0,0,0,0,0,,858:Oceanic Gloom(20)[5],
+598,Jellicent ex,0,POKEMON,3,PSYCHIC,2,270,3,7,6,0,1,0,1,0,0,0,Frillish,"859:Power Press(80)[5,0]","Oceanic Curse：As long as this Pokémon is in the Active Spot, your opponent can’t play any Item cards or Pokémon Tool cards from their hand."
+599,Roggenrola,0,POKEMON,1,FIGHTING,1,80,2,1,,1,0,0,0,0,0,0,,"860:Harden(0)[6] / 861:Rolling Rocks(30)[6,6]",
+600,Boldore,0,POKEMON,1,FIGHTING,2,110,3,1,,0,1,0,0,0,0,0,Roggenrola,"862:Smack Down(30)[6] / 863:Power Gem(90)[6,6,6]",
+601,Gigalith,0,POKEMON,1,FIGHTING,3,170,3,1,,0,0,1,0,0,0,0,Boldore,"864:Vengeful Cannon(0)[6] / 865:Heavy Impact(160)[6,6,6]",
+602,Sawk,0,POKEMON,1,FIGHTING,1,110,1,5,,1,0,0,0,0,0,0,,866:Elbow Strike(30)[6] / 867:Rising Chop(90)[6],
+603,Archen,0,POKEMON,1,FIGHTING,2,80,1,1,,0,1,0,0,0,0,0,Antique Plume Fossil,"868:Acrobatics(30)[6,0]",
+604,Archeops,0,POKEMON,1,FIGHTING,3,140,1,1,,0,0,1,0,0,0,0,Archen,"869:Rock Throw(100)[6,0]","Ancient Wing：Once during your turn, if this Pokémon is in the Active Spot, you may devolve 1 of your opponent’s evolved Pokémon by putting the highest Stage Evolution card on it into your opponent’s hand."
+605,Mienfoo,0,POKEMON,1,FIGHTING,1,60,1,5,,1,0,0,0,0,0,0,,870:Kick(20)[6],
+606,Mienshao,0,POKEMON,1,FIGHTING,2,100,1,5,,0,1,0,0,0,0,0,Mienfoo,"871:Low Sweep(40)[6] / 872:Smash Uppercut(80)[6,6]",
+607,Terrakion,0,POKEMON,1,FIGHTING,1,140,3,1,,1,0,0,0,0,0,0,,"873:Retaliate(50)[6,0] / 874:Land Crush(100)[6,6,0]",
+608,Purrloin,0,POKEMON,1,DARKNESS,1,60,1,1,,1,0,0,0,0,0,0,,875:Invite Evil(0)[7],
+609,Liepard,0,POKEMON,1,DARKNESS,2,110,1,1,,0,1,0,0,0,0,0,Purrloin,876:Knock Off(50)[7],
+610,Scraggy,0,POKEMON,1,DARKNESS,1,70,1,1,,1,0,0,0,0,0,0,,"877:Headbutt(10)[7] / 878:Invade(30)[7,7]",
+611,Scrafty,0,POKEMON,1,DARKNESS,2,120,2,1,,0,1,0,0,0,0,0,Scraggy,"879:Ruffians Attack(0)[7,7]",
+612,Trubbish,0,POKEMON,1,DARKNESS,1,70,2,6,,1,0,0,0,0,0,0,,"880:Drool(10)[7] / 881:Sludge Bomb(20)[7,0]",
+613,Garbodor,0,POKEMON,1,DARKNESS,2,140,3,6,,0,1,0,0,0,0,0,Trubbish,"882:Suffocating Gas(40)[7] / 883:Gunk Shot(120)[7,7,0]",
+614,Zorua,0,POKEMON,1,DARKNESS,1,70,1,1,,1,0,0,0,0,0,0,,884:Take Down(30)[7],
+615,Zoroark,0,POKEMON,1,DARKNESS,2,120,1,1,,0,1,0,0,0,0,0,Zorua,"885:Mind Jack(0)[7] / 886:Foul Play(0)[0,0,0]",
+616,Deino,0,POKEMON,1,DARKNESS,1,80,2,1,,1,0,0,0,0,0,0,,"887:Body Slam(20)[0,0] / 888:Darkness Fang(50)[7,0,0]",
+617,Zweilous,0,POKEMON,1,DARKNESS,2,110,3,1,,0,1,0,0,0,0,0,Deino,"889:Double Hit(0)[0,0] / 890:Pitch-Black Fangs(100)[7,7,0,0]",
+618,Hydreigon ex,0,POKEMON,3,DARKNESS,3,330,3,1,,0,0,1,1,0,0,0,Zweilous,"891:Dark Bite(200)[7,7,7,0,0]","Greedy Eater：If your opponent’s Basic Pokémon is Knocked Out by damage from an attack used by this Pokémon, take 1 more Prize card."
+619,Ferroseed,0,POKEMON,1,METAL,1,70,2,2,1,1,0,0,0,0,0,0,,"892:Zzzt(10)[8] / 893:Metal Claw(40)[8,0,0]",
+620,Ferrothorn,0,POKEMON,1,METAL,2,140,3,2,1,0,1,0,0,0,0,0,Ferroseed,"894:Power Whip(0)[8] / 895:Metal Claw(130)[8,0,0,0]",
+621,Klink,0,POKEMON,1,METAL,1,60,1,2,1,1,0,0,0,0,0,0,,896:Hard Gears(10)[8],
+622,Klang,0,POKEMON,1,METAL,2,90,2,2,1,0,1,0,0,0,0,0,Klink,"897:Hard Gears(50)[8,0]",
+623,Klinklang,0,POKEMON,1,METAL,3,150,3,2,1,0,0,1,0,0,0,0,Klang,"898:Hammer In(120)[8,0,0]",Gear Coating：All of your Pokémon that have any {M} Energy attached take 20 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance).
+624,Durant,0,POKEMON,1,METAL,1,110,1,2,1,1,0,0,0,0,0,0,,"899:Bite Together(20)[0] / 900:Vise Grip(50)[8,0]",
+625,Druddigon,0,POKEMON,1,DRAGON,1,120,2,,,1,0,0,0,0,0,0,,"901:Shred(40)[0] / 902:Ambush(90)[2,3,0]",
+626,Patrat,0,POKEMON,1,COLORLESS,1,60,1,6,,1,0,0,0,0,0,0,,903:Procurement(0)[0] / 904:Gnaw(10)[0],
+627,Watchog,0,POKEMON,1,COLORLESS,2,90,1,6,,0,1,0,0,0,0,0,Patrat,905:Focus Energy(0)[0] / 906:Hyper Fang(80)[0],
+628,Lillipup,0,POKEMON,1,COLORLESS,1,60,1,6,,1,0,0,0,0,0,0,,907:Play Rough(10)[0],
+629,Herdier,0,POKEMON,1,COLORLESS,2,90,1,6,,0,1,0,0,0,0,0,Lillipup,"908:Roar(0)[0] / 909:Lunge Out(70)[0,0,0]",
+630,Stoutland,0,POKEMON,1,COLORLESS,3,160,3,6,,0,0,1,0,0,0,0,Herdier,"910:Odor Sleuth(0)[0,0] / 911:Special Fang(100)[0,0,0,0]",
+631,Bouffalant ex,0,POKEMON,3,COLORLESS,1,220,2,6,,1,0,0,1,0,0,0,,"912:Gold Breaker(100)[0,0,0]",Bouffer：This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+632,Rufflet,0,POKEMON,1,COLORLESS,1,70,1,4,6,1,0,0,0,0,0,0,,"913:Peck(10)[0] / 914:Glide(20)[0,0]",
+633,Braviary,0,POKEMON,1,COLORLESS,2,140,1,4,6,0,1,0,0,0,0,0,Rufflet,"915:Aerial Ace(40)[0] / 916:Speed Wing(130)[0,0,0,0]",
+634,Tornadus,0,POKEMON,1,COLORLESS,1,120,1,4,6,1,0,0,0,0,0,0,,"917:Wrapped in Wind(0)[0] / 918:Hurricane(100)[0,0,0]",
+635,Steven's Baltoy,0,POKEMON,1,PSYCHIC,1,60,1,7,6,1,0,0,0,0,0,0,,919:Summoning Sign(0)[0] / 920:Psychic Sphere(20)[5],
+636,Steven's Claydol,0,POKEMON,1,PSYCHIC,2,120,2,7,6,0,1,0,0,0,0,0,Steven's Baltoy,"921:Eerie Light(20)[5] / 922:Clay Blast(220)[5,5,0]",
+637,Steven's Carbink,0,POKEMON,1,PSYCHIC,1,80,2,8,,1,0,0,0,0,0,0,,"923:Magical Shot(80)[5,0,0]","Stone Palace：As long as this Pokémon is on your Bench, all of your Steven’s Pokémon take 30 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance). The effect of Stone Palace doesn’t stack."
+638,Steven's Skarmory,0,POKEMON,1,METAL,1,120,1,4,6,1,0,0,0,0,0,0,,"924:Razor Wing(30)[0,0] / 925:Sonic Double(0)[8,8,0]",
+639,Steven's Beldum,0,POKEMON,1,METAL,1,70,1,2,1,1,0,0,0,0,0,0,,"926:Ram(30)[8,0]",
+640,Steven's Metang,0,POKEMON,1,METAL,2,100,2,2,1,0,1,0,0,0,0,0,Steven's Beldum,"927:Metal Slash(70)[8,0]",
+641,Steven's Metagross ex,0,POKEMON,3,METAL,3,340,3,2,1,0,0,1,1,0,0,0,Steven's Metang,"928:Metal Stomp(200)[8,0,0]","X-Boot：Once during your turn, you may search your deck for a Basic {P} Energy card, a Basic {M} Energy card, or 1 of each and attach them to your {P} Pokémon and {M} Pokémon in any way you like. Then, shuffle your deck."
+642,Marnie's Purrloin,0,POKEMON,1,DARKNESS,1,60,1,1,,1,0,0,0,0,0,0,,929:Pointy Nails(20)[7],
+643,Marnie's Liepard,0,POKEMON,1,DARKNESS,2,100,1,1,,0,1,0,0,0,0,0,Marnie's Purrloin,"930:Pointy Claws(70)[7,7]",
+644,Marnie's Scraggy,0,POKEMON,1,DARKNESS,1,70,1,1,,1,0,0,0,0,0,0,,"931:Crunch(50)[7,7,0]",
+645,Marnie's Scrafty,0,POKEMON,1,DARKNESS,2,120,2,1,,0,1,0,0,0,0,0,Marnie's Scraggy,"932:Rear Kick(40)[7] / 933:Wild Tackle(160)[7,7,0]",
+646,Marnie's Impidimp,0,POKEMON,1,DARKNESS,1,70,1,1,,1,0,0,0,0,0,0,,934:Filch(0)[0] / 935:Corkscrew Punch(10)[7],
+647,Marnie's Morgrem,0,POKEMON,1,DARKNESS,2,100,1,1,,0,1,0,0,0,0,0,Marnie's Impidimp,"936:Corkscrew Punch(60)[7,7]",
+648,Marnie's Grimmsnarl ex,0,POKEMON,3,DARKNESS,3,320,2,1,,0,0,1,1,0,0,0,Marnie's Morgrem,"937:Shadow Bullet(180)[7,7]","Punk Up：When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for up to 5 Basic {D} Energy cards and attach them to your Marnie’s Pokémon in any way you like. Then, shuffle your deck."
+649,Marnie's Morpeko,0,POKEMON,1,DARKNESS,1,70,0,1,,1,0,0,0,0,0,0,,"938:Spiky Wheel(20)[0,0,0]",
+650,Bulbasaur,0,POKEMON,1,GRASS,1,80,2,2,,1,0,0,0,0,0,0,,939:Bind Down(10)[1],
+651,Ivysaur,0,POKEMON,1,GRASS,2,110,3,2,,0,1,0,0,0,0,0,Bulbasaur,"940:Razor Leaf(60)[1,1]",
+652,Mega Venusaur ex,0,POKEMON,4,GRASS,3,380,4,2,,0,0,1,0,1,0,0,Ivysaur,"941:Jungle Dump(240)[1,1,1,1]","Solar Transfer：As often as you like during your turn, you may use this Ability. Move a Basic {G} Energy from 1 of your Pokémon to another of your Pokémon."
+653,Exeggcute,0,POKEMON,1,GRASS,1,60,1,2,,1,0,0,0,0,0,0,,942:Jam-Packed(0)[0],
+654,Exeggutor,0,POKEMON,1,GRASS,2,140,2,2,,0,1,0,0,0,0,0,Exeggcute,"943:Guard Press(30)[1] / 944:Stomping Wood(60)[0,0,0]",
+655,Celebi,0,POKEMON,1,GRASS,1,80,1,2,,1,0,0,0,0,0,0,,945:Traverse Time(0)[1] / 946:Solar Cutter(30)[1],
+656,Seedot,0,POKEMON,1,GRASS,1,60,1,2,,1,0,0,0,0,0,0,,"947:Nap(0)[0] / 948:Seed Bomb(20)[1,0]",
+657,Nuzleaf,0,POKEMON,1,GRASS,2,100,2,2,,0,1,0,0,0,0,0,Seedot,"949:Pound(30)[1] / 950:Low Kick(50)[1,0]",
+658,Shiftry,0,POKEMON,1,GRASS,3,160,2,2,,0,0,1,0,0,0,0,Nuzleaf,"951:Reversing Gust(0)[1] / 952:Perplex(100)[1,0]",
+659,Vulpix,0,POKEMON,1,FIRE,1,70,1,3,,1,0,0,0,0,0,0,,"953:Stampede(10)[0] / 954:Combustion(20)[2,0]",
+660,Ninetales,0,POKEMON,1,FIRE,2,120,1,3,,0,1,0,0,0,0,0,Vulpix,"955:Supernatural Shapeshifter(0)[0] / 956:Combustion(60)[2,0]",
+661,Numel,0,POKEMON,1,FIRE,1,80,2,3,,1,0,0,0,0,0,0,,"957:Call for Family(0)[2] / 958:Flare(30)[2,0,0]",
+662,Mega Camerupt ex,0,POKEMON,4,FIRE,2,340,4,3,,0,1,0,0,1,0,0,Numel,"959:Roasting Heat(80)[2] / 960:Volcanic Meteor(280)[2,0,0,0]",
+663,Volcanion,0,POKEMON,1,FIRE,1,130,2,3,,1,0,0,0,0,0,0,,"961:Singe(0)[2] / 962:Backfire(130)[2,2,0]",
+664,Scorbunny,0,POKEMON,1,FIRE,1,70,1,3,,1,0,0,0,0,0,0,,963:Wild Kick(30)[0],
+665,Raboot,0,POKEMON,1,FIRE,2,100,1,3,,0,1,0,0,0,0,0,Scorbunny,964:Jumping Kick(0)[0],
+666,Cinderace,0,POKEMON,1,FIRE,3,160,0,3,,0,0,1,0,0,0,0,Raboot,965:Turbo Flare(50)[0],"Explosiveness：If this Pokémon is in your hand when you are setting up to play, you may put it face down in the Active Spot."
+667,Corphish,0,POKEMON,1,WATER,1,80,2,4,,1,0,0,0,0,0,0,,"966:Vise Grip(10)[0] / 967:Take Down(30)[0,0]",
+668,Gimmighoul,0,POKEMON,1,PSYCHIC,1,70,2,7,6,1,0,0,0,0,0,0,,968:Slap(10)[0],
+669,Sandshrew,0,POKEMON,1,FIGHTING,1,70,1,1,,1,0,0,0,0,0,0,,"969:Dig Claws(10)[0] / 970:Mud-Slap(20)[6,0]",
+670,Sandslash,0,POKEMON,1,FIGHTING,2,120,1,1,,0,1,0,0,0,0,0,Sandshrew,"971:Sand Attack(50)[0,0] / 972:Mud Shot(100)[6,0,0]",
+671,Onix,0,POKEMON,1,FIGHTING,1,120,4,1,,1,0,0,0,0,0,0,,"973:Bind(30)[0,0] / 974:Strength(100)[0,0,0,0]",
+672,Tyrogue,0,POKEMON,1,FIGHTING,1,30,0,5,,1,0,0,0,0,0,0,,975:Pow-Pow Punching(10)[],
+673,Makuhita,0,POKEMON,1,FIGHTING,1,80,2,5,,1,0,0,0,0,0,0,,"976:Corkscrew Punch(10)[6] / 977:Confront(30)[6,6]",
+674,Hariyama,0,POKEMON,1,FIGHTING,2,150,3,5,,0,1,0,0,0,0,0,Makuhita,"978:Wild Press(210)[6,6,6]","Heave-Ho Catcher：Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Switch in 1 of your opponent’s Benched Pokémon to the Active Spot."
+675,Lunatone,0,POKEMON,1,FIGHTING,1,110,1,1,,1,0,0,0,0,0,0,,"979:Power Gem(50)[6,6]","Lunar Cycle：Once during your turn, if you have Solrock in play, you may discard a Basic {F} Energy card from your hand in order to use this Ability. Draw 3 cards. You can’t use more than 1 Lunar Cycle Ability each turn."
+676,Solrock,0,POKEMON,1,FIGHTING,1,110,1,1,,1,0,0,0,0,0,0,,980:Cosmic Beam(70)[6],
+677,Riolu,0,POKEMON,1,FIGHTING,1,80,2,5,,1,0,0,0,0,0,0,,981:Accelerating Stab(30)[6],
+678,Mega Lucario ex,0,POKEMON,4,FIGHTING,2,340,2,5,,0,1,0,0,1,0,0,Riolu,"982:Aura Jab(130)[6] / 983:Mega Brave(270)[6,6]",
+679,Croagunk,0,POKEMON,1,FIGHTING,1,70,1,5,,1,0,0,0,0,0,0,,984:Smack(20)[6],
+680,Toxicroak,0,POKEMON,1,FIGHTING,2,130,1,5,,0,1,0,0,0,0,0,Croagunk,985:Reckless Charge(70)[6],
+681,Marshadow,0,POKEMON,1,FIGHTING,1,90,1,5,,1,0,0,0,0,0,0,,"986:Shadowy Side Kick(60)[6,6]",
+682,Stonjourner,0,POKEMON,1,FIGHTING,1,130,2,1,,1,0,0,0,0,0,0,,"987:Stony Kick(20)[6] / 988:Boundless Power(140)[6,6,0]",
+683,Nacli,0,POKEMON,1,FIGHTING,1,70,2,1,,1,0,0,0,0,0,0,,989:Ram(10)[0],
+684,Naclstack,0,POKEMON,1,FIGHTING,2,110,3,1,,0,1,0,0,0,0,0,Nacli,"990:Rock Hurl(50)[6,0]",
+685,Garganacl,0,POKEMON,1,FIGHTING,3,180,4,1,,0,0,1,0,0,0,0,Naclstack,"991:Hammer In(130)[6,6,0]",Powerful a-Salt：Attacks used by your {F} Pokémon do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+686,Crawdaunt,0,POKEMON,1,DARKNESS,2,130,3,1,,0,1,0,0,0,0,0,Corphish,"992:Vise Grip(30)[0] / 993:Cutting Riposte(130)[7,7,0]",
+687,Mega Absol ex,0,POKEMON,4,DARKNESS,1,280,2,1,,1,0,0,0,1,0,0,,"994:Terminal Period(0)[7,0] / 995:Claw of Darkness(200)[7,7,0]",
+688,Spiritomb,0,POKEMON,1,DARKNESS,1,80,1,1,,1,0,0,0,0,0,0,,996:Mountain Breaker(10)[7],"Spiteful Swirl：If your Active {D} Pokémon is damaged by an attack from your opponent’s Pokémon (even if your Active {D} Pokémon is Knocked Out), place 1 damage counter on the Attacking Pokémon."
+689,Yveltal,0,POKEMON,1,DARKNESS,1,110,0,4,6,1,0,0,0,0,0,0,,"997:Clutch(20)[7] / 998:Dark Feather(110)[7,7,0]",
+690,Nickit,0,POKEMON,1,DARKNESS,1,70,1,1,,1,0,0,0,0,0,0,,999:Darkness Fang(20)[7],
+691,Thievul,0,POKEMON,1,DARKNESS,2,120,1,1,,0,1,0,0,0,0,0,Nickit,"1000:Greedy Hunt(20)[0] / 1001:Pitch-Black Fangs(60)[7,0]",
+692,Shroodle,0,POKEMON,1,DARKNESS,1,60,1,6,,1,0,0,0,0,0,0,,"1002:Poison Jab(20)[7,0]",
+693,Grafaiai,0,POKEMON,1,DARKNESS,2,100,1,6,,0,1,0,0,0,0,0,Shroodle,"1003:Miraculous Paint(90)[7,0]",
+694,Steelix,0,POKEMON,1,METAL,2,200,4,2,1,0,1,0,0,0,0,0,Onix,"1004:Welcoming Tail(40)[0,0] / 1005:Skull Bash(140)[8,8,0,0]",
+695,Mega Mawile ex,0,POKEMON,4,METAL,1,270,2,2,1,1,0,0,0,1,0,0,,"1006:Gobble Down(0)[8,8] / 1007:Huge Bite(260)[8,8,0]",
+696,Dialga,0,POKEMON,1,METAL,1,140,2,2,1,1,0,0,0,0,0,0,,"1008:Beam(30)[8] / 1009:Chrono Burst(80)[8,8,0]",
+697,Tinkatink,0,POKEMON,1,METAL,1,70,1,2,1,1,0,0,0,0,0,0,,1010:Beat(20)[8],
+698,Tinkatuff,0,POKEMON,1,METAL,2,90,2,2,1,0,1,0,0,0,0,0,Tinkatink,1011:Light Punch(30)[8],"Haphazard Hammer：Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon."
+699,Tinkaton,0,POKEMON,1,METAL,3,160,2,2,1,0,0,1,0,0,0,0,Tinkatuff,1012:Windup Swing(240)[8],
+700,Gholdengo,0,POKEMON,1,METAL,2,130,2,2,1,0,1,0,0,0,0,0,Gimmighoul,"1013:All-You-Can-Grab(0)[0] / 1014:Speed Attack(100)[8,0,0]",
+701,Spearow,0,POKEMON,1,COLORLESS,1,60,1,4,6,1,0,0,0,0,0,0,,1015:Pluck(10)[0],
+702,Fearow,0,POKEMON,1,COLORLESS,2,100,1,4,6,0,1,0,0,0,0,0,Spearow,1016:Repeating Drill(0)[0],
+703,Miltank,0,POKEMON,1,COLORLESS,1,120,2,6,,1,0,0,0,0,0,0,,"1017:Bellyful of Milk(0)[0,0] / 1018:Tackle(60)[0,0,0]",
+704,Yungoos,0,POKEMON,1,COLORLESS,1,70,1,6,,1,0,0,0,0,0,0,,"1019:Collect(0)[0] / 1020:Gnaw(20)[0,0]",
+705,Gumshoos,0,POKEMON,1,COLORLESS,2,100,1,6,,0,1,0,0,0,0,0,Yungoos,"1021:Bite(50)[0,0]","Evidence Gathering：Once during your turn, you may use this Ability. Switch a card from your hand with the top card of your deck."
+706,Tangela,0,POKEMON,1,GRASS,1,80,2,2,,1,0,0,0,0,0,0,,"1022:Poison Powder(0)[1] / 1023:Hook(30)[1,0,0]",
+707,Tangrowth,0,POKEMON,1,GRASS,2,150,4,2,,0,1,0,0,0,0,0,Tangela,"1024:Absorb(30)[1,0] / 1025:Pumped-Up Whip(120)[1,1,0,0]",
+708,Chikorita,0,POKEMON,1,GRASS,1,70,1,2,,1,0,0,0,0,0,0,,1026:Razor Leaf(20)[1],
+709,Bayleef,0,POKEMON,1,GRASS,2,110,2,2,,0,1,0,0,0,0,0,Chikorita,"1027:Push Down(50)[1,0]",
+710,Meganium,0,POKEMON,1,GRASS,3,160,2,2,,0,0,1,0,0,0,0,Bayleef,"1028:Solar Beam(140)[1,1,0,0]",Wild Growth：Each Basic {G} Energy attached to all of your Pokémon provides {G}{G} Energy. The effect of Wild Growth doesn’t stack.
+711,Shuckle,0,POKEMON,1,GRASS,1,80,1,2,,1,0,0,0,0,0,0,,"1029:Rollout(30)[1,0]","Fermented Juice：Once during your turn, if this Pokémon has any {G} Energy attached, you may use this Ability. Heal 30 damage from 1 of your Pokémon."
+712,Nincada,0,POKEMON,1,GRASS,1,50,1,2,,1,0,0,0,0,0,0,,1030:Scratch(20)[0],
+713,Ninjask,0,POKEMON,1,GRASS,2,80,0,2,,0,1,0,0,0,0,0,Nincada,"1031:U-turn(90)[1,0]","Cast-Off Shell：Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Search your deck for a Shedinja and put it onto your Bench. Then, shuffle your deck."
+714,Dhelmise,0,POKEMON,1,GRASS,1,120,2,2,,1,0,0,0,0,0,0,,"1032:Earthen Power(30)[1,0]",
+715,Litleo,0,POKEMON,1,FIRE,1,70,2,3,,1,0,0,0,0,0,0,,"1033:Flare(30)[2,0]",
+716,Pyroar,0,POKEMON,1,FIRE,2,130,2,3,,0,1,0,0,0,0,0,Litleo,"1034:Searing Flame(70)[2,0,0]","Intimidating Fang：As long as this Pokémon is in the Active Spot, attacks used by your opponent’s Active Pokémon do 30 less damage (before applying Weakness and Resistance)."
+717,Sizzlipede,0,POKEMON,1,FIRE,1,80,2,3,,1,0,0,0,0,0,0,,"1035:Ram(10)[2] / 1036:Combustion(50)[2,2,0]",
+718,Centiskorch,0,POKEMON,1,FIRE,2,140,3,3,,0,1,0,0,0,0,0,Sizzlipede,"1037:Coiling Crush(50)[0,0] / 1038:Heat Crawler(140)[2,2,0,0]",
+719,Chi-Yu,0,POKEMON,1,FIRE,1,110,1,3,,1,0,0,0,0,0,0,,1039:Scorching Earth(40)[2],
+720,Mantine,0,POKEMON,1,WATER,1,110,1,4,,1,0,0,0,0,0,0,,"1040:Call for Family(0)[0] / 1041:Waterfall(50)[3,0]",
+721,Kyogre,0,POKEMON,1,WATER,1,150,3,4,,1,0,0,0,0,0,0,,"1042:Riptide(0)[3] / 1043:Swirling Waves(130)[3,3,0]",
+722,Snover,0,POKEMON,1,WATER,1,90,3,8,,1,0,0,0,0,0,0,,"1044:Beat(10)[3] / 1045:Icy Snow(30)[3,3]",
+723,Mega Abomasnow ex,0,POKEMON,4,WATER,2,350,4,8,,0,1,0,0,1,0,0,Snover,"1046:Hammer-lanche(0)[3,3] / 1047:Frost Barrier(200)[3,3,3]",
+724,Clauncher,0,POKEMON,1,WATER,1,80,2,4,,1,0,0,0,0,0,0,,"1048:Wave Splash(50)[3,3]",
+725,Clawitzer,0,POKEMON,1,WATER,2,130,2,4,,0,1,0,0,0,0,0,Clauncher,"1049:Aqua Launcher(210)[3,3,3]","Fall Back to Reload：Once during your turn, when this Pokémon moves from the Active Spot to your Bench, you may use this Ability. Attach up to 2 Basic {W} Energy cards from your hand to this Pokémon."
+726,Sobble,0,POKEMON,1,WATER,1,70,1,4,,1,0,0,0,0,0,0,,1050:Surprise Attack(30)[3],
+727,Drizzile,0,POKEMON,1,WATER,2,100,1,4,,0,1,0,0,0,0,0,Sobble,1051:Double Stab(0)[3],
+728,Inteleon,0,POKEMON,1,WATER,3,150,1,4,,0,0,1,0,0,0,0,Drizzile,1052:Bring Down(0)[3] / 1053:Water Shot(110)[3],
+729,Snom,0,POKEMON,1,WATER,1,50,1,8,,1,0,0,0,0,0,0,,1054:Hide(0)[3],
+730,Frosmoth,0,POKEMON,1,WATER,2,110,2,8,,0,1,0,0,0,0,0,Snom,1055:Chilling Wings(0)[3],
+731,Eiscue,0,POKEMON,1,WATER,1,110,1,8,,1,0,0,0,0,0,0,,"1056:Freezing Headbutt(20)[0] / 1057:Tackle(90)[3,0,0]",
+732,Magnemite,0,POKEMON,1,LIGHTNING,1,70,1,6,,1,0,0,0,0,0,0,,1058:Beam(10)[4],
+733,Magneton,0,POKEMON,1,LIGHTNING,2,90,2,6,,0,1,0,0,0,0,0,Magnemite,1059:Thunder Shock(30)[4],
+734,Magnezone,0,POKEMON,1,LIGHTNING,3,160,3,6,,0,0,1,0,0,0,0,Magneton,"1060:Upper Spark(50)[4] / 1061:Flashing Bolt(160)[4,4]",
+735,Raikou,0,POKEMON,1,LIGHTNING,1,120,1,6,,1,0,0,0,0,0,0,,"1062:Electro Fall(30)[4,4]",
+736,Electrike,0,POKEMON,1,LIGHTNING,1,70,1,6,,1,0,0,0,0,0,0,,1063:Thunder Jolt(30)[4],
+737,Mega Manectric ex,0,POKEMON,4,LIGHTNING,2,330,0,6,,0,1,0,0,1,0,0,Electrike,"1064:Flash Ray(120)[4,4] / 1065:Riotous Blasting(200)[4,4,4]",
+738,Pachirisu,0,POKEMON,1,LIGHTNING,1,70,1,6,,1,0,0,0,0,0,0,,1066:Electrified Incisors(10)[4],
+739,Helioptile,0,POKEMON,1,LIGHTNING,1,70,1,6,,1,0,0,0,0,0,0,,1067:Double Scratch(0)[0],
+740,Heliolisk,0,POKEMON,1,LIGHTNING,2,120,1,6,,0,1,0,0,0,0,0,Helioptile,"1068:Dazzle Blast(20)[0] / 1069:Head Bolt(70)[4,0]",
+741,Abra,0,POKEMON,1,PSYCHIC,1,50,1,7,6,1,0,0,0,0,0,0,,1070:Teleportation Attack(10)[5],
+742,Kadabra,0,POKEMON,1,PSYCHIC,2,80,1,7,6,0,1,0,0,0,0,0,Abra,1071:Super Psy Bolt(30)[5],"Psychic Draw：Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Draw 2 cards."
+743,Alakazam,0,POKEMON,1,PSYCHIC,3,140,1,7,6,0,0,1,0,0,0,0,Kadabra,1072:Powerful Hand(0)[5],"Psychic Draw：Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Draw 3 cards."
+744,Jynx,0,POKEMON,1,PSYCHIC,1,110,1,7,6,1,0,0,0,0,0,0,,"1073:Psychic(30)[5,5]",
+745,Ralts,0,POKEMON,1,PSYCHIC,1,70,1,7,6,1,0,0,0,0,0,0,,1074:Collect(0)[0] / 1075:Headbutt(10)[5],
+746,Kirlia,0,POKEMON,1,PSYCHIC,2,100,1,7,6,0,1,0,0,0,0,0,Ralts,1076:Call Sign(0)[5] / 1077:Psyshot(30)[5],
+747,Mega Gardevoir ex,0,POKEMON,4,PSYCHIC,3,360,2,7,6,0,0,1,0,1,0,0,Kirlia,1078:Overflowing Wishes(0)[5] / 1079:Mega Symphonia(0)[5],
+748,Shedinja,0,POKEMON,1,PSYCHIC,2,60,0,7,6,0,1,0,0,0,0,0,Nincada,1080:Damage Beat(0)[5],"Fragile Husk：If this Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon {ex}, your opponent can’t take any Prize cards for it."
+749,Spoink,0,POKEMON,1,PSYCHIC,1,70,1,7,6,1,0,0,0,0,0,0,,1081:Triple Spin(0)[5],
+750,Grumpig,0,POKEMON,1,PSYCHIC,2,120,2,7,6,0,1,0,0,0,0,0,Spoink,"1082:Psychic Sphere(60)[5,0,0]","Energized Steps：Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Look at the top 4 cards of your deck and attach any number of Basic Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards back into your deck."
+751,Xerneas,0,POKEMON,1,PSYCHIC,1,120,1,8,,1,0,0,0,0,0,0,,"1083:Geo Gate(0)[5] / 1084:Bright Horns(120)[5,5,0]",
+752,Greavard,0,POKEMON,1,PSYCHIC,1,80,3,7,6,1,0,0,0,0,0,0,,"1085:Stampede(10)[5] / 1086:Take Down(40)[5,0]",
+753,Houndstone,0,POKEMON,1,PSYCHIC,2,140,3,7,6,0,1,0,0,0,0,0,Greavard,"1087:Horrifying Bite(30)[5] / 1088:Hammer In(130)[5,5,0]",
+754,Mega Latias ex,0,POKEMON,4,DRAGON,1,280,1,,,1,0,0,0,1,0,0,,"1089:Strafe(40)[0] / 1090:Illusory Impulse(300)[2,5,0]",
+755,Latios,0,POKEMON,1,DRAGON,1,130,1,,,1,0,0,0,0,0,0,,"1091:Dragon Claw(130)[3,5,0]","Lustrous Assist：Once during your turn, when your Mega Latias {ex} moves from your Bench to the Active Spot, you may use this Ability. Move any amount of Energy from your Benched Pokémon to your Active Pokémon."
+756,Mega Kangaskhan ex,0,POKEMON,4,COLORLESS,1,300,3,6,,1,0,0,0,1,0,0,,"1092:Rapid-Fire Combo(200)[0,0,0]","Run Errand：Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Draw 2 cards. You can’t use more than 1 Run Errand Ability each turn."
+757,Delibird,0,POKEMON,1,COLORLESS,1,90,1,4,6,1,0,0,0,0,0,0,,"1093:Quick Gift(0)[0] / 1094:Gentle Slap(30)[0,0]",
+758,Buneary,0,POKEMON,1,COLORLESS,1,70,1,6,,1,0,0,0,0,0,0,,1095:Charm(0)[0] / 1096:Skip(10)[0],
+759,Lopunny,0,POKEMON,1,COLORLESS,2,110,1,6,,0,1,0,0,0,0,0,Buneary,"1097:Dashing Kick(0)[0] / 1098:Spiral Kick(60)[0,0]",
+760,Stufful,0,POKEMON,1,COLORLESS,1,70,2,6,,1,0,0,0,0,0,0,,"1099:Light Punch(10)[0] / 1100:Flop(20)[0,0]",
+761,Bewear,0,POKEMON,1,COLORLESS,2,130,3,6,,0,1,0,0,0,0,0,Stufful,"1101:Knuckle Punch(50)[0,0] / 1102:Hyper Lariat(100)[0,0,0]",
+762,Snubbull,0,POKEMON,1,PSYCHIC,1,70,1,8,,1,0,0,0,0,0,0,,"1103:Tackle(20)[5,0]",
+763,Granbull,0,POKEMON,1,PSYCHIC,2,130,2,8,,0,1,0,0,0,0,0,Snubbull,"1104:Bite(50)[5,0] / 1105:Finishing Blow(90)[5,5,0]",
+764,Cresselia,0,POKEMON,1,PSYCHIC,1,120,1,7,6,1,0,0,0,0,0,0,,"1106:Swelling Light(0)[5] / 1107:Aurora Beam(90)[5,5,0]",
+765,Meloetta,0,POKEMON,1,PSYCHIC,1,90,1,7,6,1,0,0,0,0,0,0,,"1108:Soothing Melody(0)[5] / 1109:Magical Shot(50)[5,0]",
+766,Mega Diancie ex,0,POKEMON,4,PSYCHIC,1,270,1,8,,1,0,0,0,1,0,0,,"1110:Garland Ray(0)[5,5]",Diamond Coat：This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).
+767,Mimikyu,0,POKEMON,1,PSYCHIC,1,70,1,8,,1,0,0,0,0,0,0,,1111:Call for Family(0)[0] / 1112:Scratch(20)[5],
+768,Milcery,0,POKEMON,1,PSYCHIC,1,50,1,8,,1,0,0,0,0,0,0,,1113:Draining Kiss(10)[5],
+769,Alcremie,0,POKEMON,1,PSYCHIC,2,90,1,8,,0,1,0,0,0,0,0,Milcery,1114:Sweet Circle(0)[5],
+770,Gastly,0,POKEMON,1,DARKNESS,1,70,1,6,,1,0,0,0,0,0,0,,1115:Petty Grudge(10)[7],
+771,Haunter,0,POKEMON,1,DARKNESS,2,100,1,6,,0,1,0,0,0,0,0,Gastly,1116:Spooky Shot(40)[7],
+772,Mega Gengar ex,0,POKEMON,4,DARKNESS,3,350,2,6,,0,0,1,0,1,0,0,Haunter,"1117:Void Gale(230)[7,7]","Shadowy Concealment：If 1 of your {D} Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon {ex}, that player takes 1 fewer Prize card. The effect of Shadowy Concealment doesn’t stack."
+773,Murkrow,0,POKEMON,1,DARKNESS,1,60,1,4,6,1,0,0,0,0,0,0,,1118:Ambush(10)[7],
+774,Honchkrow,0,POKEMON,1,DARKNESS,2,130,1,4,6,0,1,0,0,0,0,0,Murkrow,"1119:Wind of Darkness(30)[7] / 1120:Sniping Feathers(0)[7,7,0]",
+775,Sableye,0,POKEMON,1,DARKNESS,1,80,1,1,,1,0,0,0,0,0,0,,1121:Cocky Claw(20)[7],
+776,Absol,0,POKEMON,1,DARKNESS,1,110,1,1,,1,0,0,0,0,0,0,,"1122:Allure(0)[0] / 1123:Dark Cutter(60)[7,0]",
+777,Eternatus,0,POKEMON,1,DARKNESS,1,150,2,6,,1,0,0,0,0,0,0,,"1124:Shatter(50)[7,7] / 1125:Power Rush(130)[7,7,7]",
+778,Oddish,0,POKEMON,1,GRASS,1,50,1,2,,1,0,0,0,0,0,0,,1126:Seed Bomb(20)[1],
+779,Gloom,0,POKEMON,1,GRASS,2,70,1,2,,0,1,0,0,0,0,0,Oddish,1127:Disperse Drool(20)[1],
+780,Vileplume,0,POKEMON,1,GRASS,3,150,2,2,,0,0,1,0,0,0,0,Gloom,1128:Pollen Bomb(30)[1] / 1129:Lively Flower(60)[1],
+781,Mega Heracross ex,0,POKEMON,4,GRASS,1,280,2,2,,1,0,0,0,1,0,0,,"1130:Juggernaut Horn(100)[1,1] / 1131:Mountain Ramming(170)[1,1,1]",
+782,Lotad,0,POKEMON,1,GRASS,1,70,1,2,,1,0,0,0,0,0,0,,"1132:Headbutt(30)[1,0]",
+783,Lombre,0,POKEMON,1,GRASS,2,90,1,2,,0,1,0,0,0,0,0,Lotad,"1133:Mega Drain(30)[1,0]",
+784,Ludicolo,0,POKEMON,1,GRASS,3,160,2,2,,0,0,1,0,0,0,0,Lombre,"1134:Lunge Out(120)[1,0]","Excited Heal：Once during your turn, if you have any {G} Mega Evolution Pokémon {ex} in play, you may use this Ability. Heal 60 damage from 1 of your Pokémon."
+785,Genesect,0,POKEMON,1,GRASS,1,120,2,2,,1,0,0,0,0,0,0,,"1135:Bug’s Cannon(0)[1] / 1136:Speed Attack(110)[1,1,0]",
+786,Nymble,0,POKEMON,1,GRASS,1,50,1,2,,1,0,0,0,0,0,0,,1137:Flail Around(0)[1],
+787,Lokix,0,POKEMON,1,GRASS,2,120,1,2,,0,1,0,0,0,0,0,Nymble,"1138:Low Kick(30)[1] / 1139:Jumping Shot(150)[0,0,0]",
+788,Charmander,0,POKEMON,1,FIRE,1,80,2,3,,1,0,0,0,0,0,0,,1140:Live Coal(20)[2],"Agile：If this Pokémon has no Energy attached, it has no Retreat Cost."
+789,Charmeleon,0,POKEMON,1,FIRE,2,110,2,3,,0,1,0,0,0,0,0,Charmander,1141:Steady Firebreathing(40)[2],
+790,Mega Charizard X ex,0,POKEMON,4,FIRE,3,360,2,3,,0,0,1,0,1,0,0,Charmeleon,"1142:Inferno X(0)[2,2]",
+791,Moltres,0,POKEMON,1,FIRE,1,120,1,3,,1,0,0,0,0,0,0,,1143:Fighting Wings(20)[2],
+792,Darumaka,0,POKEMON,1,FIRE,1,80,2,3,,1,0,0,0,0,0,0,,"1144:Blaze Ball(10)[0,0,0]",
+793,Darmanitan,0,POKEMON,1,FIRE,2,150,3,3,,0,1,0,0,0,0,0,Darumaka,"1145:Blaze Ball(40)[0,0,0,0]",
+794,Reshiram,0,POKEMON,1,FIRE,1,130,2,3,,1,0,0,0,0,0,0,,"1146:Combustion(30)[2] / 1147:Burning Flare(240)[2,2,2,2]",
+795,Oricorio ex,0,POKEMON,3,FIRE,1,190,1,3,,1,0,0,1,0,0,0,,"1148:Fire Wing(110)[2,2,0]","Excited Turbo：As often as you like during your turn, if you have any {R} Mega Evolution Pokémon {ex} in play, you may use this Ability. Attach a Basic {R} Energy card from your hand to 1 of your Benched {R} Pokémon."
+796,Charcadet,0,POKEMON,1,FIRE,1,70,2,3,,1,0,0,0,0,0,0,,1149:Gather Strength(0)[2] / 1150:Chop(10)[2],
+797,Ceruledge,0,POKEMON,1,FIRE,2,140,2,3,,0,1,0,0,0,0,0,Charcadet,1151:Infernal Slash(220)[2],
+798,Seel,0,POKEMON,1,WATER,1,80,2,4,,1,0,0,0,0,0,0,,"1152:Bubble Drain(20)[3,0]",
+799,Dewgong,0,POKEMON,1,WATER,2,130,2,4,,0,1,0,0,0,0,0,Seel,"1153:Slam(0)[3,0]",Thick Fat：This Pokémon takes 30 less damage from attacks from your opponent’s {R} or {W} Pokémon (after applying Weakness and Resistance).
+800,Swinub,0,POKEMON,1,WATER,1,70,2,8,,1,0,0,0,0,0,0,,"1154:Stampede(10)[0] / 1155:Icy Snow(20)[3,0]",
+801,Piloswine,0,POKEMON,1,WATER,2,100,3,8,,0,1,0,0,0,0,0,Swinub,"1156:Rising Lunge(30)[0,0] / 1157:Frost Smash(70)[3,0,0]",
+802,Mamoswine,0,POKEMON,1,WATER,3,180,4,8,,0,0,1,0,0,0,0,Piloswine,"1158:Wreck(120)[0,0,0] / 1159:Blizzard Edge(200)[3,0,0,0]",
+803,Suicune,0,POKEMON,1,WATER,1,130,2,4,,1,0,0,0,0,0,0,,"1160:Crystal Fall(30)[3,3]",
+804,Piplup,0,POKEMON,1,WATER,1,70,1,4,,1,0,0,0,0,0,0,,"1161:Call for Support(0)[0] / 1162:Tackle(20)[0,0]",
+805,Prinplup,0,POKEMON,1,WATER,2,100,2,4,,0,1,0,0,0,0,0,Piplup,"1163:Peck(20)[0] / 1164:Targeted Dive(0)[0,0,0]",
+806,Rotom ex,0,POKEMON,3,LIGHTNING,1,190,1,6,,1,0,0,1,0,0,0,,"1165:Thunderbolt(130)[4,0]","Multi Adapter：Each of your Pokémon that has ""Rotom"" in its name may have up to 2 Pokémon Tool cards attached. If this Ability goes away, discard Pokémon Tools from those Pokémon until only 1 remains on each."
+807,Yamper,0,POKEMON,1,LIGHTNING,1,70,1,6,,1,0,0,0,0,0,0,,"1166:Play Rough(20)[4,0]",
+808,Boltund,0,POKEMON,1,LIGHTNING,2,130,1,6,,0,1,0,0,0,0,0,Yamper,"1167:Electric Run(70)[4,0]",
+809,Pawmi,0,POKEMON,1,LIGHTNING,1,60,1,6,,1,0,0,0,0,0,0,,1168:Growl(0)[4] / 1169:Tiny Charge(10)[4],
+810,Pawmo,0,POKEMON,1,LIGHTNING,2,90,1,6,,0,1,0,0,0,0,0,Pawmi,"1170:Electric Punch(60)[4,4]",
+811,Pawmot,0,POKEMON,1,LIGHTNING,3,140,1,6,,0,0,1,0,0,0,0,Pawmo,"1171:Voltaic Fist(130)[4,4]",
+812,Misdreavus,0,POKEMON,1,PSYCHIC,1,70,1,7,6,1,0,0,0,0,0,0,,1172:Petty Grudge(20)[5],
+813,Mismagius ex,0,POKEMON,3,PSYCHIC,2,260,1,7,6,0,1,0,1,0,0,0,Misdreavus,"1173:Hexa-Magic(150)[5,5]","Swirling Prose：As long as this Pokémon is in the Active Spot, whenever your opponent’s Active Pokémon moves to the Bench during their turn, their new Active Pokémon is now Confused."
+814,Cottonee,0,POKEMON,1,PSYCHIC,1,60,1,8,,1,0,0,0,0,0,0,,1174:Collect(0)[0],
+815,Whimsicott,0,POKEMON,1,PSYCHIC,2,90,1,8,,0,1,0,0,0,0,0,Cottonee,1175:Healing Fluff(0)[0] / 1176:U-turn(50)[5],
+816,Zacian,0,POKEMON,1,PSYCHIC,1,130,2,8,,1,0,0,0,0,0,0,,"1177:Limit Break(50)[5,0]",
+817,Bramblin,0,POKEMON,1,PSYCHIC,1,50,1,7,6,1,0,0,0,0,0,0,,1178:Sneaky Placement(0)[5],
+818,Brambleghast,0,POKEMON,1,PSYCHIC,2,100,2,7,6,0,1,0,0,0,0,0,Bramblin,"1179:Psychic Sphere(80)[5,0,0]","Prison Panic：Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Make your opponent’s Active Pokémon Confused."
+819,Paldean Tauros,0,POKEMON,1,FIGHTING,1,130,2,5,,1,0,0,0,0,0,0,,"1180:Raging Charge(0)[6] / 1181:Double-Edge(70)[6,6]",
+820,Gligar,0,POKEMON,1,FIGHTING,1,70,1,1,,1,0,0,0,0,0,0,,1182:Poison Jab(10)[6],
+821,Gliscor,0,POKEMON,1,FIGHTING,2,120,1,1,,0,1,0,0,0,0,0,Gligar,1183:Poison Ring(50)[6],
+822,Trapinch,0,POKEMON,1,FIGHTING,1,70,1,1,,1,0,0,0,0,0,0,,1184:Double Headbutt(0)[6],
+823,Vibrava,0,POKEMON,1,FIGHTING,2,90,1,1,,0,1,0,0,0,0,0,Trapinch,"1185:Super Vibration(60)[6,6]",
+824,Flygon,0,POKEMON,1,FIGHTING,3,150,1,1,,0,0,1,0,0,0,0,Vibrava,"1186:Cutting Wind(130)[6,6]","Sandy Flapping：Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. You may also use this Ability if this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent’s Pokémon. Discard the top 2 cards of your opponent’s deck."
+825,Sneasel,0,POKEMON,1,DARKNESS,1,70,1,1,,1,0,0,0,0,0,0,,"1187:Dig Claws(10)[7] / 1188:Scratch(30)[7,7]",
+826,Weavile,0,POKEMON,1,DARKNESS,2,90,1,1,,0,1,0,0,0,0,0,Sneasel,"1189:Retaliatory Claw(20)[7,7] / 1190:Cut(60)[7,7]",
+827,Carvanha,0,POKEMON,1,DARKNESS,1,70,1,1,,1,0,0,0,0,0,0,,1191:Reckless Charge(30)[7],
+828,Mega Sharpedo ex,0,POKEMON,4,DARKNESS,2,330,0,1,,0,1,0,0,1,0,0,Carvanha,"1192:Greedy Fang(70)[7] / 1193:Hungry Jaws(120)[7,7]",
+829,Seviper,0,POKEMON,1,DARKNESS,1,120,1,6,,1,0,0,0,0,0,0,,"1194:Pitch-Black Fangs(120)[7,7,7]","Excited Power：If you have any {D} Mega Evolution Pokémon {ex} in play, attacks used by this Pokémon do 120 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
+830,Sandile,0,POKEMON,1,DARKNESS,1,70,2,1,,1,0,0,0,0,0,0,,"1195:Ram(10)[7] / 1196:Rear Kick(20)[7,0]",
+831,Krokorok,0,POKEMON,1,DARKNESS,2,100,2,1,,0,1,0,0,0,0,0,Sandile,"1197:Bite(30)[7] / 1198:Confront(60)[7,0,0]",
+832,Krookodile,0,POKEMON,1,DARKNESS,3,170,3,1,,0,0,1,0,0,0,0,Krokorok,"1199:Vengeful Fang(60)[7] / 1200:Hammer In(160)[7,0,0,0]",
+833,Toxel,0,POKEMON,1,DARKNESS,1,70,1,6,,1,0,0,0,0,0,0,,"1201:Call for Family(0)[7] / 1202:Playful Kick(20)[7,0]",
+834,Toxtricity,0,POKEMON,1,DARKNESS,2,140,2,6,,0,1,0,0,0,0,0,Toxel,"1203:Gentle Slap(100)[7,7,0]","Sinister Surge：Once during your turn, you may use this Ability. Search your deck for a Basic {D} Energy card and attach it to 1 of your Benched {D} Pokémon. Then, shuffle your deck. If you attached Energy to a Pokémon in this way, place 2 damage counters on that Pokémon."
+835,Empoleon ex,0,POKEMON,3,METAL,3,320,2,2,1,0,0,1,1,0,0,0,Prinplup,"1204:Iron Feathers(210)[8,8,0]",Emperor’s Stance：Prevent all effects of attacks used by your opponent’s Pokémon done to this Pokémon. (Damage is not an effect.)
+836,Bronzor,0,POKEMON,1,METAL,1,80,2,2,1,1,0,0,0,0,0,0,,"1205:Iron Defense(0)[0] / 1206:Rollout(30)[0,0,0]",
+837,Bronzong,0,POKEMON,1,METAL,2,140,3,2,1,0,1,0,0,0,0,0,Bronzor,"1207:Triple Draw(0)[0] / 1208:Tool Drop(0)[0,0,0]",
+838,Togedemaru,0,POKEMON,1,METAL,1,80,1,2,1,1,0,0,0,0,0,0,,1209:Find a Friend(0)[0] / 1210:Gnaw(30)[8],
+839,Duraludon,0,POKEMON,1,METAL,1,130,2,2,1,1,0,0,0,0,0,0,,"1211:Hyper Beam(70)[8,8,8]",
+840,Archaludon,0,POKEMON,1,METAL,2,180,2,2,1,0,1,0,0,0,0,0,Duraludon,"1212:Coated Attack(120)[8,8,8]",
+841,Jigglypuff,0,POKEMON,1,COLORLESS,1,70,1,6,,1,0,0,0,0,0,0,,1213:Ball Roll(0)[0],
+842,Wigglytuff,0,POKEMON,1,COLORLESS,2,120,2,6,,0,1,0,0,0,0,0,Jigglypuff,"1214:Round(0)[0,0] / 1215:Seismic Toss(100)[0,0,0]",
+843,Aipom,0,POKEMON,1,COLORLESS,1,70,1,6,,1,0,0,0,0,0,0,,"1216:Astonish(20)[0,0]",
+844,Ambipom,0,POKEMON,1,COLORLESS,2,110,1,6,,0,1,0,0,0,0,0,Aipom,"1217:Slap(50)[0,0] / 1218:Dual Tail(0)[0,0,0]",
+845,Smeargle,0,POKEMON,1,COLORLESS,1,80,1,6,,1,0,0,0,0,0,0,,"1219:Energizing Sketch(0)[0] / 1220:Hook(40)[0,0]",
+846,Zigzagoon,0,POKEMON,1,COLORLESS,1,70,1,6,,1,0,0,0,0,0,0,,1221:Surprise Attack(30)[0],
+847,Linoone,0,POKEMON,1,COLORLESS,2,100,1,6,,0,1,0,0,0,0,0,Zigzagoon,1222:Slash(70)[0],"Excited Dash：Once during your turn, if this Pokémon is on your Bench, and if you have any Mega Evolution Pokémon {ex} in play, you may use this Ability. Switch this Pokémon with your Active Pokémon."
+848,Buneary,0,POKEMON,1,COLORLESS,1,70,1,6,,1,0,0,0,0,0,0,,"1223:Run Around(0)[0] / 1224:Kick(20)[0,0]",
+849,Mega Lopunny ex,0,POKEMON,4,COLORLESS,2,330,1,6,,0,1,0,0,1,0,0,Buneary,"1225:Gale Thrust(60)[0] / 1226:Spiky Hopper(160)[0,0]",
+850,Wurmple,0,POKEMON,1,GRASS,1,60,1,2,,1,0,0,0,0,0,0,,1227:Bug Bite(20)[1],
+851,Silcoon,0,POKEMON,1,GRASS,2,90,3,2,,0,1,0,0,0,0,0,Wurmple,1228:Tackle(30)[1],"Multiplying Cocoon：Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Search your deck for a Silcoon or a Cascoon and put it onto your Bench. Then, shuffle your deck."
+852,Beautifly,0,POKEMON,1,GRASS,3,130,1,2,,0,0,1,0,0,0,0,Silcoon,1229:Stun Spore(40)[1] / 1230:Energy Straw(0)[1],
+853,Cascoon,0,POKEMON,1,GRASS,2,90,3,2,,0,1,0,0,0,0,0,Wurmple,1231:Trading Places(0)[1],
+854,Dustox,0,POKEMON,1,GRASS,3,140,1,2,,0,0,1,0,0,0,0,Cascoon,"1232:Twilight Poison(100)[1,1]","Boisterous Wind：Once during your turn, you may use this Ability. Flip a coin. If heads, put an Energy attached to your opponent’s Active Pokémon into their hand."
+855,Entei,0,POKEMON,1,FIRE,1,140,3,3,,1,0,0,0,0,0,0,,"1233:Flare Fall(30)[2,2]",
+856,Numel,0,POKEMON,1,FIRE,1,80,3,3,,1,0,0,0,0,0,0,,"1234:Combustion(20)[2,0]","Incandescent Body：If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Burned."
+857,Camerupt,0,POKEMON,1,FIRE,2,140,3,3,,0,1,0,0,0,0,0,Numel,"1235:Roasting Burn(110)[2] / 1236:Power Stomp(170)[2,0,0,0]",
+858,Psyduck,0,POKEMON,1,WATER,1,70,1,4,,1,0,0,0,0,0,0,,"1237:Ram(20)[0,0]",Damp：Pokémon in play (both yours and your opponent’s) lose any Ability that requires the Pokémon using it to Knock Out itself.
+859,Golduck,0,POKEMON,1,WATER,2,120,1,4,,0,1,0,0,0,0,0,Psyduck,"1238:Hydro Pump(60)[0,0,0]",Damp：Pokémon in play (both yours and your opponent’s) lose any Ability that requires the Pokémon using it to Knock Out itself.
+860,Snorunt,0,POKEMON,1,WATER,1,70,1,8,,1,0,0,0,0,0,0,,1239:Chilly(10)[3],
+861,Mega Froslass ex,0,POKEMON,4,WATER,2,310,1,8,,0,1,0,0,1,0,0,Snorunt,"1240:Resentful Refrain(0)[3] / 1241:Absolute Snow(150)[3,0,0]",
+862,N's Vanillite,0,POKEMON,1,WATER,1,60,1,8,,1,0,0,0,0,0,0,,"1242:Call for Family(0)[0] / 1243:Icy Snow(20)[3,0]",
+863,N's Vanillish,0,POKEMON,1,WATER,2,100,1,8,,0,1,0,0,0,0,0,N's Vanillite,"1244:Flop(20)[0] / 1245:Sheer Cold(60)[3,0,0]",
+864,N's Vanilluxe,0,POKEMON,1,WATER,3,150,2,8,,0,0,1,0,0,0,0,N's Vanillish,"1246:Snow Coating(0)[0,0] / 1247:Blizzard(120)[3,0,0]",
+865,Snom,0,POKEMON,1,WATER,1,50,1,8,,1,0,0,0,0,0,0,,1248:Icicle(20)[3],
+866,Frosmoth,0,POKEMON,1,WATER,2,110,2,8,,0,1,0,0,0,0,0,Snom,"1249:Cold Cyclone(90)[3,3]","Alluring Wings：Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Each player draws a card."
+867,Glastrier,0,POKEMON,1,WATER,1,130,2,8,,1,0,0,0,0,0,0,,"1250:Ice Shot(20)[3] / 1251:Frosty Typhoon(130)[3,3,3]",
+868,Mega Eelektross ex,0,POKEMON,4,LIGHTNING,3,350,2,6,,0,0,1,0,1,0,0,Eelektrik,"1252:Split Bomb(0)[4,4] / 1253:Disaster Shock(190)[4,4,4]",
+869,Stunfisk,0,POKEMON,1,LIGHTNING,1,110,2,6,,1,0,0,0,0,0,0,,1254:Pouncing Trap(30)[4],
+870,Helioptile,0,POKEMON,1,LIGHTNING,1,70,1,6,,1,0,0,0,0,0,0,,"1255:Zap Kick(30)[4,0]",
+871,Heliolisk,0,POKEMON,1,LIGHTNING,2,120,1,6,,0,1,0,0,0,0,0,Helioptile,"1256:Powerful Bolt(0)[4,0,0]","Frilled Generator：Once during your turn, if you played Canari from your hand this turn, you may use this Ability. Search your deck for up to 2 Basic {L} Energy cards and attach them to this Pokémon. Then, shuffle your deck."
+872,Tapu Koko,0,POKEMON,1,LIGHTNING,1,120,1,6,,1,0,0,0,0,0,0,,"1257:Fast Flight(0)[4] / 1258:Thunder Blast(130)[4,4,0]",
+873,Team Rocket's Exeggcute,0,POKEMON,1,PSYCHIC,1,60,1,7,6,1,0,0,0,0,0,0,,1259:Focused Wish(10)[5],
+874,Team Rocket's Exeggutor,0,POKEMON,1,PSYCHIC,2,140,3,7,6,0,1,0,0,0,0,0,Team Rocket's Exeggcute,"1260:Tri Kinesis(0)[0,0] / 1261:Double-Edge(150)[5,0,0]",
+875,Misdreavus,0,POKEMON,1,PSYCHIC,1,60,1,7,6,1,0,0,0,0,0,0,,1262:Ascension(0)[5],
+876,Mismagius,0,POKEMON,1,PSYCHIC,2,110,1,7,6,0,1,0,0,0,0,0,Misdreavus,"1263:Assassin’s Magic(60)[5,0]",
+877,Rotom,0,POKEMON,1,PSYCHIC,1,60,1,7,6,1,0,0,0,0,0,0,,"1264:Roto Call(0)[0] / 1265:Gadget Show(0)[0,0]",
+878,Hop's Phantump,0,POKEMON,1,PSYCHIC,1,70,2,7,6,1,0,0,0,0,0,0,,1266:Splashing Dodge(10)[0],
+879,Hop's Trevenant,0,POKEMON,1,PSYCHIC,2,140,2,7,6,0,1,0,0,0,0,0,Hop's Phantump,"1267:Horrifying Revenge(30)[0] / 1268:Corner(90)[5,0,0]",
+880,Spectrier,0,POKEMON,1,PSYCHIC,1,120,1,7,6,1,0,0,0,0,0,0,,"1269:Spooky Shot(30)[5] / 1270:Phantasmal Barrage(0)[5,5,0]",
+881,Team Rocket's Diglett,0,POKEMON,1,FIGHTING,1,60,1,1,,1,0,0,0,0,0,0,,1271:Relentless Burrowing(0)[6],
+882,Team Rocket's Dugtrio,0,POKEMON,1,FIGHTING,2,100,1,1,,0,1,0,0,0,0,0,Team Rocket's Diglett,"1272:Mud Shot(50)[6,0]","Holes：Whenever your opponent’s Active Pokémon moves to the Bench during their turn, place 2 damage counters on that Pokémon."
+883,Meditite,0,POKEMON,1,FIGHTING,1,70,1,5,,1,0,0,0,0,0,0,,1273:Collect(0)[0] / 1274:Gentle Slap(10)[6],
+884,Medicham,0,POKEMON,1,FIGHTING,2,120,1,5,,0,1,0,0,0,0,0,Meditite,1275:Seventh Kick(150)[6],
+885,Pancham,0,POKEMON,1,FIGHTING,1,70,2,5,,1,0,0,0,0,0,0,,1276:Reckless Charge(20)[0],
+886,Mega Hawlucha ex,0,POKEMON,4,FIGHTING,1,250,1,5,,1,0,0,0,1,0,0,,"1277:Somersault Dive(120)[6,6,0]","Tenacious Body：If this Pokémon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pokémon is not Knocked Out, and its remaining HP becomes 10."
+887,Rolycoly,0,POKEMON,1,FIGHTING,1,80,3,1,,1,0,0,0,0,0,0,,1278:Mud-Slap(20)[6],
+888,Carkol,0,POKEMON,1,FIGHTING,2,110,3,1,,0,1,0,0,0,0,0,Rolycoly,"1279:Guard Press(20)[6] / 1280:Power Gem(60)[6,0,0]",
+889,Coalossal,0,POKEMON,1,FIGHTING,3,180,4,1,,0,0,1,0,0,0,0,Carkol,"1281:Tar Cannon(0)[6] / 1282:Bulky Bump(220)[6,0,0,0]",
+890,Okidogi,0,POKEMON,1,FIGHTING,1,140,3,5,,1,0,0,0,0,0,0,,"1283:Light Punch(20)[6] / 1284:Settle the Score(80)[6,6,0]",
+891,Team Rocket's Honchkrow,0,POKEMON,1,DARKNESS,2,130,1,4,6,0,1,0,0,0,0,0,Team Rocket's Murkrow,"1285:Rocket Feathers(0)[0,0] / 1286:Hammer In(100)[7,0,0]",
+892,Galarian Zigzagoon,0,POKEMON,1,DARKNESS,1,70,1,1,,1,0,0,0,0,0,0,,1287:Gnaw(10)[7],
+893,Galarian Linoone,0,POKEMON,1,DARKNESS,2,90,2,1,,0,1,0,0,0,0,0,Galarian Zigzagoon,"1288:Gnaw(20)[7] / 1289:Claw Slash(50)[7,0]",
+894,Galarian Obstagoon,0,POKEMON,1,DARKNESS,3,170,2,1,,0,0,1,0,0,0,0,Galarian Linoone,"1290:Scarring Shout(0)[7,0] / 1291:Punk Smash(160)[7,0,0]",
+895,Scraggy,0,POKEMON,1,DARKNESS,1,80,2,1,,1,0,0,0,0,0,0,,"1292:Knock Off(20)[7,0]",
+896,Mega Scrafty ex,0,POKEMON,4,DARKNESS,2,330,2,1,,0,1,0,0,1,0,0,Scraggy,"1293:Outlaw Leg(160)[7,7,0]","Counterattacking Crest：If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), place 5 damage counters on the Attacking Pokémon."
+897,Pangoro,0,POKEMON,1,DARKNESS,2,140,3,1,,0,1,0,0,0,0,0,Pancham,"1294:Corkscrew Punch(40)[7] / 1295:Master’s Punch(80)[7,7,0]",
+898,Pecharunt,0,POKEMON,1,DARKNESS,1,80,1,6,,1,0,0,0,0,0,0,,1296:Mochi Rush(20)[7],"Final Chain：If this Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon, search your deck for a card and put it into your hand. Then, shuffle your deck."
+899,Pawniard,0,POKEMON,1,METAL,1,70,1,2,1,1,0,0,0,0,0,0,,1297:Push Down(10)[8],
+900,Bisharp,0,POKEMON,1,METAL,2,120,1,2,1,0,1,0,0,0,0,0,Pawniard,1298:Rapid Draw(50)[8],
+901,Kingambit,0,POKEMON,1,METAL,3,170,3,2,1,0,0,1,0,0,0,0,Bisharp,"1299:Double-Edged Slash(180)[8,8]",Supreme Overlord：Attacks used by this Pokémon do 30 more damage to your opponent’s Active Pokémon for each Prize card your opponent has taken (before applying Weakness and Resistance).
+902,Dratini,0,POKEMON,1,DRAGON,1,80,2,,,1,0,0,0,0,0,0,,"1300:Headbutt(30)[3,4]",
+903,Dragonair,0,POKEMON,1,DRAGON,2,100,2,,,0,1,0,0,0,0,0,Dratini,"1301:Tail Snap(60)[3,4]","Evolutionary Guidance：Once during your turn, if this Pokémon has any Energy attached, you may use this Ability. Search your deck for an Evolution Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+904,Mega Dragonite ex,0,POKEMON,4,DRAGON,3,370,2,,,0,0,1,0,1,0,0,Dragonair,"1302:Ryuno Glide(330)[3,4,4]","Sky Transport：Once during your turn, you may use this Ability. Switch your Active Pokémon with 1 of your Benched Pokémon."
+905,Rayquaza,0,POKEMON,1,DRAGON,1,120,1,,,1,0,0,0,0,0,0,,"1303:Breakthrough Assault(20)[4,0] / 1304:Dragon Claw(130)[2,4,0]",
+906,N's Zekrom,0,POKEMON,1,DRAGON,1,130,2,,,1,0,0,0,0,0,0,,"1305:Shred(70)[0,0,0] / 1306:Rampaging Thunder(250)[2,4,4,0]",
+907,Noibat,0,POKEMON,1,DRAGON,1,70,1,,,1,0,0,0,0,0,0,,"1307:Knickknack Carrying(0)[0] / 1308:Bite(30)[5,7]",
+908,Noivern,0,POKEMON,1,DRAGON,2,120,0,,,0,1,0,0,0,0,0,Noibat,"1309:Agility(40)[0,0] / 1310:Enhanced Blade(70)[5,7]",
+909,Erika's Oddish,0,POKEMON,1,GRASS,1,60,1,2,,1,0,0,0,0,0,0,,1311:Reckless Charge(30)[1],
+910,Erika's Gloom,0,POKEMON,1,GRASS,2,90,1,2,,0,1,0,0,0,0,0,Erika's Oddish,"1312:Poison Spray(50)[1,0]",
+911,Erika's Vileplume ex,0,POKEMON,3,GRASS,3,310,2,2,,0,0,1,1,0,0,0,Erika's Gloom,"1313:Bloom Powder(160)[1,1,0]","Lovely Fragrance：Once during your turn, you may use this Ability. Heal 30 damage from each of your Pokémon."
+912,Erika's Bellsprout,0,POKEMON,1,GRASS,1,60,1,2,,1,0,0,0,0,0,0,,1314:Vine Slap(20)[1],
+913,Erika's Weepinbell,0,POKEMON,1,GRASS,2,90,2,2,,0,1,0,0,0,0,0,Erika's Bellsprout,"1315:Melt(30)[1] / 1316:Leafy Cyclone(70)[1,0]",
+914,Erika's Victreebel,0,POKEMON,1,GRASS,3,150,3,2,,0,0,1,0,0,0,0,Erika's Weepinbell,"1317:Flower Garden Rondo(0)[1,0] / 1318:Solar Beam(130)[1,1,0]",
+915,Erika's Tangela,0,POKEMON,1,GRASS,1,80,2,2,,1,0,0,0,0,0,0,,"1319:Bind(50)[1,0]","Gathering of Blossoms：Once during your turn, you may use this Ability. Search your deck for an Erika’s Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+916,Scyther,0,POKEMON,1,GRASS,1,90,1,2,,1,0,0,0,0,0,0,,"1320:Cut Up(10)[0] / 1321:Slashing Strike(60)[0,0]",
+917,Chikorita,0,POKEMON,1,GRASS,1,70,1,2,,1,0,0,0,0,0,0,,"1322:Growl(0)[0] / 1323:Seed Bomb(30)[1,1]",
+918,Bayleef,0,POKEMON,1,GRASS,2,100,2,2,,0,1,0,0,0,0,0,Chikorita,"1324:Leaf Step(60)[1,1]",
+919,Mega Meganium ex,0,POKEMON,4,GRASS,3,360,2,2,,0,0,1,0,1,0,0,Bayleef,"1325:Giant Bouquet(70)[0,0,0]",
+920,Tapu Bulu,0,POKEMON,1,GRASS,1,140,3,2,,1,0,0,0,0,0,0,,"1326:Wood Hammer(220)[1,1,0,0]",
+921,Dipplin,0,POKEMON,1,GRASS,2,90,3,2,,0,1,0,0,0,0,0,Applin,1327:Coated Attack(20)[1],
+922,Sprigatito,0,POKEMON,1,GRASS,1,60,1,2,,1,0,0,0,0,0,0,,1328:Tons of Treading(0)[0],
+923,Floragato,0,POKEMON,1,GRASS,2,90,1,2,,0,1,0,0,0,0,0,Sprigatito,"1329:Magical Leaf(30)[0,0]",
+924,Meowscarada,0,POKEMON,1,GRASS,3,160,1,2,,0,0,1,0,0,0,0,Floragato,"1330:Rising Bloom(90)[0,0]","Showtime：Once during your turn, if this Pokémon is on your Bench, you may switch it with your Active Pokémon."
+925,Capsakid,0,POKEMON,1,GRASS,1,70,1,2,,1,0,0,0,0,0,0,,"1331:Headbutt Bounce(20)[0,0]",
+926,Charmander,0,POKEMON,1,FIRE,1,80,1,3,,1,0,0,0,0,0,0,,"1332:Fire Claws(30)[2,0]",
+927,Charmeleon,0,POKEMON,1,FIRE,2,100,1,3,,0,1,0,0,0,0,0,Charmander,"1333:Heat Blast(50)[2,0]",
+928,Mega Charizard Y ex,0,POKEMON,4,FIRE,3,360,1,3,,0,0,1,0,1,0,0,Charmeleon,"1334:Explosion Y(0)[2,2,0]",
+929,Magmar,0,POKEMON,1,FIRE,1,80,2,3,,1,0,0,0,0,0,0,,"1335:Searing Flame(30)[2,0]",
+930,Tepig,0,POKEMON,1,FIRE,1,80,2,3,,1,0,0,0,0,0,0,,1336:Steady Firebreathing(20)[2],
+931,Pignite,0,POKEMON,1,FIRE,2,110,3,3,,0,1,0,0,0,0,0,Tepig,"1337:Super Singe(70)[2,2,0]",
+932,Mega Emboar ex,0,POKEMON,4,FIRE,3,380,4,3,,0,0,1,0,1,0,0,Pignite,"1338:Crimson Blast(320)[2,2,0]",
+933,Larvesta,0,POKEMON,1,FIRE,1,70,2,3,,1,0,0,0,0,0,0,,"1339:Ram(10)[0] / 1340:Steady Firebreathing(20)[2,0]",
+934,Centiskorch,0,POKEMON,1,FIRE,2,130,2,3,,0,1,0,0,0,0,0,Sizzlipede,"1341:Billowing Heat Wave(130)[2] / 1342:Heat Blast(80)[0,0,0]",
+935,Fuecoco,0,POKEMON,1,FIRE,1,80,2,3,,1,0,0,0,0,0,0,,"1343:Heat Burn(20)[2,0]",
+936,Crocalor,0,POKEMON,1,FIRE,2,110,3,3,,0,1,0,0,0,0,0,Fuecoco,"1344:Heat Breath(30)[2,0]",
+937,Totodile,0,POKEMON,1,WATER,1,80,1,4,,1,0,0,0,0,0,0,,"1345:Slight Intrusion(40)[3,3]",
+938,Croconaw,0,POKEMON,1,WATER,2,100,2,4,,0,1,0,0,0,0,0,Totodile,"1346:Crunch(50)[3,3]",
+939,Mega Feraligatr ex,0,POKEMON,4,WATER,3,370,3,4,,0,0,1,0,1,0,0,Croconaw,"1347:Mortal Crunch(200)[3,3,0]",
+940,Glalie,0,POKEMON,1,WATER,2,120,2,8,,0,1,0,0,0,0,0,Snorunt,"1348:Damage Beat(0)[3] / 1349:Crazy Headbutt(140)[3,0,0]",
+941,Spheal,0,POKEMON,1,WATER,1,70,2,8,,1,0,0,0,0,0,0,,1350:Powder Snow(10)[3],
+942,Sealeo,0,POKEMON,1,WATER,2,100,3,8,,0,1,0,0,0,0,0,Spheal,"1351:Lunge Out(30)[3] / 1352:Ice Ball(60)[3,3]",
+943,Walrein,0,POKEMON,1,WATER,3,170,3,8,,0,0,1,0,0,0,0,Sealeo,"1353:Frigid Fangs(60)[3] / 1354:Megaton Fall(170)[3,3]",
+944,Regice ex,0,POKEMON,3,WATER,1,230,3,8,,1,0,0,1,0,0,0,,"1355:Regi Charge(0)[0] / 1356:Ice Prison(140)[3,0,0,0]",
+945,Froakie,0,POKEMON,1,WATER,1,60,1,4,,1,0,0,0,0,0,0,,"1357:Rain Splash(20)[3,0]",
+946,Cramorant,0,POKEMON,1,WATER,1,110,1,4,,1,0,0,0,0,0,0,,"1358:Water Gun(20)[3] / 1359:Spit Shot(0)[0,0,0]",
+947,Quaxly,0,POKEMON,1,WATER,1,60,1,4,,1,0,0,0,0,0,0,,1360:Aerial Ace(10)[3],
+948,Pikachu,0,POKEMON,1,LIGHTNING,1,70,1,6,,1,0,0,0,0,0,0,,"1361:Tail Smack(10)[4] / 1362:Tiny Bolt(30)[4,0]",
+949,Raichu,0,POKEMON,1,LIGHTNING,2,130,1,6,,0,1,0,0,0,0,0,Pikachu,"1363:Quick Blow(20)[4] / 1364:Strong Volt(150)[4,4,0]",
+950,Magnemite,0,POKEMON,1,LIGHTNING,1,60,1,6,,1,0,0,0,0,0,0,,1365:Lightning Ball(20)[4],
+951,Voltorb ex,0,POKEMON,3,LIGHTNING,1,170,1,6,,1,0,0,1,0,0,0,,"1366:Hundred-Hitting Ball(100)[0,0,0]",
+952,Zapdos,0,POKEMON,1,LIGHTNING,1,110,1,4,6,1,0,0,0,0,0,0,,"1367:Follow-Up Bolt(20)[4,0] / 1368:Drill Peck(80)[4,0,0]",
+953,Zapdos,0,POKEMON,1,LIGHTNING,1,120,2,4,6,1,0,0,0,0,0,0,,"1369:Thunder Wave(0)[4] / 1370:Thunderbolt(190)[4,4,0]",
+954,Luxray ex,0,POKEMON,3,LIGHTNING,3,310,1,6,,0,0,1,1,0,0,0,Luxio,"1371:Piercing Gaze(120)[0,0] / 1372:Volt Strike(250)[4,4]",
+955,Helioptile,0,POKEMON,1,LIGHTNING,1,60,1,6,,1,0,0,0,0,0,0,,1373:Collect(0)[0] / 1374:Static Shock(10)[4],
+956,Zeraora,0,POKEMON,1,LIGHTNING,1,120,1,6,,1,0,0,0,0,0,0,,"1375:Combat Thunder(20)[4,0]",
+957,Miraidon ex,0,POKEMON,3,LIGHTNING,1,220,1,6,,1,0,0,1,0,1,0,,"1376:Slashing Claw(40)[4] / 1377:Hadron Spark(120)[4,4,0]",
+958,Clefable,0,POKEMON,1,PSYCHIC,2,120,2,8,,0,1,0,0,0,0,0,Clefairy,"1378:Metronome(0)[0,0] / 1379:Magical Shot(100)[5,0,0]",
+959,Togepi,0,POKEMON,1,PSYCHIC,1,50,1,8,,1,0,0,0,0,0,0,,"1380:Pound(30)[0,0]",
+960,Togetic,0,POKEMON,1,PSYCHIC,2,90,1,8,,0,1,0,0,0,0,0,Togepi,"1381:Draining Kiss(30)[0,0]",
+961,Marill,0,POKEMON,1,PSYCHIC,1,70,1,8,,1,0,0,0,0,0,0,,"1382:Hide(0)[0] / 1383:Flop(20)[5,0]",
+962,Azumarill ex,0,POKEMON,3,PSYCHIC,2,270,2,8,,0,1,0,1,0,0,0,Marill,"1384:Energized Balloon(60)[0,0,0]","Bubble Gathering：As often as you like during your turn, you may use this Ability. Move an Energy from 1 of your other Pokémon to this Pokémon."
+963,Shuppet,0,POKEMON,1,PSYCHIC,1,60,1,7,6,1,0,0,0,0,0,0,,1385:Spooky Shot(20)[5],
+964,Beheeyem,0,POKEMON,1,PSYCHIC,2,100,1,7,6,0,1,0,0,0,0,0,Elgyem,1386:Cosmic Beatdown(0)[5],
+965,Swirlix,0,POKEMON,1,PSYCHIC,1,60,1,8,,1,0,0,0,0,0,0,,1387:Ram(20)[5],
+966,Slurpuff,0,POKEMON,1,PSYCHIC,2,120,2,8,,0,1,0,0,0,0,0,Swirlix,"1388:Tackle(40)[5] / 1389:Magical Shot(70)[5,0]",
+967,Fidough,0,POKEMON,1,PSYCHIC,1,60,2,8,,1,0,0,0,0,0,0,,1390:Pleasant Aroma(0)[0] / 1391:Stampede(10)[0],
+968,Dachsbun ex,0,POKEMON,3,PSYCHIC,2,250,2,8,,0,1,0,1,0,0,0,Fidough,"1392:Wonder Shine(130)[0,0]","Time to Chow Down：Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Heal all damage from each of your Evolution Pokémon. If you healed any damage in this way, discard all Energy from those Pokémon."
+969,Scream Tail ex,0,POKEMON,3,PSYCHIC,1,190,1,7,6,1,0,0,1,0,0,0,,"1393:Scream(0)[0] / 1394:Crunch(120)[5,0,0]",
+970,Fezandipiti,0,POKEMON,1,PSYCHIC,1,120,1,8,,1,0,0,0,0,0,0,,1395:Energy Feather(0)[5],"Adrena-Pheromone：If this Pokémon has any {D} Energy attached and is damaged by an attack, flip a coin. If heads, prevent that damage."
+971,Iron Boulder,0,POKEMON,1,PSYCHIC,1,140,3,7,6,1,0,0,0,0,0,0,,"1396:Adjusted Horn(170)[5,0]",
+972,Hitmontop,0,POKEMON,1,FIGHTING,1,100,1,5,,1,0,0,0,0,0,0,,"1397:Spin and Draw(0)[0] / 1398:Low Kick(50)[6,0]",
+973,Groudon,0,POKEMON,1,FIGHTING,1,140,3,1,,1,0,0,0,0,0,0,,"1399:Hammer In(80)[6,6,0] / 1400:Megaton Fall(150)[6,6,0,0]",
+974,Riolu,0,POKEMON,1,FIGHTING,1,70,1,5,,1,0,0,0,0,0,0,,"1401:Punch(30)[6,0]",
+975,Stunfisk ex,0,POKEMON,3,FIGHTING,1,210,2,1,,1,0,0,1,0,0,0,,"1402:Big Bite(30)[6] / 1403:Flopping Trap(100)[6,0,0]",
+976,Carbink,0,POKEMON,1,FIGHTING,1,90,1,1,,1,0,0,0,0,0,0,,"1404:Counter Jewel(70)[6,6,0]","Double Type：As long as this Pokémon is in play, it is {F} and {P} type."
+977,Crabrawler,0,POKEMON,1,FIGHTING,1,90,3,5,,1,0,0,0,0,0,0,,"1405:Vise Grip(20)[0,0] / 1406:Crabhammer(50)[0,0,0]",
+978,Passimian,0,POKEMON,1,FIGHTING,1,110,1,5,,1,0,0,0,0,0,0,,"1407:Coordinated Throwing(0)[6,0]",
+979,Koraidon ex,0,POKEMON,3,FIGHTING,1,230,2,5,,1,0,0,1,0,1,0,,"1408:Tera(50)[6,0] / 1409:Orichalcum Fang(200)[6,6,0]",
+980,Venipede,0,POKEMON,1,DARKNESS,1,80,3,6,,1,0,0,0,0,0,0,,"1410:Spit Poison(0)[7] / 1411:Spinning Attack(40)[7,0,0]",
+981,Whirlipede,0,POKEMON,1,DARKNESS,2,100,3,6,,0,1,0,0,0,0,0,Venipede,"1412:Poison Ring(0)[7] / 1413:Spinning Attack(60)[7,0,0]",
+982,Scolipede,0,POKEMON,1,DARKNESS,3,170,3,6,,0,0,1,0,0,0,0,Whirlipede,"1414:Dastardly Jab(0)[7,0] / 1415:Sludge Bomb(160)[7,0,0]",
+983,Vullaby,0,POKEMON,1,DARKNESS,1,70,1,4,6,1,0,0,0,0,0,0,,"1416:Flap(20)[0,0]",
+984,Mandibuzz ex,0,POKEMON,3,DARKNESS,2,260,1,4,6,0,1,0,1,0,0,0,Vullaby,"1417:Bone Shot(0)[0,0] / 1418:Vulture Claw(160)[7,0,0]",
+985,Hoopa,0,POKEMON,1,DARKNESS,1,120,2,1,,1,0,0,0,0,0,0,,"1419:Filch(0)[0] / 1420:Knuckle Impact(130)[7,7,0]",
+986,Brute Bonnet,0,POKEMON,1,DARKNESS,1,120,3,1,,1,0,0,0,0,0,0,,"1421:Poison Spray(0)[7] / 1422:Relentless Punches(50)[7,7,7]",
+987,Mawile,0,POKEMON,1,METAL,1,90,1,2,1,1,0,0,0,0,0,0,,"1423:Call for Family(0)[0] / 1424:Bite(90)[8,0,0]",
+988,Registeel ex,0,POKEMON,3,METAL,1,230,3,2,1,1,0,0,1,0,0,0,,"1425:Regi Charge(0)[0] / 1426:Protecting Steel(140)[8,0,0,0]",
+989,Bronzor,0,POKEMON,1,METAL,1,60,1,2,1,1,0,0,0,0,0,0,,"1427:Shield Attack(20)[8,0]",
+990,Togedemaru ex,0,POKEMON,3,METAL,1,190,1,2,1,1,0,0,1,0,0,0,,"1428:Stun Needle(20)[8] / 1429:Spiky Rolling(80)[8,0]",
+991,Melmetal,0,POKEMON,1,METAL,2,160,4,2,1,0,1,0,0,0,0,0,Meltan,"1430:Hammer In(120)[8,8,0] / 1431:Iron Bash(230)[8,8,8,8,0]",
+992,Duraludon,0,POKEMON,1,METAL,1,130,2,2,1,1,0,0,0,0,0,0,,"1432:Confront(50)[8,8] / 1433:Duralubeam(130)[8,8,8]",
+993,Orthworm ex,0,POKEMON,3,METAL,1,220,4,2,1,1,0,0,1,0,0,0,,"1434:Rock Tomb(150)[0,0,0,0]","Pummeling Payback：If this Pokémon is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), place 2 damage counters on the Attacking Pokémon for each {M} Energy attached to this Pokémon."
+994,Fraxure,0,POKEMON,1,DRAGON,2,100,2,,,0,1,0,0,0,0,0,Axew,"1435:Dragon Pulse(80)[6,8]","Unnerve：Whenever your opponent plays an Item or Supporter card from their hand, prevent all effects of that card done to this Pokémon."
+995,Haxorus,0,POKEMON,1,DRAGON,3,170,2,,,0,0,1,0,0,0,0,Fraxure,"1436:Bring Down the Axe(0)[6] / 1437:Dragon Pulse(230)[6,8]",
+996,Larry's Dunsparce,0,POKEMON,1,COLORLESS,1,70,0,6,,1,0,0,0,0,0,0,,1438:Rising Lunge(10)[0],
+997,Larry's Dudunsparce ex,0,POKEMON,3,COLORLESS,2,270,3,6,,0,1,0,1,0,0,0,Larry's Dunsparce,"1439:Work Rush(0)[0,0,0]",
+998,Slakoth,0,POKEMON,1,COLORLESS,1,60,2,6,,1,0,0,0,0,0,0,,1440:Take It Easy(0)[0],
+999,Vigoroth,0,POKEMON,1,COLORLESS,2,90,2,6,,0,1,0,0,0,0,0,Slakoth,"1441:Slashing Claw(50)[0,0]",
+1000,Skitty,0,POKEMON,1,COLORLESS,1,60,1,6,,1,0,0,0,0,0,0,,1442:Cat Kick(20)[0],
+1001,Delcatty,0,POKEMON,1,COLORLESS,2,100,1,6,,0,1,0,0,0,0,0,Skitty,"1443:Cat Kick(40)[0] / 1444:Energy Crush(0)[0,0]",
+1002,Zangoose ex,0,POKEMON,3,COLORLESS,1,200,1,6,,1,0,0,1,0,0,0,,"1445:Spike Draw(20)[0] / 1446:Wild Scissors(180)[0,0,0]",
+1003,Larry's Starly,0,POKEMON,1,COLORLESS,1,60,1,4,6,1,0,0,0,0,0,0,,1447:Minor Errand-Running(0)[0] / 1448:Glide(10)[0],
+1004,Larry's Staravia,0,POKEMON,1,COLORLESS,2,90,1,4,6,0,1,0,0,0,0,0,Larry's Starly,"1449:Flap(20)[0] / 1450:Razor Wing(50)[0,0]",
+1005,Larry's Staraptor,0,POKEMON,1,COLORLESS,3,150,1,4,6,0,0,1,0,0,0,0,Larry's Staravia,"1451:Facade(60)[0] / 1452:Feathery Strike(150)[0,0,0]",
+1006,Mega Audino ex,0,POKEMON,4,COLORLESS,1,270,1,6,,1,0,0,0,1,0,0,,"1453:Kaleidowaltz(0)[0] / 1454:Ear Force(20)[0,0,0]",
+1007,Larry's Rufflet,0,POKEMON,1,COLORLESS,1,70,1,4,6,1,0,0,0,0,0,0,,"1455:Peck the Wound(20)[0,0]",
+1008,Larry's Braviary,0,POKEMON,1,COLORLESS,2,130,1,4,6,0,1,0,0,0,0,0,Larry's Rufflet,"1456:Clutch(50)[0,0] / 1457:Brave Bird(120)[0,0,0]",
+1009,Larry's Komala,0,POKEMON,1,COLORLESS,1,90,2,6,,1,0,0,0,0,0,0,,1458:Dozing Draw(0)[0],"Lethargic Charge：Once during your turn, if this Pokémon is on your Bench, you may use this Ability. Attach an Energy card from your hand to your Active Larry’s Pokémon."
+1010,Drampa,0,POKEMON,1,COLORLESS,1,130,2,6,,1,0,0,0,0,0,0,,"1459:Gentle Slap(50)[0,0] / 1460:Dragon Strike(120)[0,0,0]",
+1011,Spinarak,0,POKEMON,1,GRASS,1,60,1,2,,1,0,0,0,0,0,0,,1461:Gooey Thread(10)[1],
+1012,Ariados,0,POKEMON,1,GRASS,2,110,1,2,,0,1,0,0,0,0,0,Spinarak,1462:Poison Ring(50)[1],
+1013,Shaymin,0,POKEMON,1,GRASS,1,70,0,2,,1,0,0,0,0,0,0,,1463:Send Flowers(0)[1] / 1464:Leaf Step(30)[1],
+1014,Snivy,0,POKEMON,1,GRASS,1,70,1,2,,1,0,0,0,0,0,0,,1465:Reckless Charge(30)[1],
+1015,Servine,0,POKEMON,1,GRASS,2,100,1,2,,0,1,0,0,0,0,0,Snivy,1466:Solar Cutter(40)[1],
+1016,Serperior,0,POKEMON,1,GRASS,3,160,2,2,,0,0,1,0,0,0,0,Servine,"1467:Regal Command(0)[1] / 1468:Solar Coiling(100)[1,1,1]",
+1017,Scatterbug,0,POKEMON,1,GRASS,1,40,1,2,,1,0,0,0,0,0,0,,1469:Gnaw(20)[1],
+1018,Spewpa,0,POKEMON,1,GRASS,2,80,3,2,,0,1,0,0,0,0,0,Scatterbug,1470:Hide(0)[1],
+1019,Vivillon,0,POKEMON,1,GRASS,3,120,1,2,,0,0,1,0,0,0,0,Spewpa,1471:Blow Through(60)[1],"Grand Wing：Once during your turn, you may use this Ability. Your opponent shuffles their hand and puts it on the bottom of their deck. If they put any cards on the bottom of their deck in this way, they draw 4 cards."
+1020,Rowlet,0,POKEMON,1,GRASS,1,80,2,2,,1,0,0,0,0,0,0,,"1472:Find a Friend(0)[1] / 1473:Tackle(30)[0,0,0]",
+1021,Dartrix,0,POKEMON,1,GRASS,2,100,2,2,,0,1,0,0,0,0,0,Rowlet,"1474:Leafage(20)[1] / 1475:Feather Shot(0)[0,0,0]",
+1022,Decidueye ex,0,POKEMON,3,GRASS,3,320,2,2,,0,0,1,1,0,0,0,Dartrix,"1476:Crushing Arrow(240)[1,0,0,0]","Sniper’s Eye：If your opponent has exactly 4 cards in their hand, ignore all {C} Energy in the costs of attacks used by this Pokémon."
+1023,Fletchinder,0,POKEMON,1,FIRE,2,90,1,4,6,0,1,0,0,0,0,0,Fletchling,"1477:Flare(60)[2,2]",
+1024,Talonflame,0,POKEMON,1,FIRE,3,150,1,4,6,0,0,1,0,0,0,0,Fletchinder,"1478:Fire Wing(110)[2,2]","Sky Hunt：Once during your turn, you may use this Ability. Flip a coin. If heads, discard a random card from your opponent’s hand."
+1025,Salandit,0,POKEMON,1,FIRE,1,70,1,3,,1,0,0,0,0,0,0,,1479:Fire Claws(20)[2],
+1026,Salazzle ex,0,POKEMON,3,FIRE,2,260,1,3,,0,1,0,1,0,0,0,Salandit,"1480:Nasty Plot(0)[2] / 1481:Dire Nails(100)[2,2]",
+1027,Turtonator,0,POKEMON,1,FIRE,1,120,2,3,,1,0,0,0,0,0,0,,"1482:Heat Breath(80)[2,2,0]","Shell Spikes：If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), discard an Energy from the Attacking Pokémon."
+1028,Seel,0,POKEMON,1,WATER,1,80,2,4,,1,0,0,0,0,0,0,,"1483:Rain Splash(10)[3] / 1484:Wave Splash(30)[3,3]",
+1029,Dewgong,0,POKEMON,1,WATER,2,130,2,4,,0,1,0,0,0,0,0,Seel,"1485:Wave Splash(60)[3,3]","Wash Out：As often as you like during your turn, you may use this Ability. Move a {W} Energy from 1 of your Benched Pokémon to your Active Pokémon."
+1030,Staryu,0,POKEMON,1,WATER,1,70,1,4,,1,0,0,0,0,0,0,,1486:Water Gun(20)[3],
+1031,Mega Starmie ex,0,POKEMON,4,WATER,2,330,2,4,,0,1,0,0,1,0,0,Staryu,"1487:Jetting Blow(120)[3] / 1488:Nebula Beam(210)[0,0,0]",
+1032,Amaura,0,POKEMON,1,WATER,2,100,3,8,,0,1,0,0,0,0,0,Antique Sail Fossil,"1489:Icy Wind(50)[3,0]",
+1033,Aurorus,0,POKEMON,1,WATER,3,170,3,8,,0,0,1,0,0,0,0,Amaura,"1490:Freezing Chill(150)[3,3,0]",Tundra Wall：All of your Pokémon that have any {W} Energy attached take 50 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance). The effect of Tundra Wall doesn’t stack.
+1034,Volcanion,0,POKEMON,1,WATER,1,130,3,4,,1,0,0,0,0,0,0,,"1491:Strength(50)[3,0] / 1492:Powerful Steam(0)[3,3,0]",
+1035,Shinx,0,POKEMON,1,LIGHTNING,1,70,1,6,,1,0,0,0,0,0,0,,1493:Double Scratch(0)[4],
+1036,Luxio,0,POKEMON,1,LIGHTNING,2,90,1,6,,0,1,0,0,0,0,0,Shinx,"1494:Static Shock(40)[4,0]","Fighting Roar：If your opponent’s Active Pokémon is a Pokémon {ex}, this Pokémon can evolve during your first turn or the turn you play it."
+1037,Luxray,0,POKEMON,1,LIGHTNING,3,150,0,6,,0,0,1,0,0,0,0,Luxio,"1495:Incessant Onslaught(0)[4,0] / 1496:Strong Volt(200)[4,0,0]",
+1038,Dedenne,0,POKEMON,1,LIGHTNING,1,70,1,6,,1,0,0,0,0,0,0,,"1497:Tail Generator(0)[4] / 1498:Thunder Shock(30)[4,0]",
+1039,Clefairy,0,POKEMON,1,PSYCHIC,1,70,1,8,,1,0,0,0,0,0,0,,"1499:Follow Me(0)[5] / 1500:Flop(30)[5,5]",
+1040,Mega Clefable ex,0,POKEMON,4,PSYCHIC,2,320,1,8,,0,1,0,0,1,0,0,Clefairy,"1501:Shooting Moons(120)[5,5]",Luminous Wing：Prevent all effects of your opponent’s Pokémon’s Abilities done to this Pokémon.
+1041,Mawile,0,POKEMON,1,PSYCHIC,1,110,2,8,,1,0,0,0,0,0,0,,"1502:Double Eater(0)[5,0]",
+1042,Espurr,0,POKEMON,1,PSYCHIC,1,60,1,7,6,1,0,0,0,0,0,0,,1503:Nap(0)[0] / 1504:Stampede(10)[5],
+1043,Meowstic,0,POKEMON,1,PSYCHIC,2,100,1,7,6,0,1,0,0,0,0,0,Espurr,1505:Perplex(0)[5] / 1506:Psychic(30)[5],
+1044,Spritzee,0,POKEMON,1,PSYCHIC,1,70,1,8,,1,0,0,0,0,0,0,,1507:Sweet Scent(0)[0] / 1508:Ram(10)[5],
+1045,Aromatisse,0,POKEMON,1,PSYCHIC,2,120,1,8,,0,1,0,0,0,0,0,Spritzee,"1509:Draining Kiss(50)[5,0]","Scent Collection：Once during your turn, you may use this Ability. Search your deck for up to 2 Basic {P} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+1046,Nosepass,0,POKEMON,1,FIGHTING,1,90,3,1,,1,0,0,0,0,0,0,,"1510:Rolling Rocks(40)[6,6]",
+1047,Probopass,0,POKEMON,1,FIGHTING,2,140,3,1,,0,1,0,0,0,0,0,Nosepass,"1511:Rolling Rocks(60)[6,6] / 1512:Obliterating Nose(260)[6,6,6,0]",
+1048,Hippopotas,0,POKEMON,1,FIGHTING,1,100,4,1,,1,0,0,0,0,0,0,,"1513:Sand Attack(10)[6] / 1514:Bite(60)[6,0,0]",
+1049,Hippowdon,0,POKEMON,1,FIGHTING,2,150,4,1,,0,1,0,0,0,0,0,Hippopotas,"1515:Twister Spewing(80)[6,6,0] / 1516:Heavy Impact(130)[6,6,0,0]",
+1050,Landorus,0,POKEMON,1,FIGHTING,1,120,1,1,,1,0,0,0,0,0,0,,"1517:Rock Tumble(50)[6,6] / 1518:Screw Knuckle(120)[6,6,0]",
+1051,Binacle,0,POKEMON,1,FIGHTING,1,80,2,1,,1,0,0,0,0,0,0,,"1519:Double Draw(0)[6] / 1520:Scratch(30)[6,6]",
+1052,Barbaracle,0,POKEMON,1,FIGHTING,2,130,2,1,,0,1,0,0,0,0,0,Binacle,"1521:Hammer In(80)[6,6,0]","Stone Arms：Once during your turn, you may use this Ability. Attach a Basic {F} Energy card from your hand to 1 of your {F} Pokémon."
+1053,Tyrunt,0,POKEMON,1,FIGHTING,2,100,3,1,,0,1,0,0,0,0,0,Antique Jaw Fossil,"1522:Get Angry(0)[6,0]",
+1054,Tyrantrum,0,POKEMON,1,FIGHTING,3,180,3,1,,0,0,1,0,0,0,0,Tyrunt,"1523:Wreak Havoc(160)[6,0]","Tyrannically Gutsy：If this Pokémon has any Special Energy attached, it gets +150 HP."
+1055,Hawlucha,0,POKEMON,1,FIGHTING,1,70,0,5,,1,0,0,0,0,0,0,,1524:Vengeful Kick(30)[6],
+1056,Mega Zygarde ex,0,POKEMON,4,FIGHTING,1,310,2,1,,1,0,0,0,1,0,0,,"1525:Gaia Wave(200)[6,6,6] / 1526:Nullifying Zero(0)[6,6,6,6,6]",
+1057,Gastly,0,POKEMON,1,DARKNESS,1,70,1,6,,1,0,0,0,0,0,0,,1527:Surprise Attack(30)[7],
+1058,Haunter,0,POKEMON,1,DARKNESS,2,100,1,6,,0,1,0,0,0,0,0,Gastly,1528:Haunt(0)[7],
+1059,Gengar,0,POKEMON,1,DARKNESS,3,130,1,6,,0,0,1,0,0,0,0,Haunter,1529:Mind Jack(10)[7],"Infinite Shadow：If this Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon, put it into your hand instead of the discard pile. (Discard all attached cards.)"
+1060,Skorupi,0,POKEMON,1,DARKNESS,1,80,2,6,,1,0,0,0,0,0,0,,"1530:Poison Jab(20)[7,7]",
+1061,Drapion,0,POKEMON,1,DARKNESS,2,140,3,6,,0,1,0,0,0,0,0,Skorupi,"1531:Wrack Down(60)[7,7] / 1532:Hazardous Tail(100)[7,7,7]",
+1062,Yveltal ex,0,POKEMON,3,DARKNESS,1,210,1,4,6,1,0,0,1,0,0,0,,"1533:Soul Destroyer(0)[7,7,0] / 1534:Dark Strike(210)[7,7,0]",
+1063,Chien-Pao,0,POKEMON,1,DARKNESS,1,120,1,1,,1,0,0,0,0,0,0,,"1535:Strafe(20)[7] / 1536:Rising Blade(80)[7,7,0]",
+1064,Mega Skarmory ex,0,POKEMON,4,METAL,1,260,0,4,6,1,0,0,0,1,0,0,,"1537:Sonic Ripper(0)[8,8,0]",
+1065,Honedge,0,POKEMON,1,METAL,1,70,2,2,1,1,0,0,0,0,0,0,,1538:Cut(10)[0],
+1066,Doublade,0,POKEMON,1,METAL,2,100,2,2,1,0,1,0,0,0,0,0,Honedge,"1539:Weaponized Swords(0)[0,0]",
+1067,Aegislash,0,POKEMON,1,METAL,3,150,3,2,1,0,0,1,0,0,0,0,Doublade,"1540:Slash(80)[0,0,0] / 1541:Metal Slash(230)[8,0,0,0]",
+1068,Klefki,0,POKEMON,1,METAL,1,70,1,2,1,1,0,0,0,0,0,0,,1542:Memory Lock(30)[8],
+1069,Rattata,0,POKEMON,1,COLORLESS,1,40,1,6,,1,0,0,0,0,0,0,,1543:Take Down(30)[0],
+1070,Raticate,0,POKEMON,1,COLORLESS,2,90,1,6,,0,1,0,0,0,0,0,Rattata,1544:Scrape Off(20)[0] / 1545:Retaliatory Incisors(0)[0],
+1071,Meowth ex,0,POKEMON,3,COLORLESS,1,170,1,6,,1,0,0,1,0,0,0,,"1546:Tuck Tail(60)[0,0,0]","Last-Ditch Catch：Once during your turn, when you play this Pokémon from your hand onto your Bench, you may use this Ability. Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck. You can’t use more than 1 Ability that has “Last-Ditch” in its name each turn."
+1072,Snorlax,0,POKEMON,1,COLORLESS,1,160,4,6,,1,0,0,0,0,0,0,,"1547:Gormandizer(0)[0] / 1548:Collapse(160)[0,0,0,0]",
+1073,Bunnelby,0,POKEMON,1,COLORLESS,1,70,1,6,,1,0,0,0,0,0,0,,1549:Smash Kick(10)[0],
+1074,Diggersby,0,POKEMON,1,COLORLESS,2,150,4,6,,0,1,0,0,0,0,0,Bunnelby,"1550:Earthquake(140)[0] / 1551:Whap Down(100)[0,0,0]",
+1075,Fletchling,0,POKEMON,1,COLORLESS,1,60,1,4,6,1,0,0,0,0,0,0,,"1552:Chirp(0)[0] / 1553:Peck(20)[0,0]",
+1076,Furfrou,0,POKEMON,1,COLORLESS,1,90,1,6,,1,0,0,0,0,0,0,,1554:Hand Trim(0)[0] / 1555:Headbutt(30)[0],
+1077,Roto-Stick,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Roto-Stick：Look at the top 4 cards of your deck. You may reveal any number of Supporter cards you find there and put them into your hand. Shuffle the other cards back into your deck.
+1078,Hole-Digging Shovel,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Hole-Digging Shovel：Discard the top 2 cards of your deck.
+1079,Rare Candy,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Rare Candy：Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it, skipping the Stage 1. You can’t use this card during your first turn or on a Basic Pokémon that was put into play this turn."
+1080,Unfair Stamp,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Unfair Stamp：You can use this card only if any of your Pokémon were Knocked Out during your opponent’s last turn. Each player shuffles their hand into their deck. Then, you draw 5 cards, and your opponent draws 2 cards."
+1081,Enhanced Hammer,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Enhanced Hammer：Discard a Special Energy from 1 of your opponent’s Pokémon.
+1082,Hyper Aroma,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Hyper Aroma：Search your deck for up to 3 Stage 1 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+1083,Love Ball,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Love Ball：Search your deck for a Pokémon with the same name as 1 of your opponent’s Pokémon in play, reveal it, and put it into your hand. Then, shuffle your deck."
+1084,Boxed Order,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Boxed Order：Search your deck for up to 2 Item cards, reveal them, and put them into your hand. Then, shuffle your deck. Your turn ends."
+1085,Awakening Drum,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,Awakening Drum：Draw a card for each of your Ancient Pokémon in play.
+1086,Buddy-Buddy Poffin,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Buddy-Buddy Poffin：Search your deck for up to 2 Basic Pokémon with 70 HP or less and put them onto your Bench. Then, shuffle your deck."
+1087,Hand Trimmer,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Hand Trimmer：Each player discards cards from their hand until they have 5 cards in their hand. Your opponent discards first. (If a player has 5 or fewer cards in their hand, they do not discard.)"
+1088,Prime Catcher,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Prime Catcher：Switch in 1 of your opponent’s Benched Pokémon to the Active Spot. If you do, switch your Active Pokémon with 1 of your Benched Pokémon."
+1089,Reboot Pod,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,Reboot Pod：Attach a Basic Energy card from your discard pile to each of your Future Pokémon.
+1090,Ogre’s Mask,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Ogre’s Mask：Choose a Pokémon {ex} in your discard pile that has “Ogerpon” in its name, and switch it with 1 of your Pokémon {ex} in play that has “Ogerpon” in its name. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pokémon."
+1091,Accompanying Flute,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Accompanying Flute：Reveal the top 5 cards of your opponent’s deck. You may choose any number of Basic Pokémon you find there and put those Pokémon onto their Bench. Your opponent shuffles the other cards back into their deck.
+1092,Secret Box,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Secret Box：You can use this card only if you discard 3 other cards from your hand. Search your deck for an Item card, a Pokémon Tool card, a Supporter card, and a Stadium card, reveal them, and put them into your hand. Then, shuffle your deck."
+1093,Scoop Up Cyclone,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,Scoop Up Cyclone：Put 1 of your Pokémon and all attached cards into your hand.
+1094,Bug Catching Set,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Bug Catching Set：Look at the top 7 cards of your deck. You may reveal up to 2 in any combination of {G} Pokémon and Basic {G} Energy cards you find there and put them into your hand. Shuffle the other cards back into your deck.
+1095,Dangerous Laser,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,Dangerous Laser：Your opponent’s Active Pokémon is now Burned and Confused.
+1096,Poké Vital A,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,Poké Vital A：Heal 150 damage from 1 of your Pokémon. This card can’t be put into your hand or deck from the discard pile.
+1097,Night Stretcher,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Night Stretcher：Put a Pokémon or a Basic Energy card from your discard pile into your hand.
+1098,Glass Trumpet,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Glass Trumpet：You can use this card only if you have any Tera Pokémon in play. Choose up to 2 of your Benched {C} Pokémon and attach a Basic Energy card from your discard pile to each of them.
+1099,Antique Root Fossil,1,ITEM,2,COLORLESS,1,60,0,,,1,0,0,0,0,0,0,,,"Primal Root：As long as this Pokémon is in the Active Spot, attacks used by your opponent’s Basic Pokémon cost {C} more. / Antique Root Fossil：Play this card as if it were a 60-HP Basic {C} Pokémon. This card can’t be affected by any Special Conditions and can’t retreat. At any time during your turn, you may discard this card from play."
+1100,Energy Search Pro,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Energy Search Pro：Search your deck for any number of Basic Energy cards of different types, reveal them, and put them into your hand. Then, shuffle your deck."
+1101,Call Bell,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Call Bell：You can use this card only if you go second, and only during your first turn. Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck."
+1102,Dusk Ball,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Dusk Ball：Look at the bottom 7 cards of your deck. You may reveal a Pokémon you find there and put it into your hand. Shuffle the other cards back into your deck.
+1103,Meddling Memo,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Meddling Memo：Your opponent counts the cards in their hand, shuffles those cards, and puts them on the bottom of their deck. If they do, they draw that many cards."
+1104,Megaton Blower,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Megaton Blower：Discard all Pokémon Tools and Special Energy from all of your opponent’s Pokémon, and discard a Stadium in play."
+1105,Dragon Elixir,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Dragon Elixir：Heal 60 damage from your Active {N} Pokémon.
+1106,Deduction Kit,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Deduction Kit：Look at the top 3 cards of your deck and put them back in any order, or shuffle them and put them on the bottom of your deck."
+1107,Scramble Switch,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Scramble Switch：Switch your Active Pokémon with 1 of your Benched Pokémon. If you do, you may move any amount of Energy from the Pokémon you moved to your Bench to the new Active Pokémon."
+1108,Chill Teaser Toy,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Chill Teaser Toy：You can use this card only if you go second, and only during your first turn. Put an Energy attached to 1 of your opponent’s Pokémon into their hand."
+1109,Miracle Headset,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,Miracle Headset：Put up to 2 Supporter cards from your discard pile into your hand.
+1110,Max Rod,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,Max Rod：Put up to 5 in any combination of Pokémon and Basic Energy cards from your discard pile into your hand.
+1111,Treasure Tracker,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Treasure Tracker：Search your deck for up to 5 Pokémon Tool cards, reveal them, and put them into your hand. Then, shuffle your deck."
+1112,Super Potion,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Super Potion：Heal 60 damage from 1 of your Pokémon. If you healed any damage in this way, discard an Energy from that Pokémon."
+1113,N’s PP Up,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,N’s PP Up：Attach a Basic Energy card from your discard pile to 1 of your Benched N’s Pokémon.
+1114,Redeemable Ticket,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Redeemable Ticket：Count your Prize cards, shuffle them, and put them on the bottom of your deck. Then, take that many cards from the top of your deck and put them face down as your Prize cards."
+1115,Hop’s Bag,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Hop’s Bag：Search your deck for up to 2 Basic Hop’s Pokémon and put them onto your Bench. Then, shuffle your deck."
+1116,Energy Switch,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Energy Switch：Move a Basic Energy from 1 of your Pokémon to another of your Pokémon.
+1117,Potion,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Potion：Heal 30 damage from 1 of your Pokémon.
+1118,Energy Retrieval,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Energy Retrieval：Put up to 2 Basic Energy cards from your discard pile into your hand.
+1119,Energy Search,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Energy Search：Search your deck for a Basic Energy card, reveal it, and put it into your hand. Then, shuffle your deck."
+1120,Crushing Hammer,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Crushing Hammer：Flip a coin. If heads, discard an Energy from 1 of your opponent’s Pokémon."
+1121,Ultra Ball,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Ultra Ball：You can use this card only if you discard 2 other cards from your hand. Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+1122,Pokégear 3.0,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Pokégear 3.0：Look at the top 7 cards of your deck. You may reveal a Supporter card you find there and put it into your hand. Shuffle the other cards back into your deck.
+1123,Switch,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Switch：Switch your Active Pokémon with 1 of your Benched Pokémon.
+1124,Pokémon Catcher,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Pokémon Catcher：Flip a coin. If heads, switch in 1 of your opponent’s Benched Pokémon to the Active Spot."
+1125,Master Ball,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Master Ball：Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+1126,Precious Trolley,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Precious Trolley：Search your deck for any number of Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
+1127,Tera Orb,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Tera Orb：Search your deck for a Tera Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+1128,Brilliant Blender,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Brilliant Blender：Search your deck for up to 5 cards and discard them. Then, shuffle your deck."
+1129,Sacred Ash,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Sacred Ash：Shuffle up to 5 Pokémon from your discard pile into your deck.
+1130,Arven's Sandwich,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Arven's Sandwich：Heal 30 damage from your Active Pokémon. If that Pokémon is an Arven’s Pokémon, heal 100 damage from it instead."
+1131,Team Rocket's Bother-Bot,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Team Rocket's Bother-Bot：Turn 1 of your opponent’s face-down Prize cards face up and choose a random card from your opponent’s hand. Your opponent reveals that card. You may have your opponent switch those cards. (That Prize card remains face up for the rest of the game.)
+1132,Team Rocket's Great Ball,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Team Rocket's Great Ball：Search your deck for a Trainer card, reveal it, and put it into your hand. Then, shuffle your deck."
+1133,Team Rocket's Venture Bomb,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Team Rocket's Venture Bomb：Flip a coin. If heads, put 2 damage counters on 1 of your opponent’s Pokémon. If tails, put 2 damage counters on your Active Pokémon."
+1134,Team Rocket's Transceiver,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Team Rocket's Transceiver：Search your deck for a Supporter card that has “Team Rocket” in its name, reveal it, and put it into your hand. Then, shuffle your deck."
+1135,Energy Coin,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Energy Coin：Flip 2 coins. If both of them are heads, search your deck for a Basic Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck."
+1136,Antique Cover Fossil,1,ITEM,2,COLORLESS,1,60,0,,,1,0,0,0,0,0,0,,,"Protective Cover：Prevent all effects of attacks used by your opponent’s Pokémon done to this Pokémon. (Damage is not an effect.) / Antique Cover Fossil：Play this card as if it were a 60-HP Basic {C} Pokémon. This card can’t be affected by any Special Conditions and can’t retreat. At any time during your turn, you may discard this card from play."
+1137,Tool Scrapper,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Tool Scrapper：Choose up to 2 Pokémon Tools attached to Pokémon (yours or your opponent’s) and discard them.
+1138,Antique Plume Fossil,1,ITEM,2,COLORLESS,1,60,0,,,1,0,0,0,0,0,0,,,"Plume Protection：As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon. / Antique Plume Fossil：Play this card as if it were a 60-HP Basic {C} Pokémon. This card can’t be affected by any Special Conditions and can’t retreat. At any time during your turn, you may discard this card from play."
+1139,Energy Recycler,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Energy Recycler：Shuffle up to 5 Basic Energy cards from your discard pile into your deck.
+1140,Iron Defender,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Iron Defender：During your opponent’s next turn, all of your {M} Pokémon take 30 less damage from attacks from your opponent’s Pokémon (after applying Weakness and Resistance). (This includes new Pokémon that come into play.)"
+1141,Premium Power Pro,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Premium Power Pro：During this turn, attacks used by your {F} Pokémon do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
+1142,Fighting Gong,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Fighting Gong：Search your deck for a Basic {F} Energy card or a Basic {F} Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+1143,Repel,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Repel：Switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)
+1144,Strange Timepiece,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Strange Timepiece：Devolve 1 of your evolved {P} Pokémon by putting any number of Evolution cards on it into your hand. (That Pokémon can’t evolve this turn.)
+1145,Mega Signal,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Mega Signal：Search your deck for a Mega Evolution Pokémon {ex}, reveal it, and put it into your hand. Then, shuffle your deck."
+1146,Wondrous Patch,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Wondrous Patch：Attach a Basic {P} Energy card from your discard pile to 1 of your Benched {P} Pokémon.
+1147,Jumbo Ice Cream,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Jumbo Ice Cream：Heal 80 damage from your Active Pokémon that has 3 or more Energy attached.
+1148,Blowtorch,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Blowtorch：You can use this card only if you discard a Basic {R} Energy card from your hand. Discard a Pokémon Tool or Special Energy card from 1 of your opponent’s Pokémon, or discard a Stadium in play."
+1149,Energy Swatter,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Energy Swatter：Your opponent reveals their hand, and you choose an Energy card you find there and put it on the bottom of their deck."
+1150,Antique Jaw Fossil,1,ITEM,2,COLORLESS,1,60,0,,,1,0,0,0,0,0,0,,,"Intimidating Jaw：As long as this Pokémon is in the Active Spot, attacks used by your opponent’s Active Pokémon do 30 less damage (before applying Weakness and Resistance). / Antique Jaw Fossil：Play this card as if it were a 60-HP Basic {C} Pokémon. This card can’t be affected by any Special Conditions and can’t retreat. At any time during your turn, you may discard this card from play."
+1151,Antique Sail Fossil,1,ITEM,2,COLORLESS,1,60,0,,,1,0,0,0,0,0,0,,,"Protective Sail：Whenever your opponent plays a Supporter card from their hand, prevent all effects of that card done to this Pokémon. / Antique Sail Fossil：Play this card as if it were a 60-HP Basic {C} Pokémon. This card can’t be affected by any Special Conditions and can’t retreat. At any time during your turn, you may discard this card from play."
+1152,Poké Pad,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Poké Pad：Search your deck for a Pokémon that doesn’t have a Rule Box, reveal it, and put it into your hand. Then, shuffle your deck. (Pokémon {ex}, Pokémon {V}, etc. have Rule Boxes.)"
+1153,Lumiose Galette,1,ITEM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Lumiose Galette：Heal 20 damage and remove a Special Condition from your Active Pokémon.
+1154,Team Rocket’s Hypnotizer,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Team Rocket’s Hypnotizer：If the Team Rocket’s Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Team Rocket’s Pokémon is Knocked Out), the Attacking Pokémon is now Asleep."
+1155,Survival Brace,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Survival Brace：If the Pokémon this card is attached to has full HP and would be Knocked Out by damage from an attack from your opponent’s Pokémon, it is not Knocked Out, and its remaining HP becomes 10. Then, discard this card."
+1156,Lucky Helmet,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Lucky Helmet：If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), draw 2 cards."
+1157,Rescue Board,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Rescue Board：The Retreat Cost of the Pokémon this card is attached to is {C} less. If that Pokémon’s remaining HP is 30 or less, it has no Retreat Cost."
+1158,Maximum Belt,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,Maximum Belt：Attacks used by the Pokémon this card is attached to do 50 more damage to your opponent’s Active Pokémon {ex} (before applying Weakness and Resistance).
+1159,Hero’s Cape,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,Hero’s Cape：The Pokémon this card is attached to gets +100 HP.
+1160,Heavy Baton,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Heavy Baton：If the Pokémon this card is attached to has a Retreat Cost of exactly 4, is in the Active Spot, and is Knocked Out by damage from an attack from your opponent’s Pokémon, move up to 3 Basic Energy cards from that Pokémon to your Benched Pokémon in any way you like."
+1161,Handheld Fan,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Handheld Fan：If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), move an Energy from the Attacking Pokémon to 1 of your opponent’s Benched Pokémon."
+1162,Binding Mochi,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Binding Mochi：Attacks used by the Poisoned Pokémon this card is attached to do 40 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+1163,Powerglass,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Powerglass：At the end of your turn (after your attack), if the Pokémon this card is attached to is in the Active Spot, you may attach a Basic Energy card from your discard pile to it."
+1164,Payapa Berry,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Payapa Berry：If the Pokémon this card is attached to is damaged by an attack from your opponent’s {P} Pokémon, it takes 60 less damage (after applying Weakness and Resistance), and discard this card."
+1165,Sparkling Crystal,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Sparkling Crystal：When the Tera Pokémon this card is attached to uses an attack, that attack costs 1 Energy less. (The Energy can be of any type.)"
+1166,Gravity Gemstone,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Gravity Gemstone：As long as the Pokémon this card is attached to is in the Active Spot, the Retreat Cost of both Active Pokémon is {C} more."
+1167,Deluxe Bomb,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Deluxe Bomb：If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), put 12 damage counters on the Attacking Pokémon. If you placed any damage counters in this way, discard this card."
+1168,Counter Gain,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Counter Gain：If you have more Prize cards remaining than your opponent, attacks used by the Pokémon this card is attached to cost {C} less."
+1169,Amulet of Hope,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Amulet of Hope：If the Pokémon this card is attached to is Knocked Out by damage from an attack from your opponent’s Pokémon, search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck."
+1170,Haban Berry,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Haban Berry：If the Pokémon this card is attached to is damaged by an attack from your opponent’s {N} Pokémon, it takes 60 less damage (after applying Weakness and Resistance), and discard this card."
+1171,Hop’s Choice Band,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Hop’s Choice Band：Attacks used by the Hop’s Pokémon this card is attached to cost {C} less and do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).
+1172,Lillie’s Pearl,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Lillie’s Pearl：If the Lillie’s Pokémon this card is attached to is Knocked Out by damage from an attack from your opponent’s Pokémon, that player takes 1 fewer Prize card."
+1173,Cynthia's Power Weight,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Cynthia's Power Weight：The Cynthia’s Pokémon this card is attached to gets +70 HP.
+1174,Air Balloon,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Air Balloon：The Retreat Cost of the Pokémon this card is attached to is {C}{C} less.
+1175,Brave Bangle,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Brave Bangle：If the Pokémon this card is attached to doesn’t have a Rule Box, the attacks it uses do 30 more damage to your opponent’s Active Pokémon {ex} (before applying Weakness and Resistance). (Pokémon {ex}, Pokémon {V}, etc. have Rule Boxes.)"
+1176,Punk Helmet,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Punk Helmet：If the {D} Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent’s Pokémon (even if this Pokémon is Knocked Out), place 4 damage counters on the Attacking Pokémon."
+1177,Sacred Charm,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Sacred Charm：The Pokémon this card is attached to takes 30 less damage from attacks from your opponent’s Pokémon that have an Ability (after applying Weakness and Resistance).
+1178,Light Ball,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Light Ball：Attacks used by the Pikachu {ex} this card is attached to do 50 more damage to your opponent’s Active Pokémon {ex} (before applying Weakness and Resistance).
+1179,Thick Scale,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Thick Scale：The {N} Pokémon this card is attached to takes 50 less damage from attacks from your opponent’s {G}, {R}, {W}, or {L} Pokémon (after applying Weakness and Resistance)."
+1180,Core Memory,2,TOOL,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,"1556:Geobuster(350)[6,6,6,6]",Core Memory：The Mega Zygarde {ex} this card is attached to can use the attack on this card. (You still need the necessary Energy to use this attack.)
+1181,Billy & O'Nare,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Billy & O'Nare：Draw 2 cards. Then, if you have 10 or more cards in your hand, draw 2 more cards."
+1182,Boss’s Orders,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Boss’s Orders：Switch in 1 of your opponent’s Benched Pokémon to the Active Spot.
+1183,Perrin,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Perrin：Reveal up to 2 Pokémon in your hand and put them into your deck. If you do, search your deck for up to that many Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+1184,Lana’s Aid,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Lana’s Aid：Put up to 3 in any combination of Pokémon that don’t have a Rule Box and Basic Energy cards from your discard pile into your hand. (Pokémon {ex}, Pokémon {V}, etc. have Rule Boxes.)"
+1185,Explorer’s Guidance,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Explorer’s Guidance：Look at the top 6 cards of your deck and put 2 of them into your hand. Discard the other cards.
+1186,Eri,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Eri：Your opponent reveals their hand, and you discard up to 2 Item cards you find there."
+1187,Morty’s Conviction,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Morty’s Conviction：You can use this card only if you discard another card from your hand. Draw a card for each of your opponent’s Benched Pokémon.
+1188,Ciphermaniac’s Codebreaking,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Ciphermaniac’s Codebreaking：Search your deck for 2 cards, shuffle your deck, then put those cards on top of it in any order."
+1189,Salvatore,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Salvatore：Search your deck for a card that has no Abilities and evolves from 1 of your Pokémon, and put it onto that Pokémon to evolve it. Then, shuffle your deck. You can use this card on a Pokémon you put down when you were setting up to play or on a Pokémon that was put into play this turn."
+1190,Bianca’s Devotion,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Bianca’s Devotion：Heal all damage from 1 of your Pokémon that has 30 HP or less remaining.
+1191,Kieran,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Kieran：Choose 1: • Switch your Active Pokémon with 1 of your Benched Pokémon. • During this turn, attacks used by your Pokémon do 30 more damage to your opponent’s Active Pokémon {ex} and Active Pokémon {V} (before applying Weakness and Resistance)."
+1192,Carmine,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Carmine：If you go first, you may use this card during your first turn. Discard your hand and draw 5 cards."
+1193,Hassel,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Hassel：You can use this card only if any of your Pokémon were Knocked Out during your opponent’s last turn. Look at the top 8 cards of your deck and put up to 3 of them into your hand. Shuffle the other cards back into your deck.
+1194,Colress’s Tenacity,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Colress’s Tenacity：Search your deck for a Stadium card and an Energy card, reveal them, and put them into your hand. Then, shuffle your deck."
+1195,Janine’s Secret Art,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Janine’s Secret Art：Choose up to 2 of your {D} Pokémon. For each of those Pokémon, search your deck for a Basic {D} Energy card and attach it to that Pokémon. Then, shuffle your deck. If you attached Energy to your Active Pokémon in this way, it is now Poisoned."
+1196,Cassiopeia,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Cassiopeia：You can use this card only when it is the last card in your hand. Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck."
+1197,Xerosic’s Machinations,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Xerosic’s Machinations：Your opponent discards cards from their hand until they have 3 cards in their hand.
+1198,Crispin,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Crispin：Search your deck for up to 2 Basic Energy cards of different types, reveal them, and put 1 of them into your hand. Attach the other to 1 of your Pokémon. Then, shuffle your deck."
+1199,Lacey,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Lacey：Shuffle your hand into your deck. Then, draw 4 cards. If your opponent has 3 or fewer Prize cards remaining, draw 8 cards instead."
+1200,Kofu,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Kofu：Put 2 cards from your hand on the bottom of your deck in any order. If you put 2 cards on the bottom of your deck in this way, draw 4 cards. (If you can’t put 2 cards from your hand on the bottom of your deck, you can’t use this card.)"
+1201,Briar,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Briar：You can use this card only if your opponent has exactly 2 Prize cards remaining. During this turn, if your opponent’s Active Pokémon is Knocked Out by damage from an attack used by your Tera Pokémon, take 1 more Prize card."
+1202,Drayton,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Drayton：Look at the top 7 cards of your deck. You may reveal a Pokémon and a Trainer card you find there and put them into your hand. Shuffle the other cards back into your deck.
+1203,Surfer,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Surfer：Switch your Active Pokémon with 1 of your Benched Pokémon. If you do, draw cards until you have 5 cards in your hand."
+1204,Lisia’s Appeal,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Lisia’s Appeal：Switch in 1 of your opponent’s Benched Basic Pokémon to the Active Spot. If you do, the new Active Pokémon is now Confused."
+1205,Cyrano,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Cyrano：Search your deck for up to 3 Pokémon {ex}, reveal them, and put them into your hand. Then, shuffle your deck."
+1206,Larry’s Skill,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Larry’s Skill：Discard your hand and search your deck for a Pokémon, a Supporter card, and a Basic Energy card, reveal them, and put them into your hand. Then, shuffle your deck."
+1207,Amarys,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Amarys：Draw 4 cards. At the end of this turn, if you have 5 or more cards in your hand, discard your hand."
+1208,Iris’s Fighting Spirit,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Iris’s Fighting Spirit：You can use this card only if you discard another card from your hand. Draw cards until you have 6 cards in your hand.
+1209,Ruffian,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Ruffian：Discard a Pokémon Tool and a Special Energy from 1 of your opponent’s Pokémon.
+1210,Brock’s Scouting,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Brock’s Scouting：Search your deck for up to 2 Basic Pokémon or 1 Evolution Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+1211,Black Belt’s Training,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Black Belt’s Training：During this turn, attacks used by your Pokémon do 40 more damage to your opponent’s Active Pokémon {ex} (before applying Weakness and Resistance)."
+1212,Cook,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Cook：Heal 70 damage from your Active Pokémon.
+1213,Judge,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Judge：Each player shuffles their hand into their deck and draws 4 cards.
+1214,Emcee's Hype,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Emcee's Hype：Draw 2 cards. If your opponent has 3 or fewer Prize cards remaining, draw 2 more cards."
+1215,Ethan's Adventure,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Ethan's Adventure：Search your deck for up to 3 in any combination of Ethan’s Pokémon and Basic {R} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+1216,Team Rocket's Ariana,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Team Rocket's Ariana：Draw cards until you have 5 cards in your hand. If all of your Pokémon in play are Team Rocket’s Pokémon, draw cards until you have 8 cards in your hand instead."
+1217,Team Rocket's Archer,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Team Rocket's Archer：You can use this card only if any of your Team Rocket’s Pokémon were Knocked Out during your opponent’s last turn. Each player shuffles their hand into their deck. Then, you draw 5 cards, and your opponent draws 3 cards."
+1218,Team Rocket's Giovanni,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Team Rocket's Giovanni：Switch your Active Team Rocket’s Pokémon with 1 of your Benched Team Rocket’s Pokémon. If you do, switch in 1 of your opponent’s Benched Pokémon to the Active Spot."
+1219,Team Rocket's Petrel,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Team Rocket's Petrel：Search your deck for a Trainer card, reveal it, and put it into your hand. Then, shuffle your deck."
+1220,Team Rocket's Proton,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Team Rocket's Proton：If you go first, you may use this card during your first turn. Search your deck for up to 3 Basic Team Rocket’s Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+1221,N's Plan,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,N's Plan：Move up to 2 Energy from your Benched Pokémon to your Active Pokémon.
+1222,Fennel,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Fennel：Heal 40 damage from each of your Pokémon.
+1223,Harlequin,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Harlequin：Each player shuffles their hand into their deck. Then, flip a coin. If heads, you draw 5 cards, and your opponent draws 3 cards. If tails, you draw 3 cards, and your opponent draws 5 cards."
+1224,Cheren,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Cheren：Draw 3 cards.
+1225,Hilda,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Hilda：Search your deck for an Evolution Pokémon and an Energy card, reveal them, and put them into your hand. Then, shuffle your deck."
+1226,Lt. Surge's Bargain,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Lt. Surge's Bargain：Ask your opponent if each player may take a Prize card. If yes, each player takes a Prize card. If no, you draw 4 cards."
+1227,Lillie's Determination,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Lillie's Determination：Shuffle your hand into your deck. Then, draw 6 cards. If you have exactly 6 Prize cards remaining, draw 8 cards instead."
+1228,Acerola's Mischief,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Acerola's Mischief：You can use this card only if your opponent has 2 or fewer Prize cards remaining. Choose 1 of your Pokémon in play. During your opponent’s next turn, prevent all damage from and effects of attacks done to that Pokémon by your opponent’s Pokémon {ex}."
+1229,Wally's Compassion,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Wally's Compassion：Heal all damage from 1 of your Mega Evolution Pokémon {ex}. If you healed any damage in this way, put all Energy attached to that Pokémon into your hand."
+1230,Grimsley's Move,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Grimsley's Move：Look at the top 7 cards of your deck and put a {D} Pokémon you find there onto your Bench. Shuffle the other cards and put them on the bottom of your deck. You can’t use this card during your first turn.
+1231,Dawn,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Dawn：Search your deck for a Basic Pokémon, a Stage 1 Pokémon, and a Stage 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+1232,Firebreather,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Firebreather：Search your deck for up to 7 Basic {R} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+1233,Canari,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Canari：You can use this card only if you discard another card from your hand. Search your deck for up to 4 {L} Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+1234,Anthea & Concordia,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Anthea & Concordia：You can use this card only if you have N’s Darmanitan, N’s Zoroark {ex}, N’s Vanilluxe, N’s Klinklang, N’s Reshiram, and N’s Zekrom in play. During this turn, if your opponent’s Active Pokémon is Knocked Out by damage from an attack used by your N’s Pokémon, take 3 more Prize cards."
+1235,Waitress,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Waitress：Look at the top 6 cards of your deck and attach a Basic Energy card you find there to 1 of your Pokémon. Shuffle the other cards back into your deck.
+1236,Urbain,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Urbain：Draw 3 cards.
+1237,Lucian,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Lucian：Each player shuffles their hand and puts it on the bottom of their deck. If either player put any cards on the bottom of their deck in this way, each player flips a coin. If heads, that player draws 6 cards. If tails, they draw 3 cards."
+1238,Tarragon,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Tarragon：Put up to 4 in any combination of {F} Pokémon and Basic {F} Energy cards from your discard pile into your hand.
+1239,Naveen,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Naveen：Draw cards until you have 5 cards in your hand. Before drawing cards, you may discard any number of cards from your hand. (If you can’t draw any cards in this way, you can’t use this card.)"
+1240,Rosa's Encouragement,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Rosa's Encouragement：You can use this card only if you have more Prize cards remaining than your opponent. Attach up to 2 Basic Energy cards from your discard pile to 1 of your Stage 2 Pokémon.
+1241,Jacinthe,3,SUPPORTER,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Jacinthe：Heal 150 damage from 1 of your {P} Pokémon.
+1242,Community Center,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Community Center：Once during each player’s turn, if they played a Supporter card from their hand this turn, they may heal 10 damage from each of their Pokémon."
+1243,Perilous Jungle,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Perilous Jungle：During Pokémon Checkup, put 2 more damage counters on each Poisoned non-{D} Pokémon (both yours and your opponent’s)."
+1244,Full Metal Lab,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Full Metal Lab：{M} Pokémon (both yours and your opponent’s) take 30 less damage from attacks from the opponent’s Pokémon (after applying Weakness and Resistance).
+1245,Festival Grounds,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Festival Grounds：Each Pokémon that has any Energy attached (both yours and your opponent’s) recovers from all Special Conditions and can’t be affected by any Special Conditions.
+1246,Jamming Tower,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Jamming Tower：Pokémon Tools attached to each Pokémon (both yours and your opponent’s) have no effect.
+1247,Neutralization Zone,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Neutralization Zone：Prevent all damage done to Pokémon that don’t have a Rule Box (both yours and your opponent’s) by attacks from the opponent’s Pokémon {ex} and Pokémon {V}. (Pokémon {ex}, Pokémon {V}, etc. have Rule Boxes.) This card can’t be put into your hand or deck from the discard pile."
+1248,Academy at Night,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Academy at Night：Once during each player’s turn, that player may put a card from their hand on top of their deck."
+1249,Grand Tree,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,1,,,"Grand Tree：Once during each player’s turn, that player may search their deck for a Stage 1 Pokémon that evolves from 1 of their Basic Pokémon and put it onto that Pokémon to evolve it. If that Pokémon was evolved in this way, that player may search their deck for a Stage 2 Pokémon that evolves from that Pokémon and put it onto that Pokémon to evolve it. Then, that player shuffles their deck. (Players can’t evolve a Basic Pokémon during their first turn or a Basic Pokémon that was put into play this turn.)"
+1250,Area Zero Underdepths,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Area Zero Underdepths：Each player who has any Tera Pokémon in play can have up to 8 Pokémon on their Bench. If a player no longer has any Tera Pokémon in play, that player discards Pokémon from their Bench until they have 5. When this card leaves play, both players discard Pokémon from their Bench until they have 5, and the player who played this card discards first."
+1251,Lively Stadium,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Lively Stadium：Each Basic Pokémon in play (both yours and your opponent’s) gets +30 HP.
+1252,Gravity Mountain,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Gravity Mountain：Each Stage 2 Pokémon in play (both yours and your opponent’s) gets -30 HP.
+1253,N’s Castle,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,N’s Castle：N’s Pokémon in play (both yours and your opponent’s) have no Retreat Cost.
+1254,Levincia,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Levincia：Once during each player’s turn, that player may put up to 2 Basic {L} Energy cards from their discard pile into their hand."
+1255,Postwick,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Postwick：Attacks used by Hop’s Pokémon (both yours and your opponent’s) do 30 more damage to the opponent’s Active Pokémon (before applying Weakness and Resistance).
+1256,Team Rocket's Watchtower,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Team Rocket's Watchtower：{C} Pokémon in play (both yours and your opponent’s) have no Abilities.
+1257,Team Rocket's Factory,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Team Rocket's Factory：Once during each player’s turn, if they played a Supporter card that has ""Team Rocket"" in its name from their hand this turn, they may draw 2 cards."
+1258,Granite Cave,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Granite Cave：Steven’s Pokémon (both yours and your opponent’s) take 30 less damage from attacks from the opponent’s Pokémon (after applying Weakness and Resistance).
+1259,Spikemuth Gym,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Spikemuth Gym：Once during each player’s turn, that player may search their deck for a Marnie’s Pokémon, reveal it, and put it into their hand. Then, that player shuffles their deck."
+1260,Risky Ruins,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Risky Ruins：Whenever any player puts a Basic non-{D} Pokémon onto their Bench during their turn, place 2 damage counters on that Pokémon."
+1261,Forest of Vitality,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Forest of Vitality：Each player’s {G} Pokémon can evolve into {G} Pokémon during the turn they play those Pokémon, except during their first turn."
+1262,Surfing Beach,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Surfing Beach：Once during each player’s turn, that player may switch their Active {W} Pokémon with 1 of their Benched {W} Pokémon."
+1263,Mystery Garden,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Mystery Garden：Once during each player’s turn, that player may discard an Energy card from their hand in order to draw cards until they have as many cards in their hand as they have {P} Pokémon in play."
+1264,Battle Cage,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Battle Cage：Prevent all damage counters from being placed on Benched Pokémon (both yours and your opponent’s) by effects of attacks and Abilities from the opponent’s Pokémon. (Damage from attacks is still taken.)
+1265,Dizzying Valley,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Dizzying Valley：Confused Pokémon (both yours and your opponent’s) don’t recover from that Special Condition when they evolve or devolve.
+1266,Nighttime Mine,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,Nighttime Mine：Attacks used by each Tera Pokémon in play (both yours and your opponent’s) cost {C} more.
+1267,Lumiose City,4,STADIUM,0,COLORLESS,0,0,0,,,0,0,0,0,0,0,0,,,"Lumiose City：Once during each player’s turn, that player may search their deck for a Basic Pokémon and put it onto their Bench. Then, that player shuffles their deck. If a player searches their deck in this way, their turn ends."

@@ -1,18 +1,21 @@
+"""Print a compact table of reconstructed decks (team / archetype / top cards)."""
 import json
+import os
 import sys
 
-sys.stdout.reconfigure(encoding="utf-8")
-ROOT = r"D:\DeepSeek Harness\ptcg-arena"
-data = json.load(open(ROOT + r"\eval\recon\opponents_decks.json", encoding="utf-8"))
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+data = json.load(open(os.path.join(ROOT, "data", "opponents_decks.json"), encoding="utf-8"))
 
 MARK = [
     ("Dragapult", ["Dragapult", "Drakloak", "Dreepy", "Budew"]),
-    ("Crustle墙", ["Crustle", "Dwebble"]),
+    ("CrustleWall", ["Crustle", "Dwebble"]),
     ("Alakazam", ["Alakazam", "Kadabra", "Abra"]),
     ("MegaLucario", ["Mega Lucario", "Riolu", "Solrock"]),
-    ("草系", ["Teal Mask Ogerpon", "Meganium", "Bayleef", "Applin", "Dipplin", "Tapu Bulu"]),
+    ("Grass", ["Teal Mask Ogerpon", "Meganium", "Bayleef", "Applin", "Dipplin", "Tapu Bulu"]),
     ("Kangaskhan", ["Mega Kangaskhan", "Zangoose"]),
-    ("Hop's", ["Hop’s Trevenant", "Hop's Trevenant", "Hop’s Cramorant", "Hop's Cramorant"]),
+    ("Hop", ["Hop's Trevenant", "Hop's Cramorant", "Hop's Snorlax"]),
 ]
 
 
@@ -28,7 +31,7 @@ def classify(cards):
 
 rows = []
 for tid, e in data.items():
-    late = e["decks"].get("late")
+    late = (e.get("decks") or {}).get("late")
     if not late:
         continue
     top = sorted(late["cards"], key=lambda c: -c["n"])[:6]

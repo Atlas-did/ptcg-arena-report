@@ -1,29 +1,31 @@
-"""Compact standing monitor: rank, lead, recent rounds, per-archetype rate, flags."""
+"""Standing monitor: rank, lead, recent rounds, per-archetype rate, flags."""
 import collections
 import json
 import os
 import sys
 import urllib.request
 
-sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 from bot_farm import login, call  # noqa: E402
 
-OURS = 39
+OURS = int(os.environ.get("PTCG_TEAM_ID", "39"))
 MARK = [
     ("Dragapult", ["Dragapult", "Drakloak", "Dreepy"]),
-    ("Crustle墙", ["Crustle", "Dwebble"]),
+    ("CrustleWall", ["Crustle", "Dwebble"]),
     ("Alakazam", ["Alakazam", "Kadabra", "Abra"]),
     ("MegaLucario", ["Mega Lucario", "Riolu", "Solrock"]),
-    ("草系", ["Ogerpon", "Meganium", "Applin", "Dipplin"]),
+    ("Grass", ["Ogerpon", "Meganium", "Applin", "Dipplin"]),
 ]
 RECENT = 6
 
 
 def main():
-    board = json.loads(urllib.request.urlopen("http://115.159.47.81/api/leaderboard/b", timeout=40).read().decode())
-    me = next(r for r in board["rows"] if "对对对" in r["team_name"])
+    base = os.environ.get("PTCG_BASE", "http://115.159.47.81/api")
+    board = json.loads(urllib.request.urlopen(base + "/leaderboard/b", timeout=40).read().decode())
+    me = next(r for r in board["rows"] if r["team_id"] == OURS)
     rows = [(x["round_no"], x["points"]) for x in me["rounds"]]
     print(f"B board  latest R{board['latest_round']}  next R{board.get('next_round')}")
     print(f"we: rank {me['rank']}  total {me['total_points']}  rounds {len(rows)}")
@@ -42,9 +44,14 @@ def main():
     if lead < 0:
         print("FLAG: we are no longer first")
     elif lead < 60:
-        print(f"FLAG: lead down to {lead} (a single bad round is ~-10)")
+        print(f"FLAG: lead down to {lead} (a bad round is about -10)")
 
-    recon = json.load(open(os.path.join(ROOT, "eval", "recon", "opponents_decks.json"), encoding="utf-8"))
+    recon_path = os.path.join(ROOT, "data", "opponents_decks.json")
+    if not os.path.exists(recon_path):
+        print("\n(data/opponents_decks.json not found; skip archetype section)")
+        return
+    with open(recon_path, encoding="utf-8") as fh:
+        recon = json.load(fh)
 
     def arche(tid):
         e = recon.get(str(tid)) or {}
@@ -73,7 +80,7 @@ def main():
         agg[a][1] += 1
     print(f"\nlast 12 rounds by archetype (R{since}+):")
     for a, (w, n) in sorted(agg.items(), key=lambda kv: -kv[1][1]):
-        flag = "  <-- watch" if (a in ("Dragapult", "Crustle墙") and w / max(1, n) < 0.6) else ""
+        flag = "  <-- watch" if (a in ("Dragapult", "CrustleWall")) and w / max(1, n) < 0.6 else ""
         print(f"  {a:<12}{w:>3}/{n:<3} = {w / max(1, n):>5.0%}{flag}")
 
 

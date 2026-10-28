@@ -1,33 +1,32 @@
-"""Full opponent reverse-engineering pass 1: decks (early vs late) for every team.
+"""Reconstruct every team's deck from official match logs (opening draws).
 
-Parses official match logs (7-card opening draws) and reconstructs each team's deck
-composition, plus the attack names they use. Two eras are tracked separately so a
-mid-season deck switch shows up as a diff.
+Two eras are tracked separately so a mid-season deck switch shows up as a diff.
+Output: data/recon/opponents_decks.json
 """
 import collections
+import csv
 import json
 import os
 import re
 import sys
 import urllib.request
 
-sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
-from bot_farm import login, call  # noqa: E402
+from bot_farm import BASE, login, call  # noqa: E402
 
 EARLY_MAX = int(os.environ.get("RECON_EARLY_MAX", 55))
 PER_ERA = int(os.environ.get("RECON_PER_ERA", 12))
-OUT = os.path.join(ROOT, "eval", "recon")
+OUT = os.path.join(ROOT, "data", "recon")
 os.makedirs(OUT, exist_ok=True)
 
-DRAW = re.compile(r"^\s*([AB]) 方 抽到「(.+?)」")
-ATK = re.compile(r"([AB]) 方：使用招式「(.+?)」")
-ROUND = re.compile(r"【第 (\d+) 回合")
+DRAW = re.compile(r"^\s*([AB])\s.*?\u62bd\u5230\W*(.+?)\W*$")
+ATK = re.compile(r"^\s*([AB])\s.*?\u4f7f\u7528\u62db\u5f0f\W*(.+?)\W*$")
+TURN1 = re.compile(r"\u3010\u7b2c 1 \u56de\u5408")
 
-cards = []
-for r in __import__("csv").DictReader(open(os.path.join(ROOT, "cards.csv"), encoding="utf-8-sig")):
-    cards.append(r)
+cards = list(csv.DictReader(open(os.path.join(ROOT, "data", "cards.csv"), encoding="utf-8-sig")))
 by_name = collections.defaultdict(list)
 for r in cards:
     by_name[r["name"]].append(r)
@@ -56,7 +55,7 @@ def main():
     tok = login(os.environ["PTCG_USER"], os.environ["PTCG_PASS"])
     names = {}
     for board in ("b", "a"):
-        d = json.loads(urllib.request.urlopen(f"http://115.159.47.81/api/leaderboard/{board}", timeout=40).read().decode())
+        d = json.loads(urllib.request.urlopen(f"{BASE}/leaderboard/{board}", timeout=40).read().decode())
         for r in d["rows"]:
             names[r["team_id"]] = r["team_name"]
     ms = call("/matches", tok)
@@ -85,7 +84,9 @@ def main():
             continue
         used += 1
         seat = {"A": a, "B": b}
-        head, _, body = log.partition("【第 1 回合")
+        head, sep, body = log.partition("\u3010\u7b2c 1 \u56de\u5408")
+        if not sep:
+            head, body = "", log
         seen = collections.Counter()
         for line in head.splitlines():
             mm = DRAW.match(line)
@@ -94,10 +95,12 @@ def main():
         for (tid, nm), k in seen.items():
             if tid in names:
                 draws[tid][era][nm] += k
-        for mm in ATK.finditer(body):
-            tid = seat[mm.group(1)]
-            if tid in names:
-                atks[tid].add(mm.group(2))
+        for line in body.splitlines():
+            mm = ATK.match(line)
+            if mm:
+                tid = seat[mm.group(1)]
+                if tid in names:
+                    atks[tid].add(mm.group(2))
         for tid in (a, b):
             if tid in names:
                 games[tid][era] += 1
