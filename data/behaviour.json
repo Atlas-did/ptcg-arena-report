@@ -1,0 +1,65 @@
+{
+ "Dragapult": {
+  "games": 6,
+  "attacks_per_game": 4.0,
+  "plays_per_game": 19.33,
+  "top_attacks": {
+   "atk:Phantom Dive": 3.5,
+   "atk:Itchy Pollen": 0.5
+  }
+ },
+ "Alakazam": {
+  "games": 6,
+  "attacks_per_game": 4.67,
+  "plays_per_game": 12.17,
+  "top_attacks": {
+   "atk:Powerful Hand": 4.33,
+   "atk:Super Psy Bolt": 0.33
+  }
+ },
+ "Crustle墙": {
+  "games": 6,
+  "attacks_per_game": 3.5,
+  "plays_per_game": 8.0,
+  "top_attacks": {
+   "atk:Superb Scissors": 1.5,
+   "atk:Spiky Hopper": 1.0,
+   "atk:Gale Thrust": 0.83,
+   "atk:Ascension": 0.17
+  }
+ },
+ "草系": {
+  "games": 6,
+  "attacks_per_game": 3.67,
+  "plays_per_game": 11.17,
+  "top_attacks": {
+   "atk:Myriad Leaf Shower": 2.33,
+   "atk:Syrup Storm": 1.0,
+   "atk:Do the Wave": 0.17,
+   "atk:Wood Hammer": 0.17
+  }
+ },
+ "MegaLucario": {
+  "games": 6,
+  "attacks_per_game": 4.0,
+  "plays_per_game": 15.33,
+  "top_attacks": {
+   "atk:Aura Jab": 1.33,
+   "atk:Accelerating Stab": 1.17,
+   "atk:Mega Brave": 0.67,
+   "atk:Cosmic Beam": 0.33,
+   "atk:Corkscrew Punch": 0.17,
+   "atk:Wild Press": 0.17
+  }
+ },
+ "Gardevoir": {
+  "games": 6,
+  "attacks_per_game": 1.17,
+  "plays_per_game": 4.83,
+  "top_attacks": {
+   "atk:Call Sign": 0.5,
+   "atk:Collect": 0.5,
+   "atk:Overflowing Wishes": 0.17
+  }
+ }
+}
