@@ -8,6 +8,18 @@
 
 ---
 
+
+## 图表
+
+| 图 | 内容 |
+|---|---|
+| ![fig1](docs/figures/fig1_rounds.png) | 58 轮逐轮得分 |
+| ![fig2](docs/figures/fig2_field.png) | 六体系场况 vs 胜率 |
+| ![fig3](docs/figures/fig3_versions.png) | 三版本 18000 局对比 |
+| ![fig4](docs/figures/fig4_leaderboard.png) | B 榜 R94 前 10 |
+
+PDF 版：**[REPORT.pdf](./REPORT.pdf)**（A4，19 页，图内嵌）
+
 ## 一句话结论
 
 **名次不是强度排序，而是规则闭环。** 我们用一个非主流的非 ex 攻击手体系，
